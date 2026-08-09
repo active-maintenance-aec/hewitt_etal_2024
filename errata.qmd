@@ -1,0 +1,123 @@
+---
+title: "Errata for *How Experiments Help Campaigns Persuade Voters*"
+format:
+  pdf:
+    output-file: hewitt_etal_2024_errata.pdf
+    toc: false
+    number-sections: false
+    geometry: margin=1in
+---
+
+```{r}
+#| label: setup
+#| include: false
+library(tidyverse)
+library(here)
+here::i_am("errata.qmd")
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, warning = FALSE)
+
+published_claims <- read_csv(
+  here::here("ground_truth", "published_claims.csv"),
+  col_types = cols(value_paper = col_character(), .default = col_guess())
+)
+published_maintext <- read_csv(
+  here::here("ground_truth", "published_maintext_tables.csv"),
+  col_types = cols(value_paper = col_character(), .default = col_guess())
+)
+published_appendix <- read_csv(
+  here::here("ground_truth", "published_appendix_values.csv"),
+  col_types = cols(value_paper = col_character(), .default = col_guess())
+)
+estimates <- read_csv(here::here("maintained", "output",
+                                 "metaregression_estimates.csv"),
+                      show_col_types = FALSE)
+main_claims <- read_csv(here::here("maintained", "output", "text_main_claims.csv"),
+                        show_col_types = FALSE)
+table_1_cells <- read_csv(here::here("maintained", "output",
+                                     "table_1_studies_summary_cells.csv"),
+                          show_col_types = FALSE)
+
+quantity <- function(name) {
+  row <- main_claims |> filter(.data$quantity == .env$name)
+  stopifnot(nrow(row) == 1)
+  row$value
+}
+
+published_cell <- function(float_id, key, quantity_id) {
+  row <- bind_rows(published_maintext, published_appendix) |>
+    filter(float == float_id, row_key == key, quantity == quantity_id)
+  stopifnot(nrow(row) == 1)
+  row$value_paper
+}
+
+table_1_value <- function(dataset_name, quantity_id) {
+  row <- table_1_cells |>
+    filter(dataset == dataset_name, quantity == quantity_id)
+  stopifnot(nrow(row) == 1)
+  row$value
+}
+
+omnibus <- estimates |>
+  filter(metareg_name == "All primary", specification == "standard",
+         weighting == "unweighted", term == "r2_comparison")
+
+dichotomized_mu <- estimates |>
+  filter(metareg_group == "overall", specification == "no_moderators",
+         weighting == "unweighted", term == "intercept",
+         outcome == "votechoice_dichotomized")
+
+tau_2018 <- quantity("tau_votechoice_2018")
+r2_votechoice_max <- max(omnibus$estimate[omnibus$outcome == "votechoice"])
+mu_downballot <- dichotomized_mu$estimate[dichotomized_mu$dataset == "2020 Downballot"]
+icc_pushy <- quantity("icc_pushy_single_rater")
+```
+
+Five corrections to Hewitt, Broockman, Coppock, Tappin, Slezak, Coffman, Lubin and Hamidian, "How Experiments Help Campaigns Persuade Voters: Evidence from a Large Archive of Campaigns' Own Experiments," *American Political Science Review* (2024), `10.1017/S0003055423001387`.
+
+None of them changes a conclusion of the article. In each case the corrected figure is the one the article's own tables already print, recomputed here from the deposited data at Harvard Dataverse (`10.7910/DVN/LBPSSV`). Corrected values on the percentage point scale are given at one decimal place throughout; the reliability coefficient in entry 5 keeps the article's own two decimals, since one would erase the correction. The changed token is bold on both sides of each entry.
+
+## 1. The 2018 standard deviation of true effects on vote choice
+
+The article gives this quantity as 1.5 points in two places. Table 2 gives it as `r published_cell("table_2", "Vote choice | 2018", "tau_no_moderators")`.
+
+> In addition, we find that common theories [...] our meta-analytic results indicate that the standard deviation of the distribution of true treatment effects were **1.5** points, 0.5 points, and 0.3 points, respectively, or roughly about half the size of the average effect. (p. 2)
+
+Corrected: our meta-analytic results indicate that the standard deviation of the distribution of true treatment effects were **`r sprintf("%.1f", tau_2018)`** points, 0.5 points, and 0.3 points, respectively, or roughly about half the size of the average effect.
+
+> In 2018, the estimated standard deviation of the true treatment effects ($\hat\tau$) was **1.5** points, but in both the downballot and presidential races in 2020, the standard deviations were smaller, at 0.5 and 0.3 percentage points. (p. 10)
+
+Corrected: In 2018, the estimated standard deviation of the true treatment effects ($\hat\tau$) was **`r sprintf("%.1f", tau_2018)`** points, but in both the downballot and presidential races in 2020, the standard deviations were smaller, at 0.5 and 0.3 percentage points.
+
+The reanalysis returns `r sprintf("%.2f", tau_2018)`, which is what Table 2 prints and which rounds to `r sprintf("%.1f", tau_2018)`. The two 2020 figures are correct as published.
+
+## 2. The range of R-squared values for vote choice
+
+> When we include all primary hypotheses in one meta-regression, the adjusted $R^2$ values range between 0.12 and 0.34 for favorability and between 0 and **0.32** for vote choice. (p. 11)
+
+Corrected: When we include all primary hypotheses in one meta-regression, the adjusted $R^2$ values range between 0.12 and 0.34 for favorability and between 0 and **`r sprintf("%.2f", r2_votechoice_max)`** for vote choice.
+
+The three vote choice cells of the "$\hat R^2$ (all vs. control)" row of Dataverse Appendix Table DA28 are `r published_cell("table_da28", "Vote choice | R2 all vs control | 2018", "value")`, `r published_cell("table_da28", "Vote choice | R2 all vs control | 2020D", "value")` and `r published_cell("table_da28", "Vote choice | R2 all vs control | 2020P", "value")`. The sentence takes the 2018 figure as the upper end of the range where the 2020 downballot figure is larger. The favorability range in the same sentence is correct.
+
+## 3. The average survey treatment effect quoted in Appendix C.1
+
+> Compared these values with the average survey treatment effects $\mu$ from Table OA2, we calculate the survey-to-field conversion factor to be approximately 100 (= 0.015 / **1.53**) based on the 2020 Downballot dataset. (Online Appendix, p. OA20)
+
+Corrected: Compared these values with the average survey treatment effects $\mu$ from Table OA2, we calculate the survey-to-field conversion factor to be approximately 100 (= 0.015 / **`r sprintf("%.2f", mu_downballot)`**) based on the 2020 Downballot dataset.
+
+Table OA2 gives `r published_cell("table_oa2", "2020 Downballot", "mu")` for the 2020 downballot mean effect on the dichotomised vote choice scale, which the reanalysis returns exactly. The conversion factor is unchanged at approximately 100.
+
+## 4. The last 2020 downballot study in Table 1
+
+The "Last study" cell of Table 1's 2020 downballot row reads **`r published_cell("table_1", "2020 Downballot", "last_study")`**.
+
+Corrected: **`r table_1_value("2020 Downballot", "last_study")`**.
+
+The changed artifact is that cell alone; every other cell of Table 1 reproduces. The deposited code reads the last row of the study file rather than the latest date, and the file is not in date order: the study dated `r table_1_value("2020 Downballot", "last_in_file")` is the last row, and the study dated `r table_1_value("2020 Downballot", "last_study")` is the last study.
+
+## 5. The reliability of the pushiness rating
+
+> Research assistants were highly consistent in their ratings of the most explicit features such as the race and gender of the primary messenger (single-rater ICC $>$ 0.8), but less consistent in their ratings of the most subjective characteristics, such as how "pushy" the ad was (single-rater ICC = **0.23**). (p. 8)
+
+Corrected: Research assistants were highly consistent in their ratings of the most explicit features such as the race and gender of the primary messenger (single-rater ICC $>$ 0.8), but less consistent in their ratings of the most subjective characteristics, such as how "pushy" the ad was (single-rater ICC = **`r sprintf("%.2f", icc_pushy)`**).
+
+A rounding error rather than a different quantity: the deposited single-rater intraclass correlation for the pushiness item is `r sprintf("%.4f", icc_pushy)`. The claim about the messenger items in the same sentence holds.

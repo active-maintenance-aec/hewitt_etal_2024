@@ -1,0 +1,316 @@
+float,row_key,quantity,value_paper,digits
+figure_1,Favorability | 2018,mu,2.6,1
+figure_1,Favorability | 2018,std.error,0.3,1
+figure_1,Favorability | 2020 Downballot,mu,1.4,1
+figure_1,Favorability | 2020 Downballot,std.error,0.2,1
+figure_1,Favorability | 2020 Presidential,mu,1.0,1
+figure_1,Favorability | 2020 Presidential,std.error,0.1,1
+figure_1,Vote choice | 2018,mu,2.3,1
+figure_1,Vote choice | 2018,std.error,0.3,1
+figure_1,Vote choice | 2020 Downballot,mu,1.2,1
+figure_1,Vote choice | 2020 Downballot,std.error,0.2,1
+figure_1,Vote choice | 2020 Presidential,mu,0.8,1
+figure_1,Vote choice | 2020 Presidential,std.error,0.1,1
+figure_2,Favorability | 2018,tau,1.67,2
+figure_2,Favorability | 2018,tau_ci_high,2.11,2
+figure_2,Favorability | 2018,tau_ci_low,1.29,2
+figure_2,Favorability | 2020 Downballot,tau,0.85,2
+figure_2,Favorability | 2020 Downballot,tau_ci_high,1.20,2
+figure_2,Favorability | 2020 Downballot,tau_ci_low,0.50,2
+figure_2,Favorability | 2020 Presidential,tau,0.44,2
+figure_2,Favorability | 2020 Presidential,tau_ci_high,0.58,2
+figure_2,Favorability | 2020 Presidential,tau_ci_low,0.29,2
+figure_2,Two largest treatment effects | first,n_obs,403,0
+figure_2,Two largest treatment effects | second,n_obs,534,0
+figure_2,Vote choice | 2018,tau,1.42,2
+figure_2,Vote choice | 2018,tau_ci_high,1.99,2
+figure_2,Vote choice | 2018,tau_ci_low,0.90,2
+figure_2,Vote choice | 2020 Downballot,tau,0.47,2
+figure_2,Vote choice | 2020 Downballot,tau_ci_high,0.85,2
+figure_2,Vote choice | 2020 Downballot,tau_ci_low,0.00,2
+figure_2,Vote choice | 2020 Presidential,tau,0.34,2
+figure_2,Vote choice | 2020 Presidential,tau_ci_high,0.50,2
+figure_2,Vote choice | 2020 Presidential,tau_ci_low,0.14,2
+figure_3,Candidate facts | Favorability | 2018,t_statistic,2.61,2
+figure_3,Candidate facts | Favorability | 2020 Downballot,t_statistic,2.65,2
+figure_3,Candidate facts | Favorability | 2020 Presidential,t_statistic,-0.51,2
+figure_3,Candidate facts | Vote choice | 2018,t_statistic,1.54,2
+figure_3,Candidate facts | Vote choice | 2020 Downballot,t_statistic,2.43,2
+figure_3,Candidate facts | Vote choice | 2020 Presidential,t_statistic,-0.91,2
+figure_3,Cited fact (where fact present) | Favorability | 2018,t_statistic,-2.07,2
+figure_3,Cited fact (where fact present) | Favorability | 2020 Downballot,t_statistic,1.34,2
+figure_3,Cited fact (where fact present) | Favorability | 2020 Presidential,t_statistic,-0.54,2
+figure_3,Cited fact (where fact present) | Vote choice | 2018,t_statistic,-0.82,2
+figure_3,Cited fact (where fact present) | Vote choice | 2020 Downballot,t_statistic,0.25,2
+figure_3,Cited fact (where fact present) | Vote choice | 2020 Presidential,t_statistic,-1.28,2
+figure_3,Emotion: Anger | Favorability | 2018,t_statistic,0.96,2
+figure_3,Emotion: Anger | Favorability | 2020 Downballot,t_statistic,2.16,2
+figure_3,Emotion: Anger | Favorability | 2020 Presidential,t_statistic,-0.64,2
+figure_3,Emotion: Anger | Vote choice | 2018,t_statistic,3.02,2
+figure_3,Emotion: Anger | Vote choice | 2020 Downballot,t_statistic,1.08,2
+figure_3,Emotion: Anger | Vote choice | 2020 Presidential,t_statistic,0.93,2
+figure_3,Emotion: Enthusiasm | Favorability | 2018,t_statistic,1.21,2
+figure_3,Emotion: Enthusiasm | Favorability | 2020 Downballot,t_statistic,-1.68,2
+figure_3,Emotion: Enthusiasm | Favorability | 2020 Presidential,t_statistic,-0.38,2
+figure_3,Emotion: Enthusiasm | Vote choice | 2018,t_statistic,-0.27,2
+figure_3,Emotion: Enthusiasm | Vote choice | 2020 Downballot,t_statistic,0.09,2
+figure_3,Emotion: Enthusiasm | Vote choice | 2020 Presidential,t_statistic,0.74,2
+figure_3,Explicit vote for | Favorability | 2018,t_statistic,2.01,2
+figure_3,Explicit vote for | Favorability | 2020 Downballot,t_statistic,-2.75,2
+figure_3,Explicit vote for | Favorability | 2020 Presidential,t_statistic,1.59,2
+figure_3,Explicit vote for | Vote choice | 2018,t_statistic,2.83,2
+figure_3,Explicit vote for | Vote choice | 2020 Downballot,t_statistic,0.47,2
+figure_3,Explicit vote for | Vote choice | 2020 Presidential,t_statistic,1.82,2
+figure_3,How pushy | Favorability | 2020 Downballot,t_statistic,2.74,2
+figure_3,How pushy | Favorability | 2020 Presidential,t_statistic,2.24,2
+figure_3,How pushy | Vote choice | 2020 Downballot,t_statistic,0.85,2
+figure_3,How pushy | Vote choice | 2020 Presidential,t_statistic,2.35,2
+figure_3,Issue: BLM/Race | Favorability | 2020 Downballot,t_statistic,0.02,2
+figure_3,Issue: BLM/Race | Favorability | 2020 Presidential,t_statistic,-1.84,2
+figure_3,Issue: BLM/Race | Vote choice | 2020 Downballot,t_statistic,0.18,2
+figure_3,Issue: BLM/Race | Vote choice | 2020 Presidential,t_statistic,-0.62,2
+figure_3,Issue: COVID-19 | Favorability | 2020 Downballot,t_statistic,-2.35,2
+figure_3,Issue: COVID-19 | Favorability | 2020 Presidential,t_statistic,1.12,2
+figure_3,Issue: COVID-19 | Vote choice | 2020 Downballot,t_statistic,-0.20,2
+figure_3,Issue: COVID-19 | Vote choice | 2020 Presidential,t_statistic,-0.46,2
+figure_3,Issue: Decency | Favorability | 2020 Downballot,t_statistic,3.78,2
+figure_3,Issue: Decency | Favorability | 2020 Presidential,t_statistic,-2.23,2
+figure_3,Issue: Decency | Vote choice | 2020 Downballot,t_statistic,1.38,2
+figure_3,Issue: Decency | Vote choice | 2020 Presidential,t_statistic,0.54,2
+figure_3,Messenger: Everyday people | Favorability | 2020 Downballot,t_statistic,0.96,2
+figure_3,Messenger: Everyday people | Favorability | 2020 Presidential,t_statistic,1.63,2
+figure_3,Messenger: Everyday people | Vote choice | 2020 Downballot,t_statistic,-0.39,2
+figure_3,Messenger: Everyday people | Vote choice | 2020 Presidential,t_statistic,0.86,2
+figure_3,Messenger: Female | Favorability | 2018,t_statistic,0.30,2
+figure_3,Messenger: Female | Favorability | 2020 Downballot,t_statistic,0.70,2
+figure_3,Messenger: Female | Favorability | 2020 Presidential,t_statistic,2.66,2
+figure_3,Messenger: Female | Vote choice | 2018,t_statistic,1.79,2
+figure_3,Messenger: Female | Vote choice | 2020 Downballot,t_statistic,-1.21,2
+figure_3,Messenger: Female | Vote choice | 2020 Presidential,t_statistic,2.27,2
+figure_3,Messenger: Healthcare worker | Favorability | 2020 Downballot,t_statistic,-1.48,2
+figure_3,Messenger: Healthcare worker | Favorability | 2020 Presidential,t_statistic,0.46,2
+figure_3,Messenger: Healthcare worker | Vote choice | 2020 Downballot,t_statistic,0.03,2
+figure_3,Messenger: Healthcare worker | Vote choice | 2020 Presidential,t_statistic,1.33,2
+figure_3,Messenger: Politician | Favorability | 2018,t_statistic,2.58,2
+figure_3,Messenger: Politician | Favorability | 2020 Downballot,t_statistic,1.21,2
+figure_3,Messenger: Politician | Favorability | 2020 Presidential,t_statistic,-1.64,2
+figure_3,Messenger: Politician | Vote choice | 2018,t_statistic,-0.18,2
+figure_3,Messenger: Politician | Vote choice | 2020 Downballot,t_statistic,1.36,2
+figure_3,Messenger: Politician | Vote choice | 2020 Presidential,t_statistic,-0.39,2
+figure_3,Messenger: Republican | Favorability | 2020 Downballot,t_statistic,1.91,2
+figure_3,Messenger: Republican | Favorability | 2020 Presidential,t_statistic,-0.37,2
+figure_3,Messenger: Republican | Vote choice | 2020 Downballot,t_statistic,2.62,2
+figure_3,Messenger: Republican | Vote choice | 2020 Presidential,t_statistic,1.18,2
+figure_3,New fact (where fact present) | Favorability | 2018,t_statistic,-1.88,2
+figure_3,New fact (where fact present) | Favorability | 2020 Downballot,t_statistic,2.29,2
+figure_3,New fact (where fact present) | Favorability | 2020 Presidential,t_statistic,0.55,2
+figure_3,New fact (where fact present) | Vote choice | 2018,t_statistic,-1.29,2
+figure_3,New fact (where fact present) | Vote choice | 2020 Downballot,t_statistic,0.73,2
+figure_3,New fact (where fact present) | Vote choice | 2020 Presidential,t_statistic,-0.35,2
+figure_3,Policy facts | Favorability | 2018,t_statistic,-0.49,2
+figure_3,Policy facts | Favorability | 2020 Downballot,t_statistic,-0.03,2
+figure_3,Policy facts | Favorability | 2020 Presidential,t_statistic,1.20,2
+figure_3,Policy facts | Vote choice | 2018,t_statistic,0.20,2
+figure_3,Policy facts | Vote choice | 2020 Downballot,t_statistic,-0.44,2
+figure_3,Policy facts | Vote choice | 2020 Presidential,t_statistic,2.39,2
+figure_3,Primary focus: Candidate | Favorability | 2018,t_statistic,2.63,2
+figure_3,Primary focus: Candidate | Favorability | 2020 Downballot,t_statistic,0.86,2
+figure_3,Primary focus: Candidate | Favorability | 2020 Presidential,t_statistic,-0.57,2
+figure_3,Primary focus: Candidate | Vote choice | 2018,t_statistic,0.48,2
+figure_3,Primary focus: Candidate | Vote choice | 2020 Downballot,t_statistic,0.12,2
+figure_3,Primary focus: Candidate | Vote choice | 2020 Presidential,t_statistic,-1.02,2
+figure_3,Primary focus: Issues | Favorability | 2018,t_statistic,3.46,2
+figure_3,Primary focus: Issues | Favorability | 2020 Downballot,t_statistic,-1.60,2
+figure_3,Primary focus: Issues | Favorability | 2020 Presidential,t_statistic,2.75,2
+figure_3,Primary focus: Issues | Vote choice | 2018,t_statistic,2.57,2
+figure_3,Primary focus: Issues | Vote choice | 2020 Downballot,t_statistic,-1.12,2
+figure_3,Primary focus: Issues | Vote choice | 2020 Presidential,t_statistic,-0.55,2
+figure_3,Primary tone: Contrast | Favorability | 2018,t_statistic,0.52,2
+figure_3,Primary tone: Contrast | Favorability | 2020 Downballot,t_statistic,-0.53,2
+figure_3,Primary tone: Contrast | Favorability | 2020 Presidential,t_statistic,0.72,2
+figure_3,Primary tone: Contrast | Vote choice | 2018,t_statistic,0.58,2
+figure_3,Primary tone: Contrast | Vote choice | 2020 Downballot,t_statistic,-1.20,2
+figure_3,Primary tone: Contrast | Vote choice | 2020 Presidential,t_statistic,3.75,2
+figure_3,Primary tone: Positive | Favorability | 2018,t_statistic,0.14,2
+figure_3,Primary tone: Positive | Favorability | 2020 Downballot,t_statistic,-2.71,2
+figure_3,Primary tone: Positive | Favorability | 2020 Presidential,t_statistic,0.17,2
+figure_3,Primary tone: Positive | Vote choice | 2018,t_statistic,-1.47,2
+figure_3,Primary tone: Positive | Vote choice | 2020 Downballot,t_statistic,0.60,2
+figure_3,Primary tone: Positive | Vote choice | 2020 Presidential,t_statistic,1.89,2
+figure_3,Production value: High | Favorability | 2018,t_statistic,1.03,2
+figure_3,Production value: High | Favorability | 2020 Downballot,t_statistic,2.58,2
+figure_3,Production value: High | Favorability | 2020 Presidential,t_statistic,-0.29,2
+figure_3,Production value: High | Vote choice | 2018,t_statistic,0.50,2
+figure_3,Production value: High | Vote choice | 2020 Downballot,t_statistic,2.03,2
+figure_3,Production value: High | Vote choice | 2020 Presidential,t_statistic,-0.17,2
+figure_3,Specificity: Candidate facts | Favorability | 2018,t_statistic,-0.12,2
+figure_3,Specificity: Candidate facts | Favorability | 2020 Downballot,t_statistic,3.45,2
+figure_3,Specificity: Candidate facts | Favorability | 2020 Presidential,t_statistic,-1.26,2
+figure_3,Specificity: Candidate facts | Vote choice | 2018,t_statistic,1.32,2
+figure_3,Specificity: Candidate facts | Vote choice | 2020 Downballot,t_statistic,0.92,2
+figure_3,Specificity: Candidate facts | Vote choice | 2020 Presidential,t_statistic,-1.79,2
+figure_3,Specificity: Policy facts | Favorability | 2018,t_statistic,-0.33,2
+figure_3,Specificity: Policy facts | Favorability | 2020 Downballot,t_statistic,1.30,2
+figure_3,Specificity: Policy facts | Favorability | 2020 Presidential,t_statistic,2.38,2
+figure_3,Specificity: Policy facts | Vote choice | 2018,t_statistic,-0.20,2
+figure_3,Specificity: Policy facts | Vote choice | 2020 Downballot,t_statistic,-0.12,2
+figure_3,Specificity: Policy facts | Vote choice | 2020 Presidential,t_statistic,1.29,2
+figure_3,Technique: Negative name-calling | Favorability | 2018,t_statistic,0.84,2
+figure_3,Technique: Negative name-calling | Favorability | 2020 Downballot,t_statistic,0.85,2
+figure_3,Technique: Negative name-calling | Favorability | 2020 Presidential,t_statistic,-0.02,2
+figure_3,Technique: Negative name-calling | Vote choice | 2018,t_statistic,0.81,2
+figure_3,Technique: Negative name-calling | Vote choice | 2020 Downballot,t_statistic,-0.60,2
+figure_3,Technique: Negative name-calling | Vote choice | 2020 Presidential,t_statistic,0.64,2
+figure_3,Technique: Negative testimonial | Favorability | 2018,t_statistic,1.57,2
+figure_3,Technique: Negative testimonial | Favorability | 2020 Downballot,t_statistic,1.39,2
+figure_3,Technique: Negative testimonial | Favorability | 2020 Presidential,t_statistic,-0.25,2
+figure_3,Technique: Negative testimonial | Vote choice | 2018,t_statistic,1.24,2
+figure_3,Technique: Negative testimonial | Vote choice | 2020 Downballot,t_statistic,1.82,2
+figure_3,Technique: Negative testimonial | Vote choice | 2020 Presidential,t_statistic,-0.29,2
+figure_3,Technique: Negative transfer of association | Favorability | 2018,t_statistic,0.13,2
+figure_3,Technique: Negative transfer of association | Favorability | 2020 Downballot,t_statistic,0.88,2
+figure_3,Technique: Negative transfer of association | Favorability | 2020 Presidential,t_statistic,-0.16,2
+figure_3,Technique: Negative transfer of association | Vote choice | 2018,t_statistic,-0.20,2
+figure_3,Technique: Negative transfer of association | Vote choice | 2020 Downballot,t_statistic,0.11,2
+figure_3,Technique: Negative transfer of association | Vote choice | 2020 Presidential,t_statistic,0.50,2
+figure_3,Technique: Plain folks | Favorability | 2018,t_statistic,-0.26,2
+figure_3,Technique: Plain folks | Favorability | 2020 Downballot,t_statistic,0.29,2
+figure_3,Technique: Plain folks | Favorability | 2020 Presidential,t_statistic,1.10,2
+figure_3,Technique: Plain folks | Vote choice | 2018,t_statistic,1.42,2
+figure_3,Technique: Plain folks | Vote choice | 2020 Downballot,t_statistic,2.03,2
+figure_3,Technique: Plain folks | Vote choice | 2020 Presidential,t_statistic,1.41,2
+figure_3,Technique: Positive name-calling | Favorability | 2018,t_statistic,0.30,2
+figure_3,Technique: Positive name-calling | Favorability | 2020 Downballot,t_statistic,-0.95,2
+figure_3,Technique: Positive name-calling | Favorability | 2020 Presidential,t_statistic,-0.91,2
+figure_3,Technique: Positive name-calling | Vote choice | 2018,t_statistic,-0.73,2
+figure_3,Technique: Positive name-calling | Vote choice | 2020 Downballot,t_statistic,-0.63,2
+figure_3,Technique: Positive name-calling | Vote choice | 2020 Presidential,t_statistic,0.28,2
+figure_3,Technique: Positive testimonial | Favorability | 2018,t_statistic,0.75,2
+figure_3,Technique: Positive testimonial | Favorability | 2020 Downballot,t_statistic,-0.71,2
+figure_3,Technique: Positive testimonial | Favorability | 2020 Presidential,t_statistic,1.11,2
+figure_3,Technique: Positive testimonial | Vote choice | 2018,t_statistic,-1.34,2
+figure_3,Technique: Positive testimonial | Vote choice | 2020 Downballot,t_statistic,-0.64,2
+figure_3,Technique: Positive testimonial | Vote choice | 2020 Presidential,t_statistic,1.04,2
+figure_3,Technique: Positive transfer of association | Favorability | 2018,t_statistic,-0.31,2
+figure_3,Technique: Positive transfer of association | Favorability | 2020 Downballot,t_statistic,-0.75,2
+figure_3,Technique: Positive transfer of association | Favorability | 2020 Presidential,t_statistic,0.14,2
+figure_3,Technique: Positive transfer of association | Vote choice | 2018,t_statistic,0.83,2
+figure_3,Technique: Positive transfer of association | Vote choice | 2020 Downballot,t_statistic,2.18,2
+figure_3,Technique: Positive transfer of association | Vote choice | 2020 Presidential,t_statistic,0.27,2
+table_1,2018,both_outcomes,63,0
+table_1,2018,favorability_only,33,0
+table_1,2018,first_study,2018-04-09,0
+table_1,2018,last_study,2019-03-15,0
+table_1,2018,n_per_treatment,479,0
+table_1,2018,n_treatments_total,137,0
+table_1,2018,total_n,93969,0
+table_1,2018,votechoice_only,3,0
+table_1,2020 Downballot,both_outcomes,67,0
+table_1,2020 Downballot,favorability_only,5,0
+table_1,2020 Downballot,first_study,2019-12-07,0
+table_1,2020 Downballot,last_study,2020-12-22,0
+table_1,2020 Downballot,n_per_treatment,348,0
+table_1,2020 Downballot,n_treatments_total,189,0
+table_1,2020 Downballot,total_n,101782,0
+table_1,2020 Downballot,votechoice_only,27,0
+table_1,2020 Presidential,both_outcomes,60,0
+table_1,2020 Presidential,favorability_only,0,0
+table_1,2020 Presidential,first_study,2020-02-13,0
+table_1,2020 Presidential,last_study,2020-10-24,0
+table_1,2020 Presidential,n_per_treatment,717,0
+table_1,2020 Presidential,n_treatments_total,292,0
+table_1,2020 Presidential,total_n,302589,0
+table_1,2020 Presidential,votechoice_only,39,0
+table_2,Favorability | 2018,mu,2.62,2
+table_2,Favorability | 2018,mu_ci_high,3.14,2
+table_2,Favorability | 2018,mu_ci_low,2.10,2
+table_2,Favorability | 2018,p_no_moderators,<0.001,3
+table_2,Favorability | 2018,p_standard,<0.001,3
+table_2,Favorability | 2018,p_study_fixed_effects,<0.001,3
+table_2,Favorability | 2018,tau_no_moderators,1.67,2
+table_2,Favorability | 2018,tau_no_moderators_ci_high,2.11,2
+table_2,Favorability | 2018,tau_no_moderators_ci_low,1.29,2
+table_2,Favorability | 2018,tau_standard,1.42,2
+table_2,Favorability | 2018,tau_standard_ci_high,1.87,2
+table_2,Favorability | 2018,tau_standard_ci_low,1.04,2
+table_2,Favorability | 2018,tau_study_fixed_effects,1.07,2
+table_2,Favorability | 2018,tau_study_fixed_effects_ci_high,1.46,2
+table_2,Favorability | 2018,tau_study_fixed_effects_ci_low,0.72,2
+table_2,Favorability | 2020 Downballot,mu,1.42,2
+table_2,Favorability | 2020 Downballot,mu_ci_high,1.77,2
+table_2,Favorability | 2020 Downballot,mu_ci_low,1.07,2
+table_2,Favorability | 2020 Downballot,p_no_moderators,<0.001,3
+table_2,Favorability | 2020 Downballot,p_standard,<0.001,3
+table_2,Favorability | 2020 Downballot,p_study_fixed_effects,0.001,3
+table_2,Favorability | 2020 Downballot,tau_no_moderators,0.85,2
+table_2,Favorability | 2020 Downballot,tau_no_moderators_ci_high,1.20,2
+table_2,Favorability | 2020 Downballot,tau_no_moderators_ci_low,0.50,2
+table_2,Favorability | 2020 Downballot,tau_standard,0.83,2
+table_2,Favorability | 2020 Downballot,tau_standard_ci_high,1.18,2
+table_2,Favorability | 2020 Downballot,tau_standard_ci_low,0.49,2
+table_2,Favorability | 2020 Downballot,tau_study_fixed_effects,0.74,2
+table_2,Favorability | 2020 Downballot,tau_study_fixed_effects_ci_high,1.08,2
+table_2,Favorability | 2020 Downballot,tau_study_fixed_effects_ci_low,0.38,2
+table_2,Favorability | 2020 Presidential,mu,0.96,2
+table_2,Favorability | 2020 Presidential,mu_ci_high,1.12,2
+table_2,Favorability | 2020 Presidential,mu_ci_low,0.79,2
+table_2,Favorability | 2020 Presidential,p_no_moderators,<0.001,3
+table_2,Favorability | 2020 Presidential,p_standard,<0.001,3
+table_2,Favorability | 2020 Presidential,p_study_fixed_effects,<0.001,3
+table_2,Favorability | 2020 Presidential,tau_no_moderators,0.44,2
+table_2,Favorability | 2020 Presidential,tau_no_moderators_ci_high,0.58,2
+table_2,Favorability | 2020 Presidential,tau_no_moderators_ci_low,0.29,2
+table_2,Favorability | 2020 Presidential,tau_standard,0.44,2
+table_2,Favorability | 2020 Presidential,tau_standard_ci_high,0.58,2
+table_2,Favorability | 2020 Presidential,tau_standard_ci_low,0.29,2
+table_2,Favorability | 2020 Presidential,tau_study_fixed_effects,0.42,2
+table_2,Favorability | 2020 Presidential,tau_study_fixed_effects_ci_high,0.56,2
+table_2,Favorability | 2020 Presidential,tau_study_fixed_effects_ci_low,0.26,2
+table_2,Vote choice | 2018,mu,2.27,2
+table_2,Vote choice | 2018,mu_ci_high,2.94,2
+table_2,Vote choice | 2018,mu_ci_low,1.60,2
+table_2,Vote choice | 2018,p_no_moderators,<0.001,3
+table_2,Vote choice | 2018,p_standard,<0.001,3
+table_2,Vote choice | 2018,p_study_fixed_effects,<0.001,3
+table_2,Vote choice | 2018,tau_no_moderators,1.42,2
+table_2,Vote choice | 2018,tau_no_moderators_ci_high,1.99,2
+table_2,Vote choice | 2018,tau_no_moderators_ci_low,0.90,2
+table_2,Vote choice | 2018,tau_standard,1.43,2
+table_2,Vote choice | 2018,tau_standard_ci_high,2.01,2
+table_2,Vote choice | 2018,tau_standard_ci_low,0.92,2
+table_2,Vote choice | 2018,tau_study_fixed_effects,1.26,2
+table_2,Vote choice | 2018,tau_study_fixed_effects_ci_high,1.82,2
+table_2,Vote choice | 2018,tau_study_fixed_effects_ci_low,0.75,2
+table_2,Vote choice | 2020 Downballot,mu,1.18,2
+table_2,Vote choice | 2020 Downballot,mu_ci_high,1.51,2
+table_2,Vote choice | 2020 Downballot,mu_ci_low,0.86,2
+table_2,Vote choice | 2020 Downballot,p_no_moderators,0.054,3
+table_2,Vote choice | 2020 Downballot,p_standard,0.128,3
+table_2,Vote choice | 2020 Downballot,p_study_fixed_effects,0.247,3
+table_2,Vote choice | 2020 Downballot,tau_no_moderators,0.47,2
+table_2,Vote choice | 2020 Downballot,tau_no_moderators_ci_high,0.85,2
+table_2,Vote choice | 2020 Downballot,tau_no_moderators_ci_low,0.00,2
+table_2,Vote choice | 2020 Downballot,tau_standard,0.42,2
+table_2,Vote choice | 2020 Downballot,tau_standard_ci_high,0.81,2
+table_2,Vote choice | 2020 Downballot,tau_standard_ci_low,0.00,2
+table_2,Vote choice | 2020 Downballot,tau_study_fixed_effects,0.37,2
+table_2,Vote choice | 2020 Downballot,tau_study_fixed_effects_ci_high,0.78,2
+table_2,Vote choice | 2020 Downballot,tau_study_fixed_effects_ci_low,0.00,2
+table_2,Vote choice | 2020 Presidential,mu,0.85,2
+table_2,Vote choice | 2020 Presidential,mu_ci_high,1.00,2
+table_2,Vote choice | 2020 Presidential,mu_ci_low,0.69,2
+table_2,Vote choice | 2020 Presidential,p_no_moderators,0.001,3
+table_2,Vote choice | 2020 Presidential,p_standard,0.001,3
+table_2,Vote choice | 2020 Presidential,p_study_fixed_effects,0.011,3
+table_2,Vote choice | 2020 Presidential,tau_no_moderators,0.34,2
+table_2,Vote choice | 2020 Presidential,tau_no_moderators_ci_high,0.50,2
+table_2,Vote choice | 2020 Presidential,tau_no_moderators_ci_low,0.14,2
+table_2,Vote choice | 2020 Presidential,tau_standard,0.34,2
+table_2,Vote choice | 2020 Presidential,tau_standard_ci_high,0.50,2
+table_2,Vote choice | 2020 Presidential,tau_standard_ci_low,0.14,2
+table_2,Vote choice | 2020 Presidential,tau_study_fixed_effects,0.33,2
+table_2,Vote choice | 2020 Presidential,tau_study_fixed_effects_ci_high,0.48,2
+table_2,Vote choice | 2020 Presidential,tau_study_fixed_effects_ci_low,0.10,2
+table_3,Cost of ad testing,dollars_per_subject,2.50,2
+table_3,Cost of producing one ad,dollars,15000,0
+table_3,Typical advertising effect,dollars_per_vote,200,0

@@ -1,0 +1,31 @@
+term,term_name,icc,reliability
+emotion_enthusiasm,Emotion: Enthusiasm,0.8033133414458563,High reliability
+issue_blm_race,Issue: BLM/Race,0.8292400880283932,High reliability
+issue_covid,Issue: COVID-19,0.8933202148603724,High reliability
+messenger_every_people,Messenger: Everyday people,0.751967844598994,High reliability
+messenger_female,Messenger: Female,0.9449211343208266,High reliability
+messenger_healthcare,Messenger: Healthcare worker,0.8806840295796227,High reliability
+messenger_politician,Messenger: Politician,0.8491561567210125,High reliability
+messenger_republican,Messenger: Republican,0.8101599472931019,High reliability
+tone_contrast,Primary tone: Contrast,0.7516121572790828,High reliability
+tone_positive,Primary tone: Positive,0.9305457743031067,High reliability
+technique_neg_testimonial,Technique: Negative testimonial,0.7951888631834574,High reliability
+candidate_facts,Candidate facts,0.5664179913265178,Medium reliability
+fact_cite_only,Cited fact (where fact present),0.6714502437550375,Medium reliability
+explicit_vote_for,Explicit vote for,0.6193963951109221,Medium reliability
+how_pushy,How pushy,0.5308550537861467,Medium reliability
+issue_decency,Issue: Decency,0.7272636157475514,Medium reliability
+policy_facts,Policy facts,0.6623267815177559,Medium reliability
+primary_focus_candidate,Primary focus: Candidate,0.621930432256714,Medium reliability
+primary_focus_issues,Primary focus: Issues,0.7068666326437353,Medium reliability
+production_value_high,Production value: High,0.5593347696923063,Medium reliability
+how_specific_candidate_fact,Specificity: Candidate facts,0.5099078097555385,Medium reliability
+technique_neg_name,Technique: Negative name-calling,0.5534358496073558,Medium reliability
+technique_pos_testimonial,Technique: Positive testimonial,0.7377614065213995,Medium reliability
+emotion_anger,Emotion: Anger,0.4637837497685473,Low reliability
+fact_new_only,New fact (where fact present),0.48271112343477585,Low reliability
+how_specific_policy_fact,Specificity: Policy facts,0.356293052529449,Low reliability
+technique_neg_transfer,Technique: Negative transfer of association,0.4790544738062986,Low reliability
+technique_plain_folks,Technique: Plain folks,0.2301401848786998,Low reliability
+technique_pos_name,Technique: Positive name-calling,0.3424893375242034,Low reliability
+technique_pos_transfer,Technique: Positive transfer of association,0.4406952842282802,Low reliability

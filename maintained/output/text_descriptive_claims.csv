@@ -1,0 +1,12 @@
+quantity,holds,evidence
+over_500000_respondents,TRUE,"The deposit holds 607,450 responses in all and 498,340 after the exclusions the article describes, which is what Table 1 totals."
+five_of_six_q_tests_below_0001,TRUE,5 of 6 Q-test p-values are at or below 0.001 at the precision Table 2 prints; the largest is 0.054.
+one_consistent_hypothesis,TRUE,"Of 60 hypothesis-by-outcome combinations, 1 has coefficients that are significant with the same sign in every context it was tested in: How pushy on favorability."
+thirty_nine_opportunities,FALSE,"Figure 3 has 30 hypothesis rows and two outcome columns, so 60 hypothesis-by-outcome combinations, carrying 166 t-statistics in all."
+favorability_declines_toward_election,TRUE,The coefficient on log days until election is positive and significant in 2 of three contexts for favorability and 0 of three for vote choice.
+pushy_significant_favorability_only,TRUE,"Pushiness is significant in both 2020 contexts on favorability (t = 2.74, 2.24) and in one of two on vote choice (t = 0.85, 2.35)."
+messenger_race_gender_single_rater_above_08,TRUE,Single-rater ICC for the messenger race and gender items runs 0.88 to 0.91 across 2 item-years.
+reliability_higher_in_2020,TRUE,"Mean single-rater reliability across the 23 items coded in both years is 0.445 in 2018 and 0.453 in 2020, and 11 of 23 items are individually higher in 2020."
+field_dates_2018,FALSE,"The 2018 studies were fielded between 2018-04-09 and 2019-03-15, and their responses were collected between 2018-04-04 and 2019-03-16. The article gives April 4, 2018 to March 15, 2019, which is the first response and the last study date."
+field_dates_2020,FALSE,"The 2020 studies were fielded between 2019-12-07 and 2020-12-25, and their responses were collected between 2019-12-07 and 2020-12-26. The article gives December 7, 2019 to December 24, 2020, which matches neither endpoint at the upper end."
+table_1_last_study_2020_downballot,FALSE,"The last 2020 downballot study was fielded on 2020-12-25; the published cell gives 2020-12-22, which is the last study in the data file's order rather than in date order."

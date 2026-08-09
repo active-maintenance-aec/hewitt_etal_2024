@@ -1,0 +1,160 @@
+claim_id,location,claim_type,value_paper,digits,units,comparison,needs_block,claim
+abstract_n_experiments,Abstract,pipeline,146,0,,==,TRUE,146 advertising experiments
+abstract_n_ads,Abstract,pipeline,617,0,,==,TRUE,617 advertisements in the archive
+abstract_n_campaigns,Abstract,definitional,51,0,,==,TRUE,advertisements produced by 51 campaigns
+abstract_n_respondents,Abstract,descriptive,500000,0,,>,TRUE,"tested with over 500,000 respondents"
+intro_mu_votechoice_2018,"Introduction, p. 2",pipeline,2.3,1,,==,TRUE,average ad moved 2018 vote choice by 2.3 points
+intro_mu_votechoice_2020d,"Introduction, p. 2",pipeline,1.2,1,,==,TRUE,2020 downballot average effect
+intro_mu_votechoice_2020p,"Introduction, p. 2",pipeline,0.8,1,,==,TRUE,2020 presidential average effect
+intro_tau_votechoice_2018,"Introduction, p. 2",pipeline,1.5,1,,==,TRUE,2018 standard deviation of true effects
+intro_tau_votechoice_2020d,"Introduction, p. 2",pipeline,0.5,1,,==,TRUE,2020 downballot standard deviation
+intro_tau_votechoice_2020p,"Introduction, p. 2",pipeline,0.3,1,,==,TRUE,2020 presidential standard deviation
+intro_largest_in_sd_units,"Introduction, p. 2",pipeline,0.03,2,,==,TRUE,largest tau is 0.03 standard deviations
+intro_relative_effectiveness,"Introduction, p. 2",pipeline,50,0,,approx,TRUE,commonplace for ads to be 50% less or more persuasive
+intro_budget_share,"Introduction, p. 2",descriptive,10,0,,>,TRUE,over 10% of the media budget on experimentation
+intro_house_tested_2022,"Introduction, p. 2",definitional,20,0,,==,FALSE,20 of 36 toss-up House races in 2022
+intro_house_total_2022,"Introduction, p. 2",definitional,36,0,,==,FALSE,36 toss-up House races in 2022
+intro_house_share_2022,"Introduction, p. 2",definitional,56,0,,==,FALSE,56% of toss-up House races
+intro_senate_share,"Introduction, p. 2",definitional,100,0,,==,FALSE,100% of toss-up Senate races
+fn3_binary_sd,"Footnote 3, p. 2",definitional,0.5,1,,==,FALSE,standard deviation of a fair binary variable
+fn3_sd_points,"Footnote 3, p. 2",definitional,50,0,,==,FALSE,0.5 is 50 percentage points
+lit_lau_studies,"Theory, p. 3",transcribed,111,0,,==,FALSE,meta-analysis of 111 studies
+design_n_experiments,"Research design, p. 5",pipeline,146,0,,==,TRUE,146 randomized survey experiments
+design_house_tested_2018,"Research design, p. 5",definitional,6,0,,==,FALSE,6 of 30 toss-up House races in 2018
+design_house_total_2018,"Research design, p. 5",definitional,30,0,,==,FALSE,30 toss-up House races in 2018
+design_house_share_2018,"Research design, p. 5",definitional,20,0,,==,FALSE,20% of 2018 toss-up House races
+design_field_dates_2018,"Research design, p. 5",descriptive,,0,,==,TRUE,"2018 data collected between April 4, 2018 and March 15, 2019"
+design_field_dates_2020,"Research design, p. 5",descriptive,,0,,==,TRUE,"2020 data collected between December 7, 2019 and December 24, 2020"
+design_treat_changed_2018,"Research design, p. 6",pipeline,4,0,,==,TRUE,four 2018 studies added or subtracted a treatment
+design_treat_changed_2020,"Research design, p. 6",pipeline,7,0,,==,TRUE,seven 2020 studies added or subtracted a treatment
+design_cluster_min,"Research design, p. 6",definitional,1,0,,==,FALSE,clusters lasting 1 to 4 minutes
+design_cluster_max,"Research design, p. 6",definitional,4,0,,==,FALSE,clusters lasting 1 to 4 minutes
+design_discard_window,"Research design, p. 6",definitional,10,0,,==,FALSE,treatment with no responses in the initial or final 10% of the study
+design_attrition_studies,"Research design, p. 7",pipeline,22,0,,==,TRUE,subset of 2020 surveys with reconstructed completion data
+design_attrition_rate,"Research design, p. 7",pipeline,4,0,percent,approx,TRUE,average post-treatment attrition approximately 4%
+design_attrition_significant,"Research design, p. 7",pipeline,1,0,,==,TRUE,one of 22 studies with a significant effect on completion
+outcome_scale_max,"Outcome measures, p. 7",definitional,10,0,,==,FALSE,0 to 10 Likert scale
+outcome_rescale_max,"Outcome measures, p. 7",definitional,100,0,,==,FALSE,rescaled to range 0 to 100
+dichotomize_midpoint,"Outcome measures, p. 7",definitional,0.5,1,,==,FALSE,a 5 on the vote choice scale is recoded to 0.5
+tagging_raters_2018,"Measurement, p. 7",definitional,8,0,,==,FALSE,eight undergraduate research assistants in 2018
+tagging_ratings_2018,"Measurement, p. 7",definitional,3,0,,==,FALSE,three independent ratings per video in 2018
+tagging_raters_2020,"Measurement, p. 7",definitional,11,0,,==,FALSE,11 assistants in 2020
+tagging_ratings_2020,"Measurement, p. 7",definitional,2,0,,==,FALSE,two independent ratings per video in 2020
+icc_messenger_threshold,"Measurement, p. 8",descriptive,0.8,1,,>,TRUE,single-rater ICC above 0.8 for messenger race and gender
+icc_pushy,"Measurement, p. 8",pipeline,0.23,2,,==,TRUE,single-rater ICC of 0.23 for how pushy the ad was
+reliability_higher_2020,"Measurement, p. 8",descriptive,,0,,==,TRUE,single-rater reliability higher in 2020 than 2018
+pap_alpha,"Analysis procedures, p. 8",definitional,0.05,2,,==,FALSE,2018 characteristics significant at p < 0.05
+results_mu_votechoice_2018,"Results, p. 10",pipeline,2.3,1,,==,TRUE,2018 average estimated effect on vote choice
+results_mu_votechoice_2020d,"Results, p. 10",pipeline,1.2,1,,==,TRUE,2020 downballot average estimated effect
+results_mu_votechoice_2020p,"Results, p. 10",pipeline,0.8,1,,==,TRUE,2020 presidential average estimated effect
+results_tau_votechoice_2018,"Results, p. 10",pipeline,1.5,1,,==,TRUE,2018 estimated standard deviation of true effects
+results_tau_votechoice_2020d,"Results, p. 10",pipeline,0.5,1,,==,TRUE,2020 downballot standard deviation
+results_tau_votechoice_2020p,"Results, p. 10",pipeline,0.3,1,,==,TRUE,2020 presidential standard deviation
+results_tau_over_mu,"Results, p. 10",pipeline,0.51,2,,==,TRUE,ratio of tau to mu is 0.51 on average
+results_pct_more_or_less,"Results, p. 10",pipeline,51,0,percent,==,TRUE,commonplace for ads to be 51% more or less effective
+results_p_votechoice_2020d,"Footnote 7, p. 10",pipeline,0.054,3,,==,TRUE,the sixth Q-test p-value is 0.054
+results_five_of_six,"Footnote 7, p. 10",descriptive,,0,,==,TRUE,Q-tests reject homogeneity in five of six cases
+results_null_rejection_rate,"Results, p. 10",definitional,5,0,,==,FALSE,simulated null rejects at approximately the expected 5% rate
+results_opportunities,"Results, p. 10",descriptive,,0,,==,TRUE,39 opportunities to observe a consistent hypothesis
+results_one_consistent,"Results, p. 10",descriptive,,0,,==,TRUE,just one case with the same sign and significance in every context
+results_pushy_favorability,"Results, p. 10",descriptive,,0,,==,TRUE,how pushy predicts favorability in both 2020 contexts but not vote choice
+results_r2_favorability_min,"Results, p. 11",pipeline,0.12,2,,==,TRUE,"adjusted R2 for favorability, lower end"
+results_r2_favorability_max,"Results, p. 11",pipeline,0.34,2,,==,TRUE,"adjusted R2 for favorability, upper end"
+results_r2_votechoice_min,"Results, p. 11",pipeline,0,0,,==,TRUE,"adjusted R2 for vote choice, lower end"
+results_r2_votechoice_max,"Results, p. 11",pipeline,0.32,2,,==,TRUE,"adjusted R2 for vote choice, upper end"
+results_effects_decline,"Results, p. 10",descriptive,,0,,==,TRUE,"effects on favorability decline closer to election day, vote choice does not"
+sim_budget_min,"Returns, p. 13",definitional,500000,0,,==,TRUE,"simulated media budgets from $500,000"
+sim_budget_max,"Returns, p. 13",definitional,5000000,0,,==,TRUE,"simulated media budgets to $5,000,000"
+sim_tau_tiny,"Returns, p. 13",definitional,0.01,2,,==,TRUE,tiny ad variability scenario
+sim_tau_large,"Returns, p. 13",definitional,1.01,2,,==,TRUE,large ad variability scenario
+sim_n_experiments,"Returns, p. 13",definitional,10000,0,,==,TRUE,"10,000 simulated experiments per scenario"
+sim_cost_per_vote,"Returns, p. 13",definitional,200,0,,==,TRUE,$200 per vote benchmark
+sim_optimal_min,"Returns, p. 13",pipeline,10,0,,approx,TRUE,optimal spend of about 10% of the media budget at the estimated variability
+sim_optimal_max,"Returns, p. 13",pipeline,13,0,,approx,TRUE,optimal spend of about 13% of the media budget at the estimated variability
+sim_optimal_large_min,"Returns, p. 13",pipeline,13,0,,approx,TRUE,"optimal spend at high variability, lower end"
+sim_optimal_large_max,"Returns, p. 13",pipeline,17,0,,approx,TRUE,"optimal spend at high variability, upper end"
+sim_dollars_per_vote_gap,"Returns, p. 14",pipeline,50,0,,approx,TRUE,wealthy campaigns win votes around $50 per vote less than small ones
+disc_tau_over_mu,"Discussion, p. 15",pipeline,0.51,2,,==,TRUE,ratio of average effect to standard deviation was approximately 0.51
+disc_pct_better,"Discussion, p. 15",pipeline,51,0,percent,==,TRUE,commonplace for ads to be 51% better than the average ad
+disc_milkman_messages,"Discussion, p. 15",transcribed,22,0,,==,FALSE,Milkman et al. consider 22 messages
+disc_milkman_low,"Discussion, p. 15",transcribed,1,0,,==,FALSE,effects range from 1 percentage point
+disc_milkman_high,"Discussion, p. 16",transcribed,3,0,,==,FALSE,effects range to 3 percentage points
+disc_okeefe_metas,"Discussion, p. 16",transcribed,30,0,,==,FALSE,O'Keefe and Hoeken meta-analyze 30 meta-analyses
+disc_berman_experiments,"Discussion, p. 16",transcribed,4964,0,,==,FALSE,"Berman and Van den Bulte consider 4,964 experiments"
+disc_berman_effect,"Discussion, p. 16",transcribed,-0.001,3,,==,FALSE,average effect size of -0.001 standard units
+disc_berman_sd,"Discussion, p. 16",transcribed,0.043,3,,==,FALSE,standard deviation of 0.043 units
+disc_chv_ads,"Discussion, p. 16",transcribed,7,0,,==,FALSE,"Coppock, Hill and Vavreck find similar effects of seven ads"
+disc_retest_months,"Discussion, p. 16",transcribed,6,0,,==,FALSE,ads retested after 6 months
+appendix_a_ratings_2018,Appendix A.4,definitional,3,0,,==,FALSE,k = 3 ratings per video in 2018
+appendix_a_ratings_2020,Appendix A.4,definitional,2,0,,==,FALSE,k = 2 ratings per video in 2020
+appendix_c1_vpk,Appendix C.1,transcribed,5,0,,==,FALSE,5 votes per $1000 of TV advertising
+appendix_c1_dollars_per_vote,Appendix C.1,transcribed,200,0,,==,FALSE,$200 per vote
+appendix_c1_vpk_double,Appendix C.1,definitional,10,0,,==,FALSE,an ad with twice the typical effect yields 10 VPK
+appendix_c1_ratio_rough,Appendix C.1,transcribed,100,0,,==,FALSE,ratio between in-field and in-survey effects of very roughly 100
+appendix_c1_cost_per_impression,Appendix C.1,definitional,6,0,,==,FALSE,6 cents per voter impression
+appendix_c1_cost_per_impression_raw,Appendix C.1,definitional,3,0,,==,FALSE,3 cents per impression
+appendix_c1_senate_effect,Appendix C.1,definitional,0.015,3,,==,FALSE,implied Senate per-impression effect of 0.015pp
+appendix_c1_pres_effect,Appendix C.1,definitional,0.008,3,,==,FALSE,implied presidential per-impression effect of 0.008pp
+appendix_c1_mu_2020d,Appendix C.1,pipeline,1.53,2,,==,TRUE,average survey treatment effect for 2020 downballot quoted from Table OA2
+appendix_c1_factor_100,Appendix C.1,transcribed,100,0,,approx,FALSE,survey-to-field conversion factor of approximately 100
+appendix_c1_svw_presidential,Appendix C.1,transcribed,365,0,,==,FALSE,$365 per vote for presidential advertising
+appendix_c1_st_presidential,Appendix C.1,transcribed,170,0,,==,FALSE,$170 per vote in Spenkuch and Toniatti
+appendix_c1_mu_2020p,Appendix C.1,pipeline,1.07,2,,==,TRUE,average survey treatment effect for 2020 presidential quoted from Table OA2
+appendix_c1_factor_130,Appendix C.1,transcribed,130,0,,approx,FALSE,conversion factor of approximately 130
+appendix_c1_factor_60,Appendix C.1,transcribed,60,0,,approx,FALSE,conversion factor of approximately 60
+appendix_c1_st_per_impression,Appendix C.1,transcribed,0.017,3,,==,FALSE,0.017pp per impression per capita
+appendix_c1_st_diff,"Appendix C.1, footnote 12",transcribed,0.304,3,,==,FALSE,0.304 percentage point partisan difference at 10 impressions per capita
+appendix_c2_ads,Appendix C.2,structural,6,0,,==,FALSE,"testing six ads among 20,000 subjects"
+appendix_c2_subjects,Appendix C.2,structural,20000,0,,==,FALSE,"20,000 subjects"
+appendix_c2_gain_pp,Appendix C.2,structural,0.03,2,,==,FALSE,0.03 percentage point gain in final vote share
+appendix_c2_voters,Appendix C.2,definitional,5000000,0,,==,FALSE,"an election where 5,000,000 people vote"
+appendix_c2_budget,Appendix C.2,definitional,1000000,0,,==,FALSE,"$1,000,000 in ad spend"
+appendix_c2_experiment_subjects,Appendix C.2,structural,10000,0,,==,FALSE,"an experiment with 10,000 subjects"
+appendix_c2_net_votes,Appendix C.2,structural,1500,0,,==,FALSE,"an increase of approximately 1,500 net votes"
+appendix_c2_cost,Appendix C.2,structural,125000,0,,==,FALSE,"creating six ads and testing 20,000 subjects would cost $125,000"
+appendix_c2_cost_per_vote,Appendix C.2,structural,83,0,,==,FALSE,a cost per net vote of only $83
+appendix_c3_budget_small,Appendix C.3,definitional,500000,0,,==,FALSE,"budget level of $500,000"
+appendix_c3_budget_large,Appendix C.3,definitional,5000000,0,,==,FALSE,"budget level of $5,000,000"
+appendix_c3_belief_error,Appendix C.3,definitional,0.5,1,,==,FALSE,"an error of the same magnitude, 0.50"
+appendix_c3_share_difference,Appendix C.3,structural,3,0,,==,FALSE,around 3% of the media budget is reallocated
+appendix_d_min_ads,Appendix D,definitional,5,0,,==,FALSE,a low of five ads available to the analyst
+appendix_d_max_ads,Appendix D,pipeline,575,0,,==,TRUE,"a high of 575 ads, the total number of vote choice effects"
+appendix_d_replications,Appendix D,definitional,50,0,,==,FALSE,50 simulations per number of ads
+figure_1_cells,figure_1,structural,12,0,,==,FALSE,figure_1: cells reproduced of the 12 numbers the float prints
+figure_2_cells,figure_2,structural,20,0,,==,FALSE,figure_2: cells reproduced of the 20 numbers the float prints
+figure_3_cells,figure_3,structural,166,0,,==,FALSE,figure_3: cells reproduced of the 166 numbers the float prints
+figure_oa10_cells,figure_oa10,structural,166,0,,==,FALSE,figure_oa10: cells reproduced of the 166 numbers the float prints
+figure_oa12_cells,figure_oa12,structural,184,0,,==,FALSE,figure_oa12: cells reproduced of the 184 numbers the float prints
+table_1_cells,table_1,structural,24,0,,==,FALSE,table_1: cells reproduced of the 24 numbers the float prints
+table_2_cells,table_2,structural,90,0,,==,FALSE,table_2: cells reproduced of the 90 numbers the float prints
+table_da10_cells,table_da10,structural,252,0,,==,FALSE,table_da10: cells reproduced of the 252 numbers the float prints
+table_da11_cells,table_da11,structural,78,0,,==,FALSE,table_da11: cells reproduced of the 78 numbers the float prints
+table_da12_cells,table_da12,structural,84,0,,==,FALSE,table_da12: cells reproduced of the 84 numbers the float prints
+table_da13_cells,table_da13,structural,84,0,,==,FALSE,table_da13: cells reproduced of the 84 numbers the float prints
+table_da14_cells,table_da14,structural,84,0,,==,FALSE,table_da14: cells reproduced of the 84 numbers the float prints
+table_da15_cells,table_da15,structural,84,0,,==,FALSE,table_da15: cells reproduced of the 84 numbers the float prints
+table_da16_cells,table_da16,structural,84,0,,==,FALSE,table_da16: cells reproduced of the 84 numbers the float prints
+table_da17_cells,table_da17,structural,84,0,,==,FALSE,table_da17: cells reproduced of the 84 numbers the float prints
+table_da18_cells,table_da18,structural,84,0,,==,FALSE,table_da18: cells reproduced of the 84 numbers the float prints
+table_da19_cells,table_da19,structural,112,0,,==,FALSE,table_da19: cells reproduced of the 112 numbers the float prints
+table_da20_cells,table_da20,structural,108,0,,==,FALSE,table_da20: cells reproduced of the 108 numbers the float prints
+table_da21_cells,table_da21,structural,52,0,,==,FALSE,table_da21: cells reproduced of the 52 numbers the float prints
+table_da22_cells,table_da22,structural,52,0,,==,FALSE,table_da22: cells reproduced of the 52 numbers the float prints
+table_da23_cells,table_da23,structural,52,0,,==,FALSE,table_da23: cells reproduced of the 52 numbers the float prints
+table_da24_cells,table_da24,structural,52,0,,==,FALSE,table_da24: cells reproduced of the 52 numbers the float prints
+table_da25_cells,table_da25,structural,52,0,,==,FALSE,table_da25: cells reproduced of the 52 numbers the float prints
+table_da26_cells,table_da26,structural,52,0,,==,FALSE,table_da26: cells reproduced of the 52 numbers the float prints
+table_da27_cells,table_da27,structural,52,0,,==,FALSE,table_da27: cells reproduced of the 52 numbers the float prints
+table_da28_cells,table_da28,structural,476,0,,==,FALSE,table_da28: cells reproduced of the 476 numbers the float prints
+table_da29_cells,table_da29,structural,588,0,,==,FALSE,table_da29: cells reproduced of the 588 numbers the float prints
+table_da30_cells,table_da30,structural,452,0,,==,FALSE,table_da30: cells reproduced of the 452 numbers the float prints
+table_da35_cells,table_da35,structural,159,0,,==,FALSE,table_da35: cells reproduced of the 159 numbers the float prints
+table_da4_cells,table_da4,structural,42,0,,==,FALSE,table_da4: cells reproduced of the 42 numbers the float prints
+table_da5_cells,table_da5,structural,66,0,,==,FALSE,table_da5: cells reproduced of the 66 numbers the float prints
+table_da6_cells,table_da6,structural,18,0,,==,FALSE,table_da6: cells reproduced of the 18 numbers the float prints
+table_da7_cells,table_da7,structural,112,0,,==,FALSE,table_da7: cells reproduced of the 112 numbers the float prints
+table_da8_cells,table_da8,structural,108,0,,==,FALSE,table_da8: cells reproduced of the 108 numbers the float prints
+table_da9_cells,table_da9,structural,136,0,,==,FALSE,table_da9: cells reproduced of the 136 numbers the float prints
+table_oa1_cells,table_oa1,structural,84,0,,==,FALSE,table_oa1: cells reproduced of the 84 numbers the float prints
+table_oa2_cells,table_oa2,structural,45,0,,==,FALSE,table_oa2: cells reproduced of the 45 numbers the float prints
+table_3_cells,table_3,structural,3,0,,==,FALSE,table_3: cells reproduced of the 3 numbers the float prints

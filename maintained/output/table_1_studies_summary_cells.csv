@@ -1,0 +1,31 @@
+dataset,quantity,value
+2018,both_outcomes,63
+2018,favorability_only,33
+2018,first_in_file,2018-04-09
+2018,first_study,2018-04-09
+2018,last_in_file,2019-03-15
+2018,last_study,2019-03-15
+2018,n_per_treatment,479
+2018,n_treatments_total,137
+2018,total_n,93969
+2018,votechoice_only,3
+2020 Downballot,both_outcomes,67
+2020 Downballot,favorability_only,5
+2020 Downballot,first_in_file,2019-12-07
+2020 Downballot,first_study,2019-12-07
+2020 Downballot,last_in_file,2020-12-22
+2020 Downballot,last_study,2020-12-25
+2020 Downballot,n_per_treatment,348
+2020 Downballot,n_treatments_total,189
+2020 Downballot,total_n,101782
+2020 Downballot,votechoice_only,27
+2020 Presidential,both_outcomes,60
+2020 Presidential,favorability_only,0
+2020 Presidential,first_in_file,2020-02-13
+2020 Presidential,first_study,2020-02-13
+2020 Presidential,last_in_file,2020-10-24
+2020 Presidential,last_study,2020-10-24
+2020 Presidential,n_per_treatment,717
+2020 Presidential,n_treatments_total,292
+2020 Presidential,total_n,302589
+2020 Presidential,votechoice_only,39

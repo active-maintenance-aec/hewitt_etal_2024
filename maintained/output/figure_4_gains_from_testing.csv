@@ -1,0 +1,3 @@
+campaign,budget,votes_without_experimentation,votes_with_experimentation,gain_from_testing
+Medium campaign,1000000,4925,6506.025175982554,1581
+Large campaign,5000000,24925,40122.24875646365,15197

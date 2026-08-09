@@ -1,0 +1,21 @@
+# The deposited archive is fetched from Dataverse by download_original.R, not redistributed.
+original/
+original_extracted/
+
+# Fitted model objects the meta-analysis needs, rebuilt by estimate_ates.R.
+maintained/clean_data/
+
+# Working log stays private, per the house rule for public repos.
+notes.md
+
+# Quarto build artifacts
+/.quarto/
+*_files/
+report/maintained/
+
+# RStudio project state
+.Rproj.user/
+
+**/*.quarto_ipynb
+
+.DS_Store

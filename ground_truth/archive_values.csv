@@ -1,0 +1,773 @@
+float,row_key,quantity,value_script
+figure_1,Favorability | 2018,mu,2.6226316708640183
+figure_1,Favorability | 2018,std.error,0.2634729652371947
+figure_1,Favorability | 2020 Downballot,mu,1.4199637616279535
+figure_1,Favorability | 2020 Downballot,std.error,0.1792905705590801
+figure_1,Favorability | 2020 Presidential,mu,0.9562900785230103
+figure_1,Favorability | 2020 Presidential,std.error,0.08461644351477952
+figure_1,Vote choice | 2018,mu,2.2737217102551974
+figure_1,Vote choice | 2018,std.error,0.337826574737777
+figure_1,Vote choice | 2020 Downballot,mu,1.1841170229175615
+figure_1,Vote choice | 2020 Downballot,std.error,0.1667641111128386
+figure_1,Vote choice | 2020 Presidential,mu,0.8471255911186069
+figure_1,Vote choice | 2020 Presidential,std.error,0.07912724375870944
+figure_2,Favorability | 2018,tau,1.6696718734662135
+figure_2,Favorability | 2018,tau_ci_high,2.1121834182729406
+figure_2,Favorability | 2018,tau_ci_low,1.2894100698924496
+figure_2,Favorability | 2020 Downballot,tau,0.8491011314307133
+figure_2,Favorability | 2020 Downballot,tau_ci_high,1.2017596633064365
+figure_2,Favorability | 2020 Downballot,tau_ci_low,0.504992585538472
+figure_2,Favorability | 2020 Presidential,tau,0.4389752122781043
+figure_2,Favorability | 2020 Presidential,tau_ci_high,0.5823157375446268
+figure_2,Favorability | 2020 Presidential,tau_ci_low,0.2936188007173815
+figure_2,Vote choice | 2018,tau,1.4162556303323615
+figure_2,Vote choice | 2018,tau_ci_high,1.9901968195568323
+figure_2,Vote choice | 2018,tau_ci_low,0.9031951709170456
+figure_2,Vote choice | 2020 Downballot,tau,0.4712281674987008
+figure_2,Vote choice | 2020 Downballot,tau_ci_high,0.8504022409496275
+figure_2,Vote choice | 2020 Downballot,tau_ci_low,0
+figure_2,Vote choice | 2020 Presidential,tau,0.3429869765099049
+figure_2,Vote choice | 2020 Presidential,tau_ci_high,0.4955434253844791
+figure_2,Vote choice | 2020 Presidential,tau_ci_low,0.1379810050140103
+figure_3,Candidate facts | Favorability | 2018,t_statistic,2.608815915157075
+figure_3,Candidate facts | Favorability | 2020 Downballot,t_statistic,2.645504050991463
+figure_3,Candidate facts | Favorability | 2020 Presidential,t_statistic,-0.5069884622781309
+figure_3,Candidate facts | Vote choice | 2018,t_statistic,1.5379935604915633
+figure_3,Candidate facts | Vote choice | 2020 Downballot,t_statistic,2.4250819224215774
+figure_3,Candidate facts | Vote choice | 2020 Presidential,t_statistic,-0.910161212686266
+figure_3,Cited fact (where fact present) | Favorability | 2018,t_statistic,-2.0736008567067374
+figure_3,Cited fact (where fact present) | Favorability | 2020 Downballot,t_statistic,1.338459859492254
+figure_3,Cited fact (where fact present) | Favorability | 2020 Presidential,t_statistic,-0.5439801625863471
+figure_3,Cited fact (where fact present) | Vote choice | 2018,t_statistic,-0.8155874417893222
+figure_3,Cited fact (where fact present) | Vote choice | 2020 Downballot,t_statistic,0.2462587078024326
+figure_3,Cited fact (where fact present) | Vote choice | 2020 Presidential,t_statistic,-1.277422157189855
+figure_3,Emotion: Anger | Favorability | 2018,t_statistic,0.9588898706327678
+figure_3,Emotion: Anger | Favorability | 2020 Downballot,t_statistic,2.160115349716167
+figure_3,Emotion: Anger | Favorability | 2020 Presidential,t_statistic,-0.6394919066069492
+figure_3,Emotion: Anger | Vote choice | 2018,t_statistic,3.0227427271299536
+figure_3,Emotion: Anger | Vote choice | 2020 Downballot,t_statistic,1.078440467617575
+figure_3,Emotion: Anger | Vote choice | 2020 Presidential,t_statistic,0.9298893509972225
+figure_3,Emotion: Enthusiasm | Favorability | 2018,t_statistic,1.2108456215404295
+figure_3,Emotion: Enthusiasm | Favorability | 2020 Downballot,t_statistic,-1.67522623778476
+figure_3,Emotion: Enthusiasm | Favorability | 2020 Presidential,t_statistic,-0.3810433926096585
+figure_3,Emotion: Enthusiasm | Vote choice | 2018,t_statistic,-0.27155757199811315
+figure_3,Emotion: Enthusiasm | Vote choice | 2020 Downballot,t_statistic,0.09008266303706301
+figure_3,Emotion: Enthusiasm | Vote choice | 2020 Presidential,t_statistic,0.7440034224398389
+figure_3,Explicit vote for | Favorability | 2018,t_statistic,2.0083231322263635
+figure_3,Explicit vote for | Favorability | 2020 Downballot,t_statistic,-2.7531907592052423
+figure_3,Explicit vote for | Favorability | 2020 Presidential,t_statistic,1.5916375409634085
+figure_3,Explicit vote for | Vote choice | 2018,t_statistic,2.8307981845083092
+figure_3,Explicit vote for | Vote choice | 2020 Downballot,t_statistic,0.4685386985875965
+figure_3,Explicit vote for | Vote choice | 2020 Presidential,t_statistic,1.8166332873160902
+figure_3,How pushy | Favorability | 2020 Downballot,t_statistic,2.739821420046058
+figure_3,How pushy | Favorability | 2020 Presidential,t_statistic,2.2399630080907573
+figure_3,How pushy | Vote choice | 2020 Downballot,t_statistic,0.8486593295762042
+figure_3,How pushy | Vote choice | 2020 Presidential,t_statistic,2.3512395702189783
+figure_3,Issue: BLM/Race | Favorability | 2020 Downballot,t_statistic,0.02481262788452136
+figure_3,Issue: BLM/Race | Favorability | 2020 Presidential,t_statistic,-1.839186330406951
+figure_3,Issue: BLM/Race | Vote choice | 2020 Downballot,t_statistic,0.1769819756135155
+figure_3,Issue: BLM/Race | Vote choice | 2020 Presidential,t_statistic,-0.6187580425534396
+figure_3,Issue: COVID-19 | Favorability | 2020 Downballot,t_statistic,-2.3507710741973034
+figure_3,Issue: COVID-19 | Favorability | 2020 Presidential,t_statistic,1.1227008921556225
+figure_3,Issue: COVID-19 | Vote choice | 2020 Downballot,t_statistic,-0.20177777933427707
+figure_3,Issue: COVID-19 | Vote choice | 2020 Presidential,t_statistic,-0.45867416210948925
+figure_3,Issue: Decency | Favorability | 2020 Downballot,t_statistic,3.784145400355525
+figure_3,Issue: Decency | Favorability | 2020 Presidential,t_statistic,-2.2300958893322136
+figure_3,Issue: Decency | Vote choice | 2020 Downballot,t_statistic,1.3829911891808713
+figure_3,Issue: Decency | Vote choice | 2020 Presidential,t_statistic,0.5363022428652291
+figure_3,Messenger: Everyday people | Favorability | 2020 Downballot,t_statistic,0.9614361220798022
+figure_3,Messenger: Everyday people | Favorability | 2020 Presidential,t_statistic,1.6284021945372529
+figure_3,Messenger: Everyday people | Vote choice | 2020 Downballot,t_statistic,-0.38703145375735776
+figure_3,Messenger: Everyday people | Vote choice | 2020 Presidential,t_statistic,0.8633417227240069
+figure_3,Messenger: Female | Favorability | 2018,t_statistic,0.2988174285870609
+figure_3,Messenger: Female | Favorability | 2020 Downballot,t_statistic,0.7017984698105574
+figure_3,Messenger: Female | Favorability | 2020 Presidential,t_statistic,2.6625334798635683
+figure_3,Messenger: Female | Vote choice | 2018,t_statistic,1.7908573216449126
+figure_3,Messenger: Female | Vote choice | 2020 Downballot,t_statistic,-1.212110042072566
+figure_3,Messenger: Female | Vote choice | 2020 Presidential,t_statistic,2.2728993660538346
+figure_3,Messenger: Healthcare worker | Favorability | 2020 Downballot,t_statistic,-1.480167489773068
+figure_3,Messenger: Healthcare worker | Favorability | 2020 Presidential,t_statistic,0.45619951939116526
+figure_3,Messenger: Healthcare worker | Vote choice | 2020 Downballot,t_statistic,0.027288739373409848
+figure_3,Messenger: Healthcare worker | Vote choice | 2020 Presidential,t_statistic,1.3335519288784952
+figure_3,Messenger: Politician | Favorability | 2018,t_statistic,2.5806804638596543
+figure_3,Messenger: Politician | Favorability | 2020 Downballot,t_statistic,1.2116423180351583
+figure_3,Messenger: Politician | Favorability | 2020 Presidential,t_statistic,-1.637505424639422
+figure_3,Messenger: Politician | Vote choice | 2018,t_statistic,-0.18333046418829152
+figure_3,Messenger: Politician | Vote choice | 2020 Downballot,t_statistic,1.3580901966265762
+figure_3,Messenger: Politician | Vote choice | 2020 Presidential,t_statistic,-0.3948925043293195
+figure_3,Messenger: Republican | Favorability | 2020 Downballot,t_statistic,1.9119897609113077
+figure_3,Messenger: Republican | Favorability | 2020 Presidential,t_statistic,-0.37483416158684013
+figure_3,Messenger: Republican | Vote choice | 2020 Downballot,t_statistic,2.6152150066021678
+figure_3,Messenger: Republican | Vote choice | 2020 Presidential,t_statistic,1.178288711458761
+figure_3,New fact (where fact present) | Favorability | 2018,t_statistic,-1.878289320845011
+figure_3,New fact (where fact present) | Favorability | 2020 Downballot,t_statistic,2.292520909549831
+figure_3,New fact (where fact present) | Favorability | 2020 Presidential,t_statistic,0.5529231888498557
+figure_3,New fact (where fact present) | Vote choice | 2018,t_statistic,-1.2937939909022986
+figure_3,New fact (where fact present) | Vote choice | 2020 Downballot,t_statistic,0.7276733250155206
+figure_3,New fact (where fact present) | Vote choice | 2020 Presidential,t_statistic,-0.34753341133230037
+figure_3,Policy facts | Favorability | 2018,t_statistic,-0.48922496222997647
+figure_3,Policy facts | Favorability | 2020 Downballot,t_statistic,-0.031231144103402483
+figure_3,Policy facts | Favorability | 2020 Presidential,t_statistic,1.2044379206606473
+figure_3,Policy facts | Vote choice | 2018,t_statistic,0.20184218125430858
+figure_3,Policy facts | Vote choice | 2020 Downballot,t_statistic,-0.44394168584274774
+figure_3,Policy facts | Vote choice | 2020 Presidential,t_statistic,2.389486084967199
+figure_3,Primary focus: Candidate | Favorability | 2018,t_statistic,2.631719744268748
+figure_3,Primary focus: Candidate | Favorability | 2020 Downballot,t_statistic,0.8564885813782601
+figure_3,Primary focus: Candidate | Favorability | 2020 Presidential,t_statistic,-0.5730219349104914
+figure_3,Primary focus: Candidate | Vote choice | 2018,t_statistic,0.4843183560258293
+figure_3,Primary focus: Candidate | Vote choice | 2020 Downballot,t_statistic,0.11665254733838008
+figure_3,Primary focus: Candidate | Vote choice | 2020 Presidential,t_statistic,-1.020098598191377
+figure_3,Primary focus: Issues | Favorability | 2018,t_statistic,3.4598902248467778
+figure_3,Primary focus: Issues | Favorability | 2020 Downballot,t_statistic,-1.6023752018507127
+figure_3,Primary focus: Issues | Favorability | 2020 Presidential,t_statistic,2.7490695824113334
+figure_3,Primary focus: Issues | Vote choice | 2018,t_statistic,2.5680879069147196
+figure_3,Primary focus: Issues | Vote choice | 2020 Downballot,t_statistic,-1.1161606018065346
+figure_3,Primary focus: Issues | Vote choice | 2020 Presidential,t_statistic,-0.5460298698632218
+figure_3,Primary tone: Contrast | Favorability | 2018,t_statistic,0.520044739637057
+figure_3,Primary tone: Contrast | Favorability | 2020 Downballot,t_statistic,-0.5264772274353036
+figure_3,Primary tone: Contrast | Favorability | 2020 Presidential,t_statistic,0.7186844182096118
+figure_3,Primary tone: Contrast | Vote choice | 2018,t_statistic,0.5822330888811525
+figure_3,Primary tone: Contrast | Vote choice | 2020 Downballot,t_statistic,-1.202474963534007
+figure_3,Primary tone: Contrast | Vote choice | 2020 Presidential,t_statistic,3.753072315194267
+figure_3,Primary tone: Positive | Favorability | 2018,t_statistic,0.1427748331697079
+figure_3,Primary tone: Positive | Favorability | 2020 Downballot,t_statistic,-2.711247555045503
+figure_3,Primary tone: Positive | Favorability | 2020 Presidential,t_statistic,0.16908602095060657
+figure_3,Primary tone: Positive | Vote choice | 2018,t_statistic,-1.4666485221548875
+figure_3,Primary tone: Positive | Vote choice | 2020 Downballot,t_statistic,0.601689338417669
+figure_3,Primary tone: Positive | Vote choice | 2020 Presidential,t_statistic,1.8857856718102755
+figure_3,Production value: High | Favorability | 2018,t_statistic,1.033338816445119
+figure_3,Production value: High | Favorability | 2020 Downballot,t_statistic,2.5807569067214984
+figure_3,Production value: High | Favorability | 2020 Presidential,t_statistic,-0.2895998014826323
+figure_3,Production value: High | Vote choice | 2018,t_statistic,0.5044479114655038
+figure_3,Production value: High | Vote choice | 2020 Downballot,t_statistic,2.026842211965033
+figure_3,Production value: High | Vote choice | 2020 Presidential,t_statistic,-0.16749312208507872
+figure_3,Specificity: Candidate facts | Favorability | 2018,t_statistic,-0.12303821625008085
+figure_3,Specificity: Candidate facts | Favorability | 2020 Downballot,t_statistic,3.4499916226421
+figure_3,Specificity: Candidate facts | Favorability | 2020 Presidential,t_statistic,-1.2587564473851947
+figure_3,Specificity: Candidate facts | Vote choice | 2018,t_statistic,1.317060164874937
+figure_3,Specificity: Candidate facts | Vote choice | 2020 Downballot,t_statistic,0.9204062279123337
+figure_3,Specificity: Candidate facts | Vote choice | 2020 Presidential,t_statistic,-1.7882556167910428
+figure_3,Specificity: Policy facts | Favorability | 2018,t_statistic,-0.3312032538894018
+figure_3,Specificity: Policy facts | Favorability | 2020 Downballot,t_statistic,1.3016446299340068
+figure_3,Specificity: Policy facts | Favorability | 2020 Presidential,t_statistic,2.37608496366821
+figure_3,Specificity: Policy facts | Vote choice | 2018,t_statistic,-0.20164213422960128
+figure_3,Specificity: Policy facts | Vote choice | 2020 Downballot,t_statistic,-0.11549664903014369
+figure_3,Specificity: Policy facts | Vote choice | 2020 Presidential,t_statistic,1.2933579113099143
+figure_3,Technique: Negative name-calling | Favorability | 2018,t_statistic,0.8437732857762225
+figure_3,Technique: Negative name-calling | Favorability | 2020 Downballot,t_statistic,0.852389631331286
+figure_3,Technique: Negative name-calling | Favorability | 2020 Presidential,t_statistic,-0.023416836767056803
+figure_3,Technique: Negative name-calling | Vote choice | 2018,t_statistic,0.8075169248337692
+figure_3,Technique: Negative name-calling | Vote choice | 2020 Downballot,t_statistic,-0.6032861173866
+figure_3,Technique: Negative name-calling | Vote choice | 2020 Presidential,t_statistic,0.6367787146018153
+figure_3,Technique: Negative testimonial | Favorability | 2018,t_statistic,1.5710940051758613
+figure_3,Technique: Negative testimonial | Favorability | 2020 Downballot,t_statistic,1.3938367110003471
+figure_3,Technique: Negative testimonial | Favorability | 2020 Presidential,t_statistic,-0.2472094198057048
+figure_3,Technique: Negative testimonial | Vote choice | 2018,t_statistic,1.2424796681840466
+figure_3,Technique: Negative testimonial | Vote choice | 2020 Downballot,t_statistic,1.8227388832036673
+figure_3,Technique: Negative testimonial | Vote choice | 2020 Presidential,t_statistic,-0.2872152458796213
+figure_3,Technique: Negative transfer of association | Favorability | 2018,t_statistic,0.13310773381299099
+figure_3,Technique: Negative transfer of association | Favorability | 2020 Downballot,t_statistic,0.8766547251046989
+figure_3,Technique: Negative transfer of association | Favorability | 2020 Presidential,t_statistic,-0.1621006919776827
+figure_3,Technique: Negative transfer of association | Vote choice | 2018,t_statistic,-0.20438249881813306
+figure_3,Technique: Negative transfer of association | Vote choice | 2020 Downballot,t_statistic,0.10799289906515845
+figure_3,Technique: Negative transfer of association | Vote choice | 2020 Presidential,t_statistic,0.500609545587749
+figure_3,Technique: Plain folks | Favorability | 2018,t_statistic,-0.2587686523851348
+figure_3,Technique: Plain folks | Favorability | 2020 Downballot,t_statistic,0.2907750043442624
+figure_3,Technique: Plain folks | Favorability | 2020 Presidential,t_statistic,1.0956060960597749
+figure_3,Technique: Plain folks | Vote choice | 2018,t_statistic,1.4171437981610553
+figure_3,Technique: Plain folks | Vote choice | 2020 Downballot,t_statistic,2.0268371060569295
+figure_3,Technique: Plain folks | Vote choice | 2020 Presidential,t_statistic,1.4129647720856502
+figure_3,Technique: Positive name-calling | Favorability | 2018,t_statistic,0.3026703901607246
+figure_3,Technique: Positive name-calling | Favorability | 2020 Downballot,t_statistic,-0.9472025820248338
+figure_3,Technique: Positive name-calling | Favorability | 2020 Presidential,t_statistic,-0.9081493558015079
+figure_3,Technique: Positive name-calling | Vote choice | 2018,t_statistic,-0.7290076730455277
+figure_3,Technique: Positive name-calling | Vote choice | 2020 Downballot,t_statistic,-0.6286823293940351
+figure_3,Technique: Positive name-calling | Vote choice | 2020 Presidential,t_statistic,0.28476017894827116
+figure_3,Technique: Positive testimonial | Favorability | 2018,t_statistic,0.7540441411935614
+figure_3,Technique: Positive testimonial | Favorability | 2020 Downballot,t_statistic,-0.7128004239544086
+figure_3,Technique: Positive testimonial | Favorability | 2020 Presidential,t_statistic,1.1056371042010789
+figure_3,Technique: Positive testimonial | Vote choice | 2018,t_statistic,-1.3362141496079214
+figure_3,Technique: Positive testimonial | Vote choice | 2020 Downballot,t_statistic,-0.6434606273218784
+figure_3,Technique: Positive testimonial | Vote choice | 2020 Presidential,t_statistic,1.0405862452994394
+figure_3,Technique: Positive transfer of association | Favorability | 2018,t_statistic,-0.3091689632993203
+figure_3,Technique: Positive transfer of association | Favorability | 2020 Downballot,t_statistic,-0.7467350516723597
+figure_3,Technique: Positive transfer of association | Favorability | 2020 Presidential,t_statistic,0.13687317202213484
+figure_3,Technique: Positive transfer of association | Vote choice | 2018,t_statistic,0.831121511200457
+figure_3,Technique: Positive transfer of association | Vote choice | 2020 Downballot,t_statistic,2.1806793158347815
+figure_3,Technique: Positive transfer of association | Vote choice | 2020 Presidential,t_statistic,0.273272471229691
+figure_4,Large campaign,gain_from_testing,15197
+figure_4,Medium campaign,gain_from_testing,1581
+figure_oa10,Candidate facts | Favorability | 2018,t_statistic,2.608815915157075
+figure_oa10,Candidate facts | Favorability | 2020 Downballot,t_statistic,2.645504050991463
+figure_oa10,Candidate facts | Favorability | 2020 Presidential,t_statistic,-0.5069884622781309
+figure_oa10,Candidate facts | Vote choice | 2018,t_statistic,1.5379935604915633
+figure_oa10,Candidate facts | Vote choice | 2020 Downballot,t_statistic,2.4250819224215774
+figure_oa10,Candidate facts | Vote choice | 2020 Presidential,t_statistic,-0.910161212686266
+figure_oa10,Cited fact (where fact present) | Favorability | 2018,t_statistic,-2.0736008567067374
+figure_oa10,Cited fact (where fact present) | Favorability | 2020 Downballot,t_statistic,1.338459859492254
+figure_oa10,Cited fact (where fact present) | Favorability | 2020 Presidential,t_statistic,-0.5439801625863471
+figure_oa10,Cited fact (where fact present) | Vote choice | 2018,t_statistic,-0.8155874417893222
+figure_oa10,Cited fact (where fact present) | Vote choice | 2020 Downballot,t_statistic,0.2462587078024326
+figure_oa10,Cited fact (where fact present) | Vote choice | 2020 Presidential,t_statistic,-1.277422157189855
+figure_oa10,Emotion: Anger | Favorability | 2018,t_statistic,0.9588898706327678
+figure_oa10,Emotion: Anger | Favorability | 2020 Downballot,t_statistic,2.160115349716167
+figure_oa10,Emotion: Anger | Favorability | 2020 Presidential,t_statistic,-0.6394919066069492
+figure_oa10,Emotion: Anger | Vote choice | 2018,t_statistic,3.0227427271299536
+figure_oa10,Emotion: Anger | Vote choice | 2020 Downballot,t_statistic,1.078440467617575
+figure_oa10,Emotion: Anger | Vote choice | 2020 Presidential,t_statistic,0.9298893509972225
+figure_oa10,Emotion: Enthusiasm | Favorability | 2018,t_statistic,1.2108456215404295
+figure_oa10,Emotion: Enthusiasm | Favorability | 2020 Downballot,t_statistic,-1.67522623778476
+figure_oa10,Emotion: Enthusiasm | Favorability | 2020 Presidential,t_statistic,-0.3810433926096585
+figure_oa10,Emotion: Enthusiasm | Vote choice | 2018,t_statistic,-0.27155757199811315
+figure_oa10,Emotion: Enthusiasm | Vote choice | 2020 Downballot,t_statistic,0.09008266303706301
+figure_oa10,Emotion: Enthusiasm | Vote choice | 2020 Presidential,t_statistic,0.7440034224398389
+figure_oa10,Explicit vote for | Favorability | 2018,t_statistic,2.0083231322263635
+figure_oa10,Explicit vote for | Favorability | 2020 Downballot,t_statistic,-2.7531907592052423
+figure_oa10,Explicit vote for | Favorability | 2020 Presidential,t_statistic,1.5916375409634085
+figure_oa10,Explicit vote for | Vote choice | 2018,t_statistic,2.8307981845083092
+figure_oa10,Explicit vote for | Vote choice | 2020 Downballot,t_statistic,0.4685386985875965
+figure_oa10,Explicit vote for | Vote choice | 2020 Presidential,t_statistic,1.8166332873160902
+figure_oa10,How pushy | Favorability | 2020 Downballot,t_statistic,2.739821420046058
+figure_oa10,How pushy | Favorability | 2020 Presidential,t_statistic,2.2399630080907573
+figure_oa10,How pushy | Vote choice | 2020 Downballot,t_statistic,0.8486593295762042
+figure_oa10,How pushy | Vote choice | 2020 Presidential,t_statistic,2.3512395702189783
+figure_oa10,Issue: BLM/Race | Favorability | 2020 Downballot,t_statistic,0.02481262788452136
+figure_oa10,Issue: BLM/Race | Favorability | 2020 Presidential,t_statistic,-1.839186330406951
+figure_oa10,Issue: BLM/Race | Vote choice | 2020 Downballot,t_statistic,0.1769819756135155
+figure_oa10,Issue: BLM/Race | Vote choice | 2020 Presidential,t_statistic,-0.6187580425534396
+figure_oa10,Issue: COVID-19 | Favorability | 2020 Downballot,t_statistic,-2.3507710741973034
+figure_oa10,Issue: COVID-19 | Favorability | 2020 Presidential,t_statistic,1.1227008921556225
+figure_oa10,Issue: COVID-19 | Vote choice | 2020 Downballot,t_statistic,-0.20177777933427707
+figure_oa10,Issue: COVID-19 | Vote choice | 2020 Presidential,t_statistic,-0.45867416210948925
+figure_oa10,Issue: Decency | Favorability | 2020 Downballot,t_statistic,3.784145400355525
+figure_oa10,Issue: Decency | Favorability | 2020 Presidential,t_statistic,-2.2300958893322136
+figure_oa10,Issue: Decency | Vote choice | 2020 Downballot,t_statistic,1.3829911891808713
+figure_oa10,Issue: Decency | Vote choice | 2020 Presidential,t_statistic,0.5363022428652291
+figure_oa10,Messenger: Everyday people | Favorability | 2020 Downballot,t_statistic,0.9614361220798022
+figure_oa10,Messenger: Everyday people | Favorability | 2020 Presidential,t_statistic,1.6284021945372529
+figure_oa10,Messenger: Everyday people | Vote choice | 2020 Downballot,t_statistic,-0.38703145375735776
+figure_oa10,Messenger: Everyday people | Vote choice | 2020 Presidential,t_statistic,0.8633417227240069
+figure_oa10,Messenger: Female | Favorability | 2018,t_statistic,0.2988174285870609
+figure_oa10,Messenger: Female | Favorability | 2020 Downballot,t_statistic,0.7017984698105574
+figure_oa10,Messenger: Female | Favorability | 2020 Presidential,t_statistic,2.6625334798635683
+figure_oa10,Messenger: Female | Vote choice | 2018,t_statistic,1.7908573216449126
+figure_oa10,Messenger: Female | Vote choice | 2020 Downballot,t_statistic,-1.212110042072566
+figure_oa10,Messenger: Female | Vote choice | 2020 Presidential,t_statistic,2.2728993660538346
+figure_oa10,Messenger: Healthcare worker | Favorability | 2020 Downballot,t_statistic,-1.480167489773068
+figure_oa10,Messenger: Healthcare worker | Favorability | 2020 Presidential,t_statistic,0.45619951939116526
+figure_oa10,Messenger: Healthcare worker | Vote choice | 2020 Downballot,t_statistic,0.027288739373409848
+figure_oa10,Messenger: Healthcare worker | Vote choice | 2020 Presidential,t_statistic,1.3335519288784952
+figure_oa10,Messenger: Politician | Favorability | 2018,t_statistic,2.5806804638596543
+figure_oa10,Messenger: Politician | Favorability | 2020 Downballot,t_statistic,1.2116423180351583
+figure_oa10,Messenger: Politician | Favorability | 2020 Presidential,t_statistic,-1.637505424639422
+figure_oa10,Messenger: Politician | Vote choice | 2018,t_statistic,-0.18333046418829152
+figure_oa10,Messenger: Politician | Vote choice | 2020 Downballot,t_statistic,1.3580901966265762
+figure_oa10,Messenger: Politician | Vote choice | 2020 Presidential,t_statistic,-0.3948925043293195
+figure_oa10,Messenger: Republican | Favorability | 2020 Downballot,t_statistic,1.9119897609113077
+figure_oa10,Messenger: Republican | Favorability | 2020 Presidential,t_statistic,-0.37483416158684013
+figure_oa10,Messenger: Republican | Vote choice | 2020 Downballot,t_statistic,2.6152150066021678
+figure_oa10,Messenger: Republican | Vote choice | 2020 Presidential,t_statistic,1.178288711458761
+figure_oa10,New fact (where fact present) | Favorability | 2018,t_statistic,-1.878289320845011
+figure_oa10,New fact (where fact present) | Favorability | 2020 Downballot,t_statistic,2.292520909549831
+figure_oa10,New fact (where fact present) | Favorability | 2020 Presidential,t_statistic,0.5529231888498557
+figure_oa10,New fact (where fact present) | Vote choice | 2018,t_statistic,-1.2937939909022986
+figure_oa10,New fact (where fact present) | Vote choice | 2020 Downballot,t_statistic,0.7276733250155206
+figure_oa10,New fact (where fact present) | Vote choice | 2020 Presidential,t_statistic,-0.34753341133230037
+figure_oa10,Policy facts | Favorability | 2018,t_statistic,-0.48922496222997647
+figure_oa10,Policy facts | Favorability | 2020 Downballot,t_statistic,-0.031231144103402483
+figure_oa10,Policy facts | Favorability | 2020 Presidential,t_statistic,1.2044379206606473
+figure_oa10,Policy facts | Vote choice | 2018,t_statistic,0.20184218125430858
+figure_oa10,Policy facts | Vote choice | 2020 Downballot,t_statistic,-0.44394168584274774
+figure_oa10,Policy facts | Vote choice | 2020 Presidential,t_statistic,2.389486084967199
+figure_oa10,Primary focus: Candidate | Favorability | 2018,t_statistic,2.631719744268748
+figure_oa10,Primary focus: Candidate | Favorability | 2020 Downballot,t_statistic,0.8564885813782601
+figure_oa10,Primary focus: Candidate | Favorability | 2020 Presidential,t_statistic,-0.5730219349104914
+figure_oa10,Primary focus: Candidate | Vote choice | 2018,t_statistic,0.4843183560258293
+figure_oa10,Primary focus: Candidate | Vote choice | 2020 Downballot,t_statistic,0.11665254733838008
+figure_oa10,Primary focus: Candidate | Vote choice | 2020 Presidential,t_statistic,-1.020098598191377
+figure_oa10,Primary focus: Issues | Favorability | 2018,t_statistic,3.4598902248467778
+figure_oa10,Primary focus: Issues | Favorability | 2020 Downballot,t_statistic,-1.6023752018507127
+figure_oa10,Primary focus: Issues | Favorability | 2020 Presidential,t_statistic,2.7490695824113334
+figure_oa10,Primary focus: Issues | Vote choice | 2018,t_statistic,2.5680879069147196
+figure_oa10,Primary focus: Issues | Vote choice | 2020 Downballot,t_statistic,-1.1161606018065346
+figure_oa10,Primary focus: Issues | Vote choice | 2020 Presidential,t_statistic,-0.5460298698632218
+figure_oa10,Primary tone: Contrast | Favorability | 2018,t_statistic,0.520044739637057
+figure_oa10,Primary tone: Contrast | Favorability | 2020 Downballot,t_statistic,-0.5264772274353036
+figure_oa10,Primary tone: Contrast | Favorability | 2020 Presidential,t_statistic,0.7186844182096118
+figure_oa10,Primary tone: Contrast | Vote choice | 2018,t_statistic,0.5822330888811525
+figure_oa10,Primary tone: Contrast | Vote choice | 2020 Downballot,t_statistic,-1.202474963534007
+figure_oa10,Primary tone: Contrast | Vote choice | 2020 Presidential,t_statistic,3.753072315194267
+figure_oa10,Primary tone: Positive | Favorability | 2018,t_statistic,0.1427748331697079
+figure_oa10,Primary tone: Positive | Favorability | 2020 Downballot,t_statistic,-2.711247555045503
+figure_oa10,Primary tone: Positive | Favorability | 2020 Presidential,t_statistic,0.16908602095060657
+figure_oa10,Primary tone: Positive | Vote choice | 2018,t_statistic,-1.4666485221548875
+figure_oa10,Primary tone: Positive | Vote choice | 2020 Downballot,t_statistic,0.601689338417669
+figure_oa10,Primary tone: Positive | Vote choice | 2020 Presidential,t_statistic,1.8857856718102755
+figure_oa10,Production value: High | Favorability | 2018,t_statistic,1.033338816445119
+figure_oa10,Production value: High | Favorability | 2020 Downballot,t_statistic,2.5807569067214984
+figure_oa10,Production value: High | Favorability | 2020 Presidential,t_statistic,-0.2895998014826323
+figure_oa10,Production value: High | Vote choice | 2018,t_statistic,0.5044479114655038
+figure_oa10,Production value: High | Vote choice | 2020 Downballot,t_statistic,2.026842211965033
+figure_oa10,Production value: High | Vote choice | 2020 Presidential,t_statistic,-0.16749312208507872
+figure_oa10,Specificity: Candidate facts | Favorability | 2018,t_statistic,-0.12303821625008085
+figure_oa10,Specificity: Candidate facts | Favorability | 2020 Downballot,t_statistic,3.4499916226421
+figure_oa10,Specificity: Candidate facts | Favorability | 2020 Presidential,t_statistic,-1.2587564473851947
+figure_oa10,Specificity: Candidate facts | Vote choice | 2018,t_statistic,1.317060164874937
+figure_oa10,Specificity: Candidate facts | Vote choice | 2020 Downballot,t_statistic,0.9204062279123337
+figure_oa10,Specificity: Candidate facts | Vote choice | 2020 Presidential,t_statistic,-1.7882556167910428
+figure_oa10,Specificity: Policy facts | Favorability | 2018,t_statistic,-0.3312032538894018
+figure_oa10,Specificity: Policy facts | Favorability | 2020 Downballot,t_statistic,1.3016446299340068
+figure_oa10,Specificity: Policy facts | Favorability | 2020 Presidential,t_statistic,2.37608496366821
+figure_oa10,Specificity: Policy facts | Vote choice | 2018,t_statistic,-0.20164213422960128
+figure_oa10,Specificity: Policy facts | Vote choice | 2020 Downballot,t_statistic,-0.11549664903014369
+figure_oa10,Specificity: Policy facts | Vote choice | 2020 Presidential,t_statistic,1.2933579113099143
+figure_oa10,Technique: Negative name-calling | Favorability | 2018,t_statistic,0.8437732857762225
+figure_oa10,Technique: Negative name-calling | Favorability | 2020 Downballot,t_statistic,0.852389631331286
+figure_oa10,Technique: Negative name-calling | Favorability | 2020 Presidential,t_statistic,-0.023416836767056803
+figure_oa10,Technique: Negative name-calling | Vote choice | 2018,t_statistic,0.8075169248337692
+figure_oa10,Technique: Negative name-calling | Vote choice | 2020 Downballot,t_statistic,-0.6032861173866
+figure_oa10,Technique: Negative name-calling | Vote choice | 2020 Presidential,t_statistic,0.6367787146018153
+figure_oa10,Technique: Negative testimonial | Favorability | 2018,t_statistic,1.5710940051758613
+figure_oa10,Technique: Negative testimonial | Favorability | 2020 Downballot,t_statistic,1.3938367110003471
+figure_oa10,Technique: Negative testimonial | Favorability | 2020 Presidential,t_statistic,-0.2472094198057048
+figure_oa10,Technique: Negative testimonial | Vote choice | 2018,t_statistic,1.2424796681840466
+figure_oa10,Technique: Negative testimonial | Vote choice | 2020 Downballot,t_statistic,1.8227388832036673
+figure_oa10,Technique: Negative testimonial | Vote choice | 2020 Presidential,t_statistic,-0.2872152458796213
+figure_oa10,Technique: Negative transfer of association | Favorability | 2018,t_statistic,0.13310773381299099
+figure_oa10,Technique: Negative transfer of association | Favorability | 2020 Downballot,t_statistic,0.8766547251046989
+figure_oa10,Technique: Negative transfer of association | Favorability | 2020 Presidential,t_statistic,-0.1621006919776827
+figure_oa10,Technique: Negative transfer of association | Vote choice | 2018,t_statistic,-0.20438249881813306
+figure_oa10,Technique: Negative transfer of association | Vote choice | 2020 Downballot,t_statistic,0.10799289906515845
+figure_oa10,Technique: Negative transfer of association | Vote choice | 2020 Presidential,t_statistic,0.500609545587749
+figure_oa10,Technique: Plain folks | Favorability | 2018,t_statistic,-0.2587686523851348
+figure_oa10,Technique: Plain folks | Favorability | 2020 Downballot,t_statistic,0.2907750043442624
+figure_oa10,Technique: Plain folks | Favorability | 2020 Presidential,t_statistic,1.0956060960597749
+figure_oa10,Technique: Plain folks | Vote choice | 2018,t_statistic,1.4171437981610553
+figure_oa10,Technique: Plain folks | Vote choice | 2020 Downballot,t_statistic,2.0268371060569295
+figure_oa10,Technique: Plain folks | Vote choice | 2020 Presidential,t_statistic,1.4129647720856502
+figure_oa10,Technique: Positive name-calling | Favorability | 2018,t_statistic,0.3026703901607246
+figure_oa10,Technique: Positive name-calling | Favorability | 2020 Downballot,t_statistic,-0.9472025820248338
+figure_oa10,Technique: Positive name-calling | Favorability | 2020 Presidential,t_statistic,-0.9081493558015079
+figure_oa10,Technique: Positive name-calling | Vote choice | 2018,t_statistic,-0.7290076730455277
+figure_oa10,Technique: Positive name-calling | Vote choice | 2020 Downballot,t_statistic,-0.6286823293940351
+figure_oa10,Technique: Positive name-calling | Vote choice | 2020 Presidential,t_statistic,0.28476017894827116
+figure_oa10,Technique: Positive testimonial | Favorability | 2018,t_statistic,0.7540441411935614
+figure_oa10,Technique: Positive testimonial | Favorability | 2020 Downballot,t_statistic,-0.7128004239544086
+figure_oa10,Technique: Positive testimonial | Favorability | 2020 Presidential,t_statistic,1.1056371042010789
+figure_oa10,Technique: Positive testimonial | Vote choice | 2018,t_statistic,-1.3362141496079214
+figure_oa10,Technique: Positive testimonial | Vote choice | 2020 Downballot,t_statistic,-0.6434606273218784
+figure_oa10,Technique: Positive testimonial | Vote choice | 2020 Presidential,t_statistic,1.0405862452994394
+figure_oa10,Technique: Positive transfer of association | Favorability | 2018,t_statistic,-0.3091689632993203
+figure_oa10,Technique: Positive transfer of association | Favorability | 2020 Downballot,t_statistic,-0.7467350516723597
+figure_oa10,Technique: Positive transfer of association | Favorability | 2020 Presidential,t_statistic,0.13687317202213484
+figure_oa10,Technique: Positive transfer of association | Vote choice | 2018,t_statistic,0.831121511200457
+figure_oa10,Technique: Positive transfer of association | Vote choice | 2020 Downballot,t_statistic,2.1806793158347815
+figure_oa10,Technique: Positive transfer of association | Vote choice | 2020 Presidential,t_statistic,0.273272471229691
+table_1,2018,both_outcomes,63
+table_1,2018,favorability_only,33
+table_1,2018,n_per_treatment,479
+table_1,2018,n_treatments_total,137
+table_1,2018,total_n,93969
+table_1,2018,votechoice_only,3
+table_1,2020 Downballot,both_outcomes,67
+table_1,2020 Downballot,favorability_only,5
+table_1,2020 Downballot,n_per_treatment,348
+table_1,2020 Downballot,n_treatments_total,189
+table_1,2020 Downballot,total_n,101782
+table_1,2020 Downballot,votechoice_only,27
+table_1,2020 Presidential,both_outcomes,60
+table_1,2020 Presidential,favorability_only,0
+table_1,2020 Presidential,n_per_treatment,717
+table_1,2020 Presidential,n_treatments_total,292
+table_1,2020 Presidential,total_n,302589
+table_1,2020 Presidential,votechoice_only,39
+table_2,Favorability | 2018,mu,2.6226316708640183
+table_2,Favorability | 2018,mu_ci_high,3.14384404474154
+table_2,Favorability | 2018,mu_ci_low,2.1014192969864967
+table_2,Favorability | 2018,p_no_moderators,3.3201640337421718e-18
+table_2,Favorability | 2018,p_standard,7.952280693485718e-14
+table_2,Favorability | 2018,p_study_fixed_effects,7.013396607251844e-7
+table_2,Favorability | 2018,tau_no_moderators,1.6696718734662135
+table_2,Favorability | 2018,tau_no_moderators_ci_high,2.1121834182729406
+table_2,Favorability | 2018,tau_no_moderators_ci_low,1.2894100698924496
+table_2,Favorability | 2018,tau_standard,1.4235622474085319
+table_2,Favorability | 2018,tau_standard_ci_high,1.8707975649094848
+table_2,Favorability | 2018,tau_standard_ci_low,1.0388391965714496
+table_2,Favorability | 2018,tau_study_fixed_effects,1.0661397052094863
+table_2,Favorability | 2018,tau_study_fixed_effects_ci_high,1.459958813023127
+table_2,Favorability | 2018,tau_study_fixed_effects_ci_low,0.7227488487550905
+table_2,Favorability | 2020 Downballot,mu,1.4199637616279535
+table_2,Favorability | 2020 Downballot,mu_ci_high,1.774668713303452
+table_2,Favorability | 2020 Downballot,mu_ci_low,1.065258809952455
+table_2,Favorability | 2020 Downballot,p_no_moderators,1.941721013095397e-6
+table_2,Favorability | 2020 Downballot,p_standard,6.959007237919653e-6
+table_2,Favorability | 2020 Downballot,p_study_fixed_effects,0.0013815475019083047
+table_2,Favorability | 2020 Downballot,tau_no_moderators,0.8491011314307133
+table_2,Favorability | 2020 Downballot,tau_no_moderators_ci_high,1.2017596633064365
+table_2,Favorability | 2020 Downballot,tau_no_moderators_ci_low,0.504992585538472
+table_2,Favorability | 2020 Downballot,tau_standard,0.8319663474396464
+table_2,Favorability | 2020 Downballot,tau_standard_ci_high,1.1812397177356324
+table_2,Favorability | 2020 Downballot,tau_standard_ci_low,0.4885922508325976
+table_2,Favorability | 2020 Downballot,tau_study_fixed_effects,0.7355387311242849
+table_2,Favorability | 2020 Downballot,tau_study_fixed_effects_ci_high,1.0800135836887268
+table_2,Favorability | 2020 Downballot,tau_study_fixed_effects_ci_low,0.38315800585689513
+table_2,Favorability | 2020 Presidential,mu,0.9562900785230103
+table_2,Favorability | 2020 Presidential,mu_ci_high,1.1233314375228465
+table_2,Favorability | 2020 Presidential,mu_ci_low,0.789248719523174
+table_2,Favorability | 2020 Presidential,p_no_moderators,1.4467564969532606e-6
+table_2,Favorability | 2020 Presidential,p_standard,1.4467564969532606e-6
+table_2,Favorability | 2020 Presidential,p_study_fixed_effects,3.0901541792632684e-5
+table_2,Favorability | 2020 Presidential,tau_no_moderators,0.4389752122781043
+table_2,Favorability | 2020 Presidential,tau_no_moderators_ci_high,0.5823157375446268
+table_2,Favorability | 2020 Presidential,tau_no_moderators_ci_low,0.2936188007173815
+table_2,Favorability | 2020 Presidential,tau_standard,0.4389752122781043
+table_2,Favorability | 2020 Presidential,tau_standard_ci_high,0.5823157375446268
+table_2,Favorability | 2020 Presidential,tau_standard_ci_low,0.2936188007173815
+table_2,Favorability | 2020 Presidential,tau_study_fixed_effects,0.415733476311758
+table_2,Favorability | 2020 Presidential,tau_study_fixed_effects_ci_high,0.5620947020743148
+table_2,Favorability | 2020 Presidential,tau_study_fixed_effects_ci_low,0.26456455320213057
+table_2,Vote choice | 2018,mu,2.2737217102551974
+table_2,Vote choice | 2018,mu_ci_high,2.9438787601848246
+table_2,Vote choice | 2018,mu_ci_low,1.6035646603255702
+table_2,Vote choice | 2018,p_no_moderators,5.536895524902868e-7
+table_2,Vote choice | 2018,p_standard,2.95782485156372e-7
+table_2,Vote choice | 2018,p_study_fixed_effects,7.886736699614237e-5
+table_2,Vote choice | 2018,tau_no_moderators,1.4162556303323615
+table_2,Vote choice | 2018,tau_no_moderators_ci_high,1.9901968195568323
+table_2,Vote choice | 2018,tau_no_moderators_ci_low,0.9031951709170456
+table_2,Vote choice | 2018,tau_standard,1.4312861824555547
+table_2,Vote choice | 2018,tau_standard_ci_high,2.011424400482904
+table_2,Vote choice | 2018,tau_standard_ci_low,0.9151132144012449
+table_2,Vote choice | 2018,tau_study_fixed_effects,1.2604269350702422
+table_2,Vote choice | 2018,tau_study_fixed_effects_ci_high,1.8183452449934046
+table_2,Vote choice | 2018,tau_study_fixed_effects_ci_low,0.7487716736580095
+table_2,Vote choice | 2020 Downballot,mu,1.1841170229175615
+table_2,Vote choice | 2020 Downballot,mu_ci_high,1.5131811071475423
+table_2,Vote choice | 2020 Downballot,mu_ci_low,0.8550529386875807
+table_2,Vote choice | 2020 Downballot,p_no_moderators,0.05406948742947886
+table_2,Vote choice | 2020 Downballot,p_standard,0.12782368123998092
+table_2,Vote choice | 2020 Downballot,p_study_fixed_effects,0.24728136757026214
+table_2,Vote choice | 2020 Downballot,tau_no_moderators,0.4712281674987008
+table_2,Vote choice | 2020 Downballot,tau_no_moderators_ci_high,0.8504022409496275
+table_2,Vote choice | 2020 Downballot,tau_no_moderators_ci_low,0
+table_2,Vote choice | 2020 Downballot,tau_standard,0.42203812622154274
+table_2,Vote choice | 2020 Downballot,tau_standard_ci_high,0.8104112843418173
+table_2,Vote choice | 2020 Downballot,tau_standard_ci_low,0
+table_2,Vote choice | 2020 Downballot,tau_study_fixed_effects,0.3714591021644074
+table_2,Vote choice | 2020 Downballot,tau_study_fixed_effects_ci_high,0.7823933634403214
+table_2,Vote choice | 2020 Downballot,tau_study_fixed_effects_ci_low,0
+table_2,Vote choice | 2020 Presidential,mu,0.8471255911186069
+table_2,Vote choice | 2020 Presidential,mu_ci_high,1.002859840651168
+table_2,Vote choice | 2020 Presidential,mu_ci_low,0.6913913415860456
+table_2,Vote choice | 2020 Presidential,p_no_moderators,0.0010664492690785606
+table_2,Vote choice | 2020 Presidential,p_standard,0.0010664492690785606
+table_2,Vote choice | 2020 Presidential,p_study_fixed_effects,0.010517693114102193
+table_2,Vote choice | 2020 Presidential,tau_no_moderators,0.3429869765099049
+table_2,Vote choice | 2020 Presidential,tau_no_moderators_ci_high,0.4955434253844791
+table_2,Vote choice | 2020 Presidential,tau_no_moderators_ci_low,0.1379810050140103
+table_2,Vote choice | 2020 Presidential,tau_standard,0.3429869765099049
+table_2,Vote choice | 2020 Presidential,tau_standard_ci_high,0.4955434253844791
+table_2,Vote choice | 2020 Presidential,tau_standard_ci_low,0.1379810050140103
+table_2,Vote choice | 2020 Presidential,tau_study_fixed_effects,0.3261298589797187
+table_2,Vote choice | 2020 Presidential,tau_study_fixed_effects_ci_high,0.4815417704635149
+table_2,Vote choice | 2020 Presidential,tau_study_fixed_effects_ci_low,0.1005565199090274
+table_da35,candidate_facts | 2018,conf.high,0.6891173886439227
+table_da35,candidate_facts | 2018,conf.low,0.4980892863374151
+table_da35,candidate_facts | 2018,estimate,0.6031143650216327
+table_da35,candidate_facts | 2020,conf.high,0.6366625719510688
+table_da35,candidate_facts | 2020,conf.low,0.4825929185032537
+table_da35,candidate_facts | 2020,estimate,0.5664179913265178
+table_da35,election_governor | 2020,conf.high,0.5670574667776674
+table_da35,election_governor | 2020,conf.low,0.3834724548658176
+table_da35,election_governor | 2020,estimate,0.4833560247213378
+table_da35,election_house | 2020,conf.high,0.6957730324347497
+table_da35,election_house | 2020,conf.low,0.5667685868593122
+table_da35,election_house | 2020,estimate,0.636956367534425
+table_da35,election_other | 2020,conf.high,0.1679504728286778
+table_da35,election_other | 2020,conf.low,-0.18487192422269327
+table_da35,election_other | 2020,estimate,0.007089065269161786
+table_da35,election_presidential | 2020,conf.high,0.9667622049414905
+table_da35,election_presidential | 2020,conf.low,0.9526680457090306
+table_da35,election_presidential | 2020,estimate,0.9603362911915441
+table_da35,election_senate | 2020,conf.high,0.9549629119899764
+table_da35,election_senate | 2020,conf.low,0.9358653789357473
+table_da35,election_senate | 2020,estimate,0.946255822888798
+table_da35,election_stateleg | 2020,conf.high,0.8054246830363213
+table_da35,election_stateleg | 2020,conf.low,0.7229169386096845
+table_da35,election_stateleg | 2020,estimate,0.7678071394394584
+table_da35,election_unclear | 2020,conf.high,0.5035729671375009
+table_da35,election_unclear | 2020,conf.low,0.2930679791819192
+table_da35,election_unclear | 2020,estimate,0.40759796967750833
+table_da35,emotion_anger | 2018,conf.high,0.4199417185271711
+table_da35,emotion_anger | 2018,conf.low,0.06351318669779715
+table_da35,emotion_anger | 2018,estimate,0.25947354095298825
+table_da35,emotion_anger | 2020,conf.high,0.5506560942572298
+table_da35,emotion_anger | 2020,conf.low,0.3601162420640973
+table_da35,emotion_anger | 2020,estimate,0.4637837497685473
+table_da35,emotion_enthusiasm | 2018,conf.high,0.8118399339403536
+table_da35,emotion_enthusiasm | 2018,conf.low,0.6962211793485372
+table_da35,emotion_enthusiasm | 2018,estimate,0.7597870560533863
+table_da35,emotion_enthusiasm | 2020,conf.high,0.835178528580465
+table_da35,emotion_enthusiasm | 2020,conf.low,0.7652876089503882
+table_da35,emotion_enthusiasm | 2020,estimate,0.8033133414458563
+table_da35,emotion_other | 2020,conf.high,0.6210634984630359
+table_da35,emotion_other | 2020,conf.low,0.4603792117270572
+table_da35,emotion_other | 2020,estimate,0.5478031251050403
+table_da35,explicit_vote_for | 2018,conf.high,0.7870441650443646
+table_da35,explicit_vote_for | 2018,conf.low,0.6561196096030663
+table_da35,explicit_vote_for | 2018,estimate,0.7281075811950095
+table_da35,explicit_vote_for | 2020,conf.high,0.6810579494992619
+table_da35,explicit_vote_for | 2020,conf.low,0.545813718112325
+table_da35,explicit_vote_for | 2020,estimate,0.6193963951109221
+table_da35,fact_cite_na | 2018,conf.high,0.7365264712864179
+table_da35,fact_cite_na | 2018,conf.low,0.5746298377673853
+table_da35,fact_cite_na | 2018,estimate,0.6636387661331417
+table_da35,fact_cite_na | 2020,conf.high,0.6294163821589818
+table_da35,fact_cite_na | 2020,conf.low,0.4722740533854263
+table_da35,fact_cite_na | 2020,estimate,0.5577708845801705
+table_da35,fact_cite_no | 2018,conf.high,0.7067218018706711
+table_da35,fact_cite_no | 2018,conf.low,0.5265110869897778
+table_da35,fact_cite_no | 2018,estimate,0.6255888890596366
+table_da35,fact_cite_no | 2020,conf.high,0.6046705553029643
+table_da35,fact_cite_no | 2020,conf.low,0.43703500267284323
+table_da35,fact_cite_no | 2020,estimate,0.5282409091737467
+table_da35,fact_cite_only | 2018,conf.high,0.8006239404065196
+table_da35,fact_cite_only | 2018,conf.low,0.6609265799087002
+table_da35,fact_cite_only | 2018,estimate,0.7391953375149897
+table_da35,fact_cite_only | 2020,conf.high,0.7299462537643959
+table_da35,fact_cite_only | 2020,conf.low,0.599304275896483
+table_da35,fact_cite_only | 2020,estimate,0.6714502437550375
+table_da35,fact_cite_yes | 2018,conf.high,0.8396803391949967
+table_da35,fact_cite_yes | 2018,conf.low,0.7411686841609204
+table_da35,fact_cite_yes | 2018,estimate,0.7953292720343512
+table_da35,fact_cite_yes | 2020,conf.high,0.7792829253640596
+table_da35,fact_cite_yes | 2020,conf.low,0.6856900263836792
+table_da35,fact_cite_yes | 2020,estimate,0.7366113557772583
+table_da35,fact_new_na | 2018,conf.high,0.7254721461630506
+table_da35,fact_new_na | 2018,conf.low,0.5567829592059701
+table_da35,fact_new_na | 2018,estimate,0.6495263562215436
+table_da35,fact_new_na | 2020,conf.high,0.6629669101428932
+table_da35,fact_new_na | 2020,conf.low,0.5200513519149155
+table_da35,fact_new_na | 2020,estimate,0.5978077874487658
+table_da35,fact_new_no | 2018,conf.high,0.4590959914551004
+table_da35,fact_new_no | 2018,conf.low,0.12672659378568274
+table_da35,fact_new_no | 2018,estimate,0.3094595096288582
+table_da35,fact_new_no | 2020,conf.high,0.38777652816259334
+table_da35,fact_new_no | 2020,conf.low,0.12816920214303307
+table_da35,fact_new_no | 2020,estimate,0.269414428065563
+table_da35,fact_new_only | 2018,conf.high,0.687381892032694
+table_da35,fact_new_only | 2018,conf.low,0.4669862329850799
+table_da35,fact_new_only | 2018,estimate,0.5906128374115125
+table_da35,fact_new_only | 2020,conf.high,0.5787776959602196
+table_da35,fact_new_only | 2020,conf.low,0.3625987260918496
+table_da35,fact_new_only | 2020,estimate,0.48271112343477585
+table_da35,fact_new_yes | 2018,conf.high,0.8176675065722472
+table_da35,fact_new_yes | 2018,conf.low,0.7056296217372438
+table_da35,fact_new_yes | 2018,estimate,0.7672267769638059
+table_da35,fact_new_yes | 2020,conf.high,0.7019535471883653
+table_da35,fact_new_yes | 2020,conf.low,0.5755698879473609
+table_da35,fact_new_yes | 2020,estimate,0.6443317706573531
+table_da35,how_pushy | 2020,conf.high,0.606861182591498
+table_da35,how_pushy | 2020,conf.low,0.4401545438610269
+table_da35,how_pushy | 2020,estimate,0.5308550537861467
+table_da35,how_specific_candidate_fact | 2018,conf.high,0.5809651687401827
+table_da35,how_specific_candidate_fact | 2018,conf.low,-0.06256811016595143
+table_da35,how_specific_candidate_fact | 2018,estimate,0.3444823279484688
+table_da35,how_specific_candidate_fact | 2020,conf.high,0.6379005692125252
+table_da35,how_specific_candidate_fact | 2020,conf.low,0.32318493698371564
+table_da35,how_specific_candidate_fact | 2020,estimate,0.5099078097555385
+table_da35,how_specific_policy_fact | 2018,conf.high,0.6726299582693136
+table_da35,how_specific_policy_fact | 2018,conf.low,0.35850645350879484
+table_da35,how_specific_policy_fact | 2018,estimate,0.5420213518757153
+table_da35,how_specific_policy_fact | 2020,conf.high,0.5041842252925877
+table_da35,how_specific_policy_fact | 2020,conf.low,0.15603992564904923
+table_da35,how_specific_policy_fact | 2020,estimate,0.356293052529449
+table_da35,issue_blm_race | 2020,conf.high,0.856904885376947
+table_da35,issue_blm_race | 2020,conf.low,0.7962268131000658
+table_da35,issue_blm_race | 2020,estimate,0.8292400880283932
+table_da35,issue_covid | 2020,conf.high,0.9106033968613433
+table_da35,issue_covid | 2020,conf.low,0.8726956488516067
+table_da35,issue_covid | 2020,estimate,0.8933202148603724
+table_da35,issue_decency | 2020,conf.high,0.7714496118212426
+table_da35,issue_decency | 2020,conf.low,0.6745350734783264
+table_da35,issue_decency | 2020,estimate,0.7272636157475514
+table_da35,issue_other | 2020,conf.high,0.6463376144759507
+table_da35,issue_other | 2020,conf.low,0.4963705674039939
+table_da35,issue_other | 2020,estimate,0.5779635246189889
+table_da35,messenger_every_people | 2020,conf.high,0.7921515108697681
+table_da35,messenger_every_people | 2020,conf.low,0.704015408674334
+table_da35,messenger_every_people | 2020,estimate,0.751967844598994
+table_da35,messenger_female | 2018,conf.high,0.9650714548015786
+table_da35,messenger_female | 2018,conf.low,0.9436089044309528
+table_da35,messenger_female | 2018,estimate,0.955408770598404
+table_da35,messenger_female | 2020,conf.high,0.9538444561919218
+table_da35,messenger_female | 2020,conf.low,0.9342726529857617
+table_da35,messenger_female | 2020,estimate,0.9449211343208266
+table_da35,messenger_healthcare | 2020,conf.high,0.9000143987746748
+table_da35,messenger_healthcare | 2020,conf.low,0.857616490545736
+table_da35,messenger_healthcare | 2020,estimate,0.8806840295796227
+table_da35,messenger_male | 2018,conf.high,0.954761151272145
+table_da35,messenger_male | 2018,conf.low,0.9269632265657191
+table_da35,messenger_male | 2018,estimate,0.9422462095106368
+table_da35,messenger_male | 2020,conf.high,0.8267231017697002
+table_da35,messenger_male | 2020,conf.low,0.7532467417805517
+table_da35,messenger_male | 2020,estimate,0.7932232140386977
+table_da35,messenger_politician | 2018,conf.high,0.9463572049123544
+table_da35,messenger_politician | 2018,conf.low,0.9133953055532654
+table_da35,messenger_politician | 2018,estimate,0.9315173830485179
+table_da35,messenger_politician | 2020,conf.high,0.8735943536456166
+table_da35,messenger_politician | 2020,conf.low,0.8199932858111072
+table_da35,messenger_politician | 2020,estimate,0.8491561567210125
+table_da35,messenger_republican | 2020,conf.high,0.8409159164555149
+table_da35,messenger_republican | 2020,conf.low,0.7734578795767454
+table_da35,messenger_republican | 2020,estimate,0.8101599472931019
+table_da35,messenger_unclear_gender | 2020,conf.high,0.48105075590807045
+table_da35,messenger_unclear_gender | 2020,conf.low,0.26099544637502237
+table_da35,messenger_unclear_gender | 2020,estimate,0.3807215049073835
+table_da35,policy_facts | 2018,conf.high,0.7485666124469921
+table_da35,policy_facts | 2018,conf.low,0.5940682869496731
+table_da35,policy_facts | 2018,estimate,0.6790097096828612
+table_da35,policy_facts | 2020,conf.high,0.717033188024328
+table_da35,policy_facts | 2020,conf.low,0.5970439017775679
+table_da35,policy_facts | 2020,estimate,0.6623267815177559
+table_da35,primary_focus_candidate | 2018,conf.high,0.7925037259176145
+table_da35,primary_focus_candidate | 2018,conf.low,0.6650034475947814
+table_da35,primary_focus_candidate | 2018,estimate,0.7351016509556123
+table_da35,primary_focus_candidate | 2020,conf.high,0.6831814475243514
+table_da35,primary_focus_candidate | 2020,conf.low,0.5488376645348709
+table_da35,primary_focus_candidate | 2020,estimate,0.621930432256714
+table_da35,primary_focus_issues | 2018,conf.high,0.8135799830914967
+table_da35,primary_focus_issues | 2018,conf.low,0.6990304368603957
+table_da35,primary_focus_issues | 2018,estimate,0.762008474965279
+table_da35,primary_focus_issues | 2020,conf.high,0.7543571420401012
+table_da35,primary_focus_issues | 2020,conf.low,0.6501947104374983
+table_da35,primary_focus_issues | 2020,estimate,0.7068666326437353
+table_da35,primary_focus_neither | 2020,conf.high,0.4572153543214218
+table_da35,primary_focus_neither | 2020,conf.low,0.22705287778946515
+table_da35,primary_focus_neither | 2020,estimate,0.3522779686799885
+table_da35,production_value_high | 2018,conf.high,0.8296928331984853
+table_da35,production_value_high | 2018,conf.low,0.7249885403736349
+table_da35,production_value_high | 2018,estimate,0.7825594798511368
+table_da35,production_value_high | 2020,conf.high,0.6307269023905426
+table_da35,production_value_high | 2020,conf.low,0.4741402867979748
+table_da35,production_value_high | 2020,estimate,0.5593347696923063
+table_da35,technique_neg_name | 2018,conf.high,0.6971156937195102
+table_da35,technique_neg_name | 2018,conf.low,0.5109034062835713
+table_da35,technique_neg_name | 2018,estimate,0.6132909592741139
+table_da35,technique_neg_name | 2020,conf.high,0.6257836657961798
+table_da35,technique_neg_name | 2020,conf.low,0.46710091947165366
+table_da35,technique_neg_name | 2020,estimate,0.5534358496073558
+table_da35,technique_neg_testimonial | 2018,conf.high,0.7584830856356468
+table_da35,technique_neg_testimonial | 2018,conf.low,0.6099992713682685
+table_da35,technique_neg_testimonial | 2018,estimate,0.6916420813615091
+table_da35,technique_neg_testimonial | 2020,conf.high,0.8283702962805809
+table_da35,technique_neg_testimonial | 2020,conf.low,0.755592412880578
+table_da35,technique_neg_testimonial | 2020,estimate,0.7951888631834574
+table_da35,technique_neg_transfer | 2018,conf.high,0.7594911247120779
+table_da35,technique_neg_transfer | 2018,conf.low,0.6116270495937899
+table_da35,technique_neg_transfer | 2018,estimate,0.6929291002534681
+table_da35,technique_neg_transfer | 2020,conf.high,0.5634528097235763
+table_da35,technique_neg_transfer | 2020,conf.low,0.37833927853391824
+table_da35,technique_neg_transfer | 2020,estimate,0.4790544738062986
+table_da35,technique_other | 2020,conf.high,0.1534391315916439
+table_da35,technique_other | 2020,conf.low,-0.20553665661312004
+table_da35,technique_other | 2020,estimate,-0.010227775761738353
+table_da35,technique_plain_folks | 2018,conf.high,0.6744692609748246
+table_da35,technique_plain_folks | 2018,conf.low,0.47433402026527893
+table_da35,technique_plain_folks | 2018,estimate,0.5843770139129084
+table_da35,technique_plain_folks | 2020,conf.high,0.35486510143679195
+table_da35,technique_plain_folks | 2020,conf.low,0.08130200945789734
+table_da35,technique_plain_folks | 2020,estimate,0.2301401848786998
+table_da35,technique_pos_name | 2018,conf.high,0.27634860970805064
+table_da35,technique_pos_name | 2018,conf.low,-0.16854991391394192
+table_da35,technique_pos_name | 2018,estimate,0.0760744972352512
+table_da35,technique_pos_name | 2020,conf.high,0.4490125783825776
+table_da35,technique_pos_name | 2020,conf.low,0.21537179560236508
+table_da35,technique_pos_name | 2020,estimate,0.3424893375242034
+table_da35,technique_pos_testimonial | 2018,conf.high,0.8631182323396268
+table_da35,technique_pos_testimonial | 2018,conf.low,0.7789637663082691
+table_da35,technique_pos_testimonial | 2018,estimate,0.8252355240360756
+table_da35,technique_pos_testimonial | 2020,conf.high,0.7802466564948332
+table_da35,technique_pos_testimonial | 2020,conf.low,0.6870624181969828
+table_da35,technique_pos_testimonial | 2020,estimate,0.7377614065213995
+table_da35,technique_pos_transfer | 2018,conf.high,0.7028834037580307
+table_da35,technique_pos_transfer | 2018,conf.low,0.5202170857145947
+table_da35,technique_pos_transfer | 2018,estimate,0.6206549116807987
+table_da35,technique_pos_transfer | 2020,conf.high,0.5313081888571363
+table_da35,technique_pos_transfer | 2020,conf.low,0.3325640481712365
+table_da35,technique_pos_transfer | 2020,estimate,0.4406952842282802
+table_da35,tone_contrast | 2018,conf.high,0.8689177903063674
+table_da35,tone_contrast | 2018,conf.low,0.788328873670309
+table_da35,tone_contrast | 2018,estimate,0.8326401384431208
+table_da35,tone_contrast | 2020,conf.high,0.7918534484192492
+table_da35,tone_contrast | 2020,conf.low,0.703590955780904
+table_da35,tone_contrast | 2020,estimate,0.7516121572790828
+table_da35,tone_negative | 2018,conf.high,0.9184686102882593
+table_da35,tone_negative | 2018,conf.low,0.8683433767874038
+table_da35,tone_negative | 2018,estimate,0.8959043936885992
+table_da35,tone_negative | 2020,conf.high,0.9329371166416511
+table_da35,tone_negative | 2020,conf.low,0.9044997622691184
+table_da35,tone_negative | 2020,estimate,0.9199717468412517
+table_da35,tone_positive | 2018,conf.high,0.9204876477251545
+table_da35,tone_positive | 2018,conf.low,0.8716037118806881
+table_da35,tone_positive | 2018,estimate,0.8984822097530879
+table_da35,tone_positive | 2020,conf.high,0.9417980469045635
+table_da35,tone_positive | 2020,conf.low,0.9171180826312646
+table_da35,tone_positive | 2020,estimate,0.9305457743031067
+table_oa2,2018,mu,2.6380882355326865
+table_oa2,2018,mu_ci_high,3.446530749501527
+table_oa2,2018,mu_ci_low,1.8296457215638458
+table_oa2,2018,p_no_moderators,4.2343889381618517e-7
+table_oa2,2018,p_standard,2.2332795137014568e-7
+table_oa2,2018,p_study_fixed_effects,5.391498281520936e-5
+table_oa2,2018,tau_no_moderators,1.6687182209822025
+table_oa2,2018,tau_no_moderators_ci_high,2.3621898373658063
+table_oa2,2018,tau_no_moderators_ci_low,1.0556617398805366
+table_oa2,2018,tau_standard,1.6858218677303047
+table_oa2,2018,tau_standard_ci_high,2.3867381921535666
+table_oa2,2018,tau_standard_ci_low,1.0689687938769195
+table_oa2,2018,tau_study_fixed_effects,1.5020506320035707
+table_oa2,2018,tau_study_fixed_effects_ci_high,2.167003229258061
+table_oa2,2018,tau_study_fixed_effects_ci_low,0.9014148819305949
+table_oa2,2020 Downballot,mu,1.5081271413459407
+table_oa2,2020 Downballot,mu_ci_high,2.0335298345582173
+table_oa2,2020 Downballot,mu_ci_low,0.9827244481336642
+table_oa2,2020 Downballot,p_no_moderators,0.0693936968815168
+table_oa2,2020 Downballot,p_standard,0.13559541814491727
+table_oa2,2020 Downballot,p_study_fixed_effects,0.07415719310132073
+table_oa2,2020 Downballot,tau_no_moderators,0.6612495707186474
+table_oa2,2020 Downballot,tau_no_moderators_ci_high,1.2934732400563207
+table_oa2,2020 Downballot,tau_no_moderators_ci_low,0
+table_oa2,2020 Downballot,tau_standard,0.6176195698164211
+table_oa2,2020 Downballot,tau_standard_ci_high,1.2575534179279886
+table_oa2,2020 Downballot,tau_standard_ci_low,0
+table_oa2,2020 Downballot,tau_study_fixed_effects,0.6756502841998873
+table_oa2,2020 Downballot,tau_study_fixed_effects_ci_high,1.32885886544999
+table_oa2,2020 Downballot,tau_study_fixed_effects_ci_low,0
+table_oa2,2020 Presidential,mu,1.0667289329825722
+table_oa2,2020 Presidential,mu_ci_high,1.322937584388153
+table_oa2,2020 Presidential,mu_ci_low,0.8105202815769914
+table_oa2,2020 Presidential,p_no_moderators,0.007274259712128581
+table_oa2,2020 Presidential,p_standard,0.007274259712128581
+table_oa2,2020 Presidential,p_study_fixed_effects,0.028002562620103498
+table_oa2,2020 Presidential,tau_no_moderators,0.5045182489224803
+table_oa2,2020 Presidential,tau_no_moderators_ci_high,0.7651298011910131
+table_oa2,2020 Presidential,tau_no_moderators_ci_low,0.03033815512336975
+table_oa2,2020 Presidential,tau_standard,0.5045182489224803
+table_oa2,2020 Presidential,tau_standard_ci_high,0.7651298011910131
+table_oa2,2020 Presidential,tau_standard_ci_low,0.03033815512336975
+table_oa2,2020 Presidential,tau_study_fixed_effects,0.4835984731976879
+table_oa2,2020 Presidential,tau_study_fixed_effects_ci_high,0.7497509049187856
+table_oa2,2020 Presidential,tau_study_fixed_effects_ci_low,0
+text,n_advertisements,count,617
+text,n_responses,count,498340
+text,n_studies,count,146
+text,n_treatments,count,618
+text,simulation_cost_per_ad,parameter,15000
+text,simulation_cost_per_subject,parameter,2.5
+text,simulation_cost_per_vote,parameter,200
+text,simulation_mu,parameter,0.0155
+text,simulation_sims,parameter,10000
+text,tau_over_mu,estimate,0.508715010711059
+text,tau_over_mu_ci_high,estimate,0.7177126420609811
+text,tau_over_mu_ci_low,estimate,0.29971737936113685

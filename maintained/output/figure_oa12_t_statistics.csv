@@ -1,0 +1,277 @@
+metareg_group,group_name,metareg_name,outcome,outcome_name,specification,weighting,specification_name,term,term_name,estimate,std.error,statistic,p.value
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,standard,unweighted,Standard,candidate_facts,Candidate facts,1.9591243082006051,0.7509630313218834,2.6088159156810353,0.01019351092185291
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,standard,ipw,IPW,candidate_facts,Candidate facts,1.881082689298727,0.7558163778489997,2.488809113467686,0.01413221193321352
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",candidate_facts,Candidate facts,1.4307089794695107,0.7150017988055019,2.0009865455718927,0.04752575938357216
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",candidate_facts,Candidate facts,0.9540701439677516,0.7428945340801724,1.2842605513971777,0.2021414560174316
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,standard,unweighted,Standard,candidate_facts,Candidate facts,1.4393205283779875,0.9358430133763672,1.537993560677615,0.12737437430408433
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,standard,ipw,IPW,candidate_facts,Candidate facts,1.304160772211114,0.9464663630634677,1.3779261716072844,0.1714631715417199
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",candidate_facts,Candidate facts,1.095173490391061,0.905594464429604,1.2093420768432643,0.22947077998190413
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",candidate_facts,Candidate facts,0.7415038940965508,0.9385516607538416,0.7900512301059457,0.43195606065053993
+primary,2018 Primary hypotheses,New fact (where fact present),favorability,Favorability,standard,unweighted,Standard,fact_new_only,New fact (where fact present),-1.163966490126874,0.6196949948110532,-1.8782893195414152,0.06276842830496074
+primary,2018 Primary hypotheses,New fact (where fact present),favorability,Favorability,standard,ipw,IPW,fact_new_only,New fact (where fact present),-1.1276122101424684,0.6199915821317822,-1.818754064797591,0.07144269136078366
+primary,2018 Primary hypotheses,New fact (where fact present),favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",fact_new_only,New fact (where fact present),-1.398086076977128,0.56474723373346,-2.4755961489790552,0.01467346851712951
+primary,2018 Primary hypotheses,New fact (where fact present),favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",fact_new_only,New fact (where fact present),-1.482453968275413,0.5966180044521712,-2.4847623725949024,0.01479208459065284
+primary,2018 Primary hypotheses,New fact (where fact present),votechoice,Vote choice,standard,unweighted,Standard,fact_new_only,New fact (where fact present),-0.979053914951835,0.7567309187284972,-1.2937939903352935,0.19908414020069137
+primary,2018 Primary hypotheses,New fact (where fact present),votechoice,Vote choice,standard,ipw,IPW,fact_new_only,New fact (where fact present),-1.1004395523836694,0.7570122516318057,-1.4536614830362076,0.14955742961750906
+primary,2018 Primary hypotheses,New fact (where fact present),votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",fact_new_only,New fact (where fact present),-1.4718256027450227,0.721665377319693,-2.0394848485200554,0.04430148224428627
+primary,2018 Primary hypotheses,New fact (where fact present),votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",fact_new_only,New fact (where fact present),-1.7211710413361727,0.7543416385333657,-2.281686378445942,0.02555224764872656
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,standard,unweighted,Standard,policy_facts,Policy facts,-0.3266119875510263,0.6676110433499515,-0.4892249623555452,0.6255397946319678
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,standard,ipw,IPW,policy_facts,Policy facts,-0.29913479798096515,0.6708634913991838,-0.4458951810853142,0.6564443410844899
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",policy_facts,Policy facts,-0.6924077492626414,0.637609888188188,-1.0859426148960225,0.27956131772397586
+primary,2018 Primary hypotheses,Fact type,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",policy_facts,Policy facts,-0.7375962813799064,0.6593912267629959,-1.118601903456959,0.26610126041680526
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,standard,unweighted,Standard,policy_facts,Policy facts,0.17420625139711962,0.863081494015865,0.2018421813061345,0.8404716908903159
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,standard,ipw,IPW,policy_facts,Policy facts,0.18652179791165296,0.8708017553820883,0.2141954776260314,0.8308537015775176
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",policy_facts,Policy facts,-0.14974349342466522,0.8422333034225008,-0.17779336534920584,0.8592560204908823
+primary,2018 Primary hypotheses,Fact type,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",policy_facts,Policy facts,-0.4432728328365369,0.872606630252067,-0.5079870098035929,0.6129336862335937
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,standard,unweighted,Standard,primary_focus_candidate,Primary focus: Candidate,1.936814343667976,0.7359500752806718,2.6317197439368782,0.00954814091945435
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,standard,ipw,IPW,primary_focus_candidate,Primary focus: Candidate,1.8360537438483504,0.7368403614890595,2.4917931207486004,0.01399874713293686
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",primary_focus_candidate,Primary focus: Candidate,1.3190646663700527,0.7289156969987849,1.8096258206554323,0.0726820477262313
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",primary_focus_candidate,Primary focus: Candidate,0.5241566233102076,0.7860390903155262,0.6668327692199181,0.5064459412180409
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,standard,unweighted,Standard,primary_focus_candidate,Primary focus: Candidate,0.4530076403132543,0.9353509624121296,0.48431835590890465,0.6292517144504051
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,standard,ipw,IPW,primary_focus_candidate,Primary focus: Candidate,0.3344247227966314,0.9417456022781892,0.35511153116894856,0.7232770175283657
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",primary_focus_candidate,Primary focus: Candidate,1.0783186234127342,0.907714231215303,1.1879494518544846,0.23769552296047097
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",primary_focus_candidate,Primary focus: Candidate,1.5011449708156457,0.9451669677155254,1.5882325791007303,0.11627938320765852
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,standard,unweighted,Standard,primary_focus_issues,Primary focus: Issues,2.489416416554621,0.7195073413327036,3.4598902242520735,7.363519132175559e-4
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,standard,ipw,IPW,primary_focus_issues,Primary focus: Issues,2.4015659247881413,0.720592011706951,3.3327678988548177,0.00112681114518143
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",primary_focus_issues,Primary focus: Issues,1.8996686652097377,0.6761871197610491,2.80938309780441,0.00573698239029707
+primary,2018 Primary hypotheses,Primary focus,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",primary_focus_issues,Primary focus: Issues,1.2208318604733472,0.7082115302920085,1.723823756399414,0.08789299940591763
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,standard,unweighted,Standard,primary_focus_issues,Primary focus: Issues,2.238705571014304,0.8717402411029453,2.5680879067620457,0.01175189246160317
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,standard,ipw,IPW,primary_focus_issues,Primary focus: Issues,2.1195607625911186,0.8773123796210552,2.4159704249319245,0.01756482450063348
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",primary_focus_issues,Primary focus: Issues,2.353400664615333,0.8410895913302568,2.7980380317074474,0.00617968279486471
+primary,2018 Primary hypotheses,Primary focus,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",primary_focus_issues,Primary focus: Issues,2.496318704941207,0.8699900706768133,2.869364592861597,0.00529016220954942
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,unweighted,Standard,technique_neg_name,Technique: Negative name-calling,0.70485622978844,0.8353621070672906,0.8437732856509158,0.4004475146807752
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,ipw,IPW,technique_neg_name,Technique: Negative name-calling,0.6753335503095653,0.8314366086774272,0.812248995607523,0.4182308492065615
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",technique_neg_name,Technique: Negative name-calling,0.2836806504593843,0.740399974466797,0.383145138090636,0.702268200038627
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",technique_neg_name,Technique: Negative name-calling,0.2346743850783777,0.7619075798223985,0.3080089912389119,0.7587642799067387
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,unweighted,Standard,technique_neg_name,Technique: Negative name-calling,0.8487763819597213,1.0510942322273027,0.8075169246825156,0.42145164434645566
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,ipw,IPW,technique_neg_name,Technique: Negative name-calling,0.7643167874181815,1.0501231103185478,0.7278354127320664,0.46856269504680104
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",technique_neg_name,Technique: Negative name-calling,1.0758928376158148,0.9898659245733,1.086907641638031,0.2798568823145307
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",technique_neg_name,Technique: Negative name-calling,1.387228584386716,1.0086152871498837,1.3753792968047385,0.17321993552421255
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,unweighted,Standard,technique_neg_testimonial,Technique: Negative testimonial,1.101257826002717,0.7009496711510287,1.571094004786881,0.11875077050034798
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,ipw,IPW,technique_neg_testimonial,Technique: Negative testimonial,1.0964348219261997,0.6980668526435905,1.5706730920885057,0.11884858251828884
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",technique_neg_testimonial,Technique: Negative testimonial,1.0848740730510311,0.6591247942013133,1.6459312145367169,0.1023103019139016
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",technique_neg_testimonial,Technique: Negative testimonial,1.0618928380064376,0.6896196778638004,1.5398238653743304,0.1269990205944096
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,unweighted,Standard,technique_neg_testimonial,Technique: Negative testimonial,1.0360790790396537,0.8338801073418456,1.242479668141211,0.2172173014634893
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,ipw,IPW,technique_neg_testimonial,Technique: Negative testimonial,1.0906647361424944,0.8359784766885794,1.3046564792705675,0.19526401987840272
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",technique_neg_testimonial,Technique: Negative testimonial,0.5223254051113189,0.7952193882943036,0.6568318288009483,0.5128939640826619
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",technique_neg_testimonial,Technique: Negative testimonial,0.2162322061480171,0.8325653587857507,0.25971799554977826,0.7958123921929237
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,unweighted,Standard,technique_neg_transfer,Technique: Negative transfer of association,0.09352826450531825,0.7026508683304695,0.13310773347159688,0.8943274840400703
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,ipw,IPW,technique_neg_transfer,Technique: Negative transfer of association,0.13135859651440937,0.7003875657864981,0.18755129721199523,0.8515399774093018
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",technique_neg_transfer,Technique: Negative transfer of association,0.5657653298556662,0.6424992605659731,0.880569620200477,0.38025431354206607
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",technique_neg_transfer,Technique: Negative transfer of association,0.8436839944776388,0.6701526196534022,1.2589430671986117,0.21120182178531433
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,unweighted,Standard,technique_neg_transfer,Technique: Negative transfer of association,-0.17044104777312824,0.8339317143943814,-0.2043824989878291,0.8385060678570178
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,ipw,IPW,technique_neg_transfer,Technique: Negative transfer of association,-0.16665902732307902,0.8368085751638262,-0.19916027663847893,0.8425768725949484
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",technique_neg_transfer,Technique: Negative transfer of association,0.4965037559530898,0.8113053105187675,0.6119813953092624,0.5420275126490306
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",technique_neg_transfer,Technique: Negative transfer of association,1.087442320037766,0.8455410620046353,1.2860904915245908,0.20247579513859823
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,unweighted,Standard,technique_plain_folks,Technique: Plain folks,-0.18952814592122635,0.7324231282549465,-0.2587686524492905,0.7962498274926342
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,ipw,IPW,technique_plain_folks,Technique: Plain folks,-0.08908242013702608,0.7300362247637607,-0.1220246572912914,0.9030802606754528
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",technique_plain_folks,Technique: Plain folks,0.2922817616468052,0.6983427596105027,0.41853625261300614,0.6762790970093585
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",technique_plain_folks,Technique: Plain folks,0.4377874769826333,0.7355821889981083,0.595157799536877,0.5531834384449048
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,unweighted,Standard,technique_plain_folks,Technique: Plain folks,1.1822383060263444,0.8342401862506877,1.4171437980465302,0.15981853677259403
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,ipw,IPW,technique_plain_folks,Technique: Plain folks,1.210322805572296,0.8371862140624375,1.445703220194247,0.15165844194261202
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",technique_plain_folks,Technique: Plain folks,1.2547076736425145,0.8148346064424816,1.5398311064873544,0.12696120054860668
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",technique_plain_folks,Technique: Plain folks,1.412359478029091,0.8594901738290187,1.643252617696658,0.10463135826363178
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,unweighted,Standard,technique_pos_name,Technique: Positive name-calling,0.5580232557453748,1.843666489500271,0.3026703901835456,0.7626565105777523
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,ipw,IPW,technique_pos_name,Technique: Positive name-calling,0.5491234843698882,1.837670121294419,0.2988150473835295,0.7655895580347645
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",technique_pos_name,Technique: Positive name-calling,-0.09482527741137135,1.8466457153406857,-0.05135001079179779,0.9591292457070004
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",technique_pos_name,Technique: Positive name-calling,-1.1674689632165458,1.974036224172525,-0.5914121275590699,0.5556791429178267
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,unweighted,Standard,technique_pos_name,Technique: Positive name-calling,-2.025577411219329,2.778540592016286,-0.729007672963108,0.4678487771209473
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,ipw,IPW,technique_pos_name,Technique: Positive name-calling,-1.7533124620454146,2.7890520061715987,-0.6286410071112674,0.5311417863498518
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",technique_pos_name,Technique: Positive name-calling,-1.8986923211765403,2.636717856499826,-0.7200968873086045,0.4732521182050622
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",technique_pos_name,Technique: Positive name-calling,-2.556394025611963,2.6827042519540223,-0.9529168277680784,0.3437768994851562
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,unweighted,Standard,technique_pos_testimonial,Technique: Positive testimonial,0.7227953594646445,0.9585584187398092,0.7540441410079983,0.4522756338317734
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,ipw,IPW,technique_pos_testimonial,Technique: Positive testimonial,0.7895216398203998,0.9550445649301612,0.826685653017809,0.4100291602489706
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",technique_pos_testimonial,Technique: Positive testimonial,0.2941857189805826,0.9580122846047424,0.3070792762349159,0.7592981325955296
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",technique_pos_testimonial,Technique: Positive testimonial,-0.13979098686949795,1.04838296120095,-0.13333962115271666,0.8942128987946061
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,unweighted,Standard,technique_pos_testimonial,Technique: Positive testimonial,-1.7870021092424186,1.3373620611632544,-1.3362141495834432,0.1847749309361693
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,ipw,IPW,technique_pos_testimonial,Technique: Positive testimonial,-1.625095803088522,1.3356532677788595,-1.2167048457051988,0.22682870129838664
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",technique_pos_testimonial,Technique: Positive testimonial,-1.5110249497205035,1.381433698179607,-1.093809244491188,0.27683371208900265
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",technique_pos_testimonial,Technique: Positive testimonial,-0.9926942732674348,1.608726875731788,-0.6170682470981108,0.539109643347554
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,unweighted,Standard,technique_pos_transfer,Technique: Positive transfer of association,-0.2385855987021571,0.7716997079874472,-0.30916896330617505,0.7577203805501498
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,standard,ipw,IPW,technique_pos_transfer,Technique: Positive transfer of association,-0.2593224329623874,0.7676040110464144,-0.33783360851498606,0.7360691919333722
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",technique_pos_transfer,Technique: Positive transfer of association,0.18522511387589416,0.7324764848308668,0.25287516761533135,0.8007834100525681
+primary,2018 Primary hypotheses,Persuasive techniques,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",technique_pos_transfer,Technique: Positive transfer of association,0.3070042844238889,0.7647353021272978,0.40145169651496615,0.6890085828393278
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,unweighted,Standard,technique_pos_transfer,Technique: Positive transfer of association,0.8747494284835914,1.052492826657337,0.8311215110717196,0.4080568434210944
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,standard,ipw,IPW,technique_pos_transfer,Technique: Positive transfer of association,0.8441412370260016,1.0534884968259113,0.8012818740492577,0.4250331252527332
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",technique_pos_transfer,Technique: Positive transfer of association,1.468159942402152,1.068136467775627,1.374505961265011,0.17255269172382648
+primary,2018 Primary hypotheses,Persuasive techniques,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",technique_pos_transfer,Technique: Positive transfer of association,2.1206553804523764,1.155771592088629,1.8348395089206837,0.0706036320419233
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),favorability,Favorability,standard,unweighted,Standard,fact_cite_only,Cited fact (where fact present),-1.0863423170382949,0.5238917188417984,-2.0736008567570847,0.04025596907664877
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),favorability,Favorability,standard,ipw,IPW,fact_cite_only,Cited fact (where fact present),-1.04778570997216,0.5253057103606489,-1.9946208261334188,0.04835074862249387
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",fact_cite_only,Cited fact (where fact present),-0.8484638401425335,0.5029060351152151,-1.687122008683295,0.09413516522106193
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",fact_cite_only,Cited fact (where fact present),-0.6107153495460226,0.5299574891097287,-1.1523855443046165,0.25218101163119894
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),votechoice,Vote choice,standard,unweighted,Standard,fact_cite_only,Cited fact (where fact present),-0.5341218640175531,0.6548922124929868,-0.8155874414574338,0.41691350182567055
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),votechoice,Vote choice,standard,ipw,IPW,fact_cite_only,Cited fact (where fact present),-0.6216223125862581,0.6580486319574524,-0.9446449432425086,0.34739765754051255
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",fact_cite_only,Cited fact (where fact present),-0.6337992100949783,0.6303552141725892,-1.0054635796531162,0.3173398004528564
+secondary,2018 Secondary hypotheses,Cited fact (where fact present),votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",fact_cite_only,Cited fact (where fact present),-0.9904779574832996,0.6579562235895762,-1.5053858022340794,0.136724172595971
+secondary,2018 Secondary hypotheses,Emotion: anger,favorability,Favorability,standard,unweighted,Standard,emotion_anger,Emotion: Anger,0.8031609039873364,0.8375945227410067,0.9588898711503184,0.3394219599069911
+secondary,2018 Secondary hypotheses,Emotion: anger,favorability,Favorability,standard,ipw,IPW,emotion_anger,Emotion: Anger,0.7475956687256138,0.8367730609413075,0.8934270277351235,0.37330524391174746
+secondary,2018 Secondary hypotheses,Emotion: anger,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",emotion_anger,Emotion: Anger,-0.13312657158816563,0.8291973956314767,-0.16054870925732093,0.8726980671018699
+secondary,2018 Secondary hypotheses,Emotion: anger,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",emotion_anger,Emotion: Anger,-0.2796633117798792,0.8602212796488647,-0.3251062469578007,0.7457867045829341
+secondary,2018 Secondary hypotheses,Emotion: anger,votechoice,Vote choice,standard,unweighted,Standard,emotion_anger,Emotion: Anger,2.965280129829053,0.9809899149356232,3.022742726181489,0.0031966934303709
+secondary,2018 Secondary hypotheses,Emotion: anger,votechoice,Vote choice,standard,ipw,IPW,emotion_anger,Emotion: Anger,2.86297520669834,0.9890896154017328,2.8945559250821797,0.00468069553248953
+secondary,2018 Secondary hypotheses,Emotion: anger,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",emotion_anger,Emotion: Anger,2.3517507783442606,1.0137594331683937,2.319831215768935,0.02238288783646644
+secondary,2018 Secondary hypotheses,Emotion: anger,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",emotion_anger,Emotion: Anger,1.6434936997910945,1.0957181672270373,1.4999237476826062,0.13762014274584047
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,favorability,Favorability,standard,unweighted,Standard,emotion_enthusiasm,Emotion: Enthusiasm,0.8974289637360399,0.7411588626752561,1.2108456215401888,0.22818554598854288
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,favorability,Favorability,standard,ipw,IPW,emotion_enthusiasm,Emotion: Enthusiasm,0.8276667780646927,0.737552192861408,1.122180621351929,0.26388628453519114
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",emotion_enthusiasm,Emotion: Enthusiasm,0.5522764768922397,0.7327854815995798,0.753667329334485,0.4524118627704935
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",emotion_enthusiasm,Emotion: Enthusiasm,0.22174285633582735,0.7831490007712408,0.2831426154122092,0.7776587279602123
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,votechoice,Vote choice,standard,unweighted,Standard,emotion_enthusiasm,Emotion: Enthusiasm,-0.3180008612387165,1.1710255727437793,-0.27155757196115066,0.7865334558902211
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,votechoice,Vote choice,standard,ipw,IPW,emotion_enthusiasm,Emotion: Enthusiasm,-0.2857300655711517,1.1697034486193671,-0.24427564602669735,0.8075280389508087
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",emotion_enthusiasm,Emotion: Enthusiasm,0.03267525503060294,1.224566391772066,0.02668312249147936,0.9787656512912526
+secondary,2018 Secondary hypotheses,Emotion: enthusiasm,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",emotion_enthusiasm,Emotion: Enthusiasm,0.5897696883281783,1.3986539201472263,0.4216694922401515,0.6744114784361179
+secondary,2018 Secondary hypotheses,Explicit vote for,favorability,Favorability,standard,unweighted,Standard,explicit_vote_for,Explicit vote for,1.1218535249573711,0.5586021032467046,2.0083231309673546,0.04671351346719644
+secondary,2018 Secondary hypotheses,Explicit vote for,favorability,Favorability,standard,ipw,IPW,explicit_vote_for,Explicit vote for,1.0637526765737717,0.5583973886769057,1.9050101202913563,0.05902213902143199
+secondary,2018 Secondary hypotheses,Explicit vote for,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",explicit_vote_for,Explicit vote for,1.0629246469045954,0.575226568672449,1.8478364957267055,0.06689882480320387
+secondary,2018 Secondary hypotheses,Explicit vote for,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",explicit_vote_for,Explicit vote for,1.0758395881116802,0.6248751853126074,1.7216871679317334,0.08824944196661604
+secondary,2018 Secondary hypotheses,Explicit vote for,votechoice,Vote choice,standard,unweighted,Standard,explicit_vote_for,Explicit vote for,1.9401929227831587,0.6853872284437006,2.8307981857040554,0.00563433967818828
+secondary,2018 Secondary hypotheses,Explicit vote for,votechoice,Vote choice,standard,ipw,IPW,explicit_vote_for,Explicit vote for,2.0000656480971344,0.6882078591626061,2.9061941410125187,0.0045235308848728
+secondary,2018 Secondary hypotheses,Explicit vote for,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",explicit_vote_for,Explicit vote for,1.9908673077540773,0.7248367801872991,2.746642226460464,0.0071417201458922
+secondary,2018 Secondary hypotheses,Explicit vote for,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",explicit_vote_for,Explicit vote for,2.396854182600025,0.800471143237372,2.994304295475722,0.00367162404482693
+secondary,2018 Secondary hypotheses,Messenger: female,favorability,Favorability,standard,unweighted,Standard,messenger_female,Messenger: Female,0.13322723781355542,0.4458482841077406,0.2988174286241296,0.7655639398411351
+secondary,2018 Secondary hypotheses,Messenger: female,favorability,Favorability,standard,ipw,IPW,messenger_female,Messenger: Female,0.13196807648257824,0.4451506881294257,0.29645708745756016,0.7673615119489086
+secondary,2018 Secondary hypotheses,Messenger: female,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",messenger_female,Messenger: Female,0.29925869863464294,0.4279146306705554,0.6993420584047227,0.48558770243718186
+secondary,2018 Secondary hypotheses,Messenger: female,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",messenger_female,Messenger: Female,0.3906146581957816,0.45015366503554816,0.8677362610497356,0.3876372444955246
+secondary,2018 Secondary hypotheses,Messenger: female,votechoice,Vote choice,standard,unweighted,Standard,messenger_female,Messenger: Female,1.051894348209506,0.5873691527958579,1.7908573223543038,0.07640356627782906
+secondary,2018 Secondary hypotheses,Messenger: female,votechoice,Vote choice,standard,ipw,IPW,messenger_female,Messenger: Female,1.034162881771708,0.5892581165134173,1.755025264464321,0.0823801291196545
+secondary,2018 Secondary hypotheses,Messenger: female,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",messenger_female,Messenger: Female,0.9290610489121643,0.5690698460460786,1.6325958146742794,0.10569906707804706
+secondary,2018 Secondary hypotheses,Messenger: female,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",messenger_female,Messenger: Female,0.8419810343425387,0.608026562750592,1.3847767283942052,0.17001927527609093
+secondary,2018 Secondary hypotheses,Messenger: politician,favorability,Favorability,standard,unweighted,Standard,messenger_politician,Messenger: Politician,2.1258439293607485,0.8237532538914009,2.580680463862554,0.01098815007136277
+secondary,2018 Secondary hypotheses,Messenger: politician,favorability,Favorability,standard,ipw,IPW,messenger_politician,Messenger: Politician,2.048525533220017,0.8241566520454563,2.4856021341765873,0.0142224880399932
+secondary,2018 Secondary hypotheses,Messenger: politician,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",messenger_politician,Messenger: Politician,0.8417462510238045,1.0479220559611746,0.8032527288031345,0.4232948876356965
+secondary,2018 Secondary hypotheses,Messenger: politician,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",messenger_politician,Messenger: Politician,-0.715115117707342,1.3241511931132215,-0.5400554871880072,0.5903715629159867
+secondary,2018 Secondary hypotheses,Messenger: politician,votechoice,Vote choice,standard,unweighted,Standard,messenger_politician,Messenger: Politician,-0.25421229531896083,1.386634219880554,-0.1833304642812428,0.8549174996859015
+secondary,2018 Secondary hypotheses,Messenger: politician,votechoice,Vote choice,standard,ipw,IPW,messenger_politician,Messenger: Politician,-0.19703725847319084,1.3875035072668724,-0.14200847597230087,0.8873648459757231
+secondary,2018 Secondary hypotheses,Messenger: politician,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",messenger_politician,Messenger: Politician,-0.3552817647346572,1.4450614457069155,-0.2458592787110554,0.8062950797579588
+secondary,2018 Secondary hypotheses,Messenger: politician,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",messenger_politician,Messenger: Politician,-1.2505129826228665,1.7418990158378744,-0.717902112150488,0.4749353083607704
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,standard,unweighted,Standard,tone_contrast,Primary tone: Contrast,0.3810156313774009,0.7326593316662194,0.5200447396348481,0.6039377168873553
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,standard,ipw,IPW,tone_contrast,Primary tone: Contrast,0.3070900778344904,0.7293965480952685,0.4210193736677521,0.6744525743608416
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",tone_contrast,Primary tone: Contrast,-0.105477952512296,0.7448688846494201,-0.14160606609569984,0.8876120821346181
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",tone_contrast,Primary tone: Contrast,-0.4237162510256873,0.8150167569645975,-0.5198865512946657,0.6043150265487353
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,standard,unweighted,Standard,tone_contrast,Primary tone: Contrast,0.5832846216513661,1.0018060340338877,0.5822330888771983,0.5617605673675636
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,standard,ipw,IPW,tone_contrast,Primary tone: Contrast,0.5391615257293958,1.0029710590559069,0.5375643901798189,0.5921089662063245
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",tone_contrast,Primary tone: Contrast,0.5252746486046617,1.047206454072665,0.5015960764583036,0.6170653188988269
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",tone_contrast,Primary tone: Contrast,0.2887515072495635,1.224044121488176,0.23589959069326963,0.8141289036655801
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,standard,unweighted,Standard,tone_positive,Primary tone: Positive,0.0988650753579369,0.6924544977065674,0.14277483312677058,0.8866942839818145
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,standard,ipw,IPW,tone_positive,Primary tone: Positive,0.07516166715466956,0.6893339460838036,0.10903520359279102,0.913346659649471
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",tone_positive,Primary tone: Positive,-0.5245528869515931,0.7563466625472963,-0.6935350057405607,0.4892207566062408
+secondary,2018 Secondary hypotheses,Primary tone,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",tone_positive,Primary tone: Positive,-1.3362001740893126,0.87803007642013,-1.5218159491041765,0.1312754329104759
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,standard,unweighted,Standard,tone_positive,Primary tone: Positive,-1.3925813448513584,0.949499027027252,-1.4666485222331769,0.14570630863448278
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,standard,ipw,IPW,tone_positive,Primary tone: Positive,-1.3265787576018426,0.9494101816977428,-1.3972662008212762,0.16552155273223731
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",tone_positive,Primary tone: Positive,-1.1914422120025474,1.0348480464481045,-1.1513209268664313,0.2523732366305547
+secondary,2018 Secondary hypotheses,Primary tone,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",tone_positive,Primary tone: Positive,-1.3339528761663555,1.2977283455260689,-1.027913800885348,0.3071674887533286
+secondary,2018 Secondary hypotheses,Production value,favorability,Favorability,standard,unweighted,Standard,production_value_high,Production value: High,0.6271671397785672,0.6069327214066943,1.0333388160799362,0.3033937933501237
+secondary,2018 Secondary hypotheses,Production value,favorability,Favorability,standard,ipw,IPW,production_value_high,Production value: High,0.6740263508993075,0.6045651903389144,1.1148944095200946,0.2669845760029352
+secondary,2018 Secondary hypotheses,Production value,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",production_value_high,Production value: High,0.4093441751832051,0.6061838425047342,0.6752805774099928,0.5006968652423089
+secondary,2018 Secondary hypotheses,Production value,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",production_value_high,Production value: High,0.3502864907347683,0.6644048340741026,0.5272184559326973,0.5992213785481131
+secondary,2018 Secondary hypotheses,Production value,votechoice,Vote choice,standard,unweighted,Standard,production_value_high,Production value: High,0.393392592829487,0.7798477975254143,0.5044479116024776,0.6150790006912263
+secondary,2018 Secondary hypotheses,Production value,votechoice,Vote choice,standard,ipw,IPW,production_value_high,Production value: High,0.2563134334717868,0.7802031093719692,0.3285214201185488,0.7432183945873048
+secondary,2018 Secondary hypotheses,Production value,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",production_value_high,Production value: High,0.3561789096408973,0.7955057749639262,0.44773893647352714,0.6553100659956519
+secondary,2018 Secondary hypotheses,Production value,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",production_value_high,Production value: High,0.390274353355271,0.891373648326002,0.43783474426039576,0.6627008590372532
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,favorability,Favorability,standard,unweighted,Standard,how_specific_candidate_fact,Specificity: Candidate facts,-0.09997585818435764,0.8125593882754935,-0.12303821680842043,0.9029881461097022
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,favorability,Favorability,standard,ipw,IPW,how_specific_candidate_fact,Specificity: Candidate facts,-0.16712143738506233,0.7977595029878559,-0.2094884946642953,0.8356395585985033
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",how_specific_candidate_fact,Specificity: Candidate facts,-0.34419562144193033,0.7149906207100086,-0.4813987924766524,0.633974098178275
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",how_specific_candidate_fact,Specificity: Candidate facts,-0.580836475312907,0.7369832444900507,-0.7881271109695471,0.44289989782107086
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,votechoice,Vote choice,standard,unweighted,Standard,how_specific_candidate_fact,Specificity: Candidate facts,1.341232709671962,1.0183534096706874,1.3170601649045262,0.20271015974823636
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,votechoice,Vote choice,standard,ipw,IPW,how_specific_candidate_fact,Specificity: Candidate facts,1.2202460259862278,0.9862426104753428,1.2372675982820307,0.23031833676729208
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",how_specific_candidate_fact,Specificity: Candidate facts,0.20261180347231283,0.787522278358733,0.25727755142949604,0.7995929317688872
+secondary,2018 Secondary hypotheses,Specificity: Candidate attribute,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",how_specific_candidate_fact,Specificity: Candidate facts,-0.4166798336089187,0.7776678454673168,-0.535806946420071,0.6027572967525217
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,favorability,Favorability,standard,unweighted,Standard,how_specific_policy_fact,Specificity: Policy facts,-0.21242634249151185,0.6413775830920417,-0.33120325388894567,0.7416644664192356
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,favorability,Favorability,standard,ipw,IPW,how_specific_policy_fact,Specificity: Policy facts,-0.1842212270631896,0.6309434394716256,-0.29197740326369503,0.7713281229380582
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,favorability,Favorability,study_random_effects,unweighted,"Study random
+effects",how_specific_policy_fact,Specificity: Policy facts,-0.03571237681530522,0.5134589322395333,-0.0695525475806604,0.9447773150226206
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,favorability,Favorability,study_fixed_effects,unweighted,"Study fixed
+effects",how_specific_policy_fact,Specificity: Policy facts,-0.08701051299911108,0.5475625726670432,-0.15890515046582562,0.8746837603541214
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,votechoice,Vote choice,standard,unweighted,Standard,how_specific_policy_fact,Specificity: Policy facts,-0.1640763223887803,0.8137005839736364,-0.20164213424491817,0.8412184785164221
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,votechoice,Vote choice,standard,ipw,IPW,how_specific_policy_fact,Specificity: Policy facts,-0.2386355524341335,0.798741155657163,-0.2987645631428576,0.766666379703532
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,votechoice,Vote choice,study_random_effects,unweighted,"Study random
+effects",how_specific_policy_fact,Specificity: Policy facts,0.1803260776191753,0.7536379116718736,0.2392741591504323,0.8120568219612605
+secondary,2018 Secondary hypotheses,Specificity: Issue fact,votechoice,Vote choice,study_fixed_effects,unweighted,"Study fixed
+effects",how_specific_policy_fact,Specificity: Policy facts,0.23559577027387893,0.8233126762617679,0.28615588836017447,0.7773203566066953

@@ -1,0 +1,59 @@
+variable,dataset,level,statistic,value
+age,2018,NA,mean,39.7389777479801
+age,2018,NA,sd,15.271640655940018
+age,2020 Downballot,NA,mean,40.118429584800026
+age,2020 Downballot,NA,sd,16.635727007591772
+age,2020 Presidential,NA,mean,38.746907521426444
+age,2020 Presidential,NA,sd,16.969736882723126
+education,2018,college,proportion,0.296427545254286
+education,2018,highschool,proportion,0.24503825729761944
+education,2018,postgrad,proportion,0.1017356787876853
+education,2018,some-college,proportion,0.3034298545264928
+education,2018,some-school,proportion,0.053368664133916506
+education,2020 Downballot,college,proportion,0.2910337780747087
+education,2020 Downballot,highschool,proportion,0.23338114794364426
+education,2020 Downballot,postgrad,proportion,0.11295710439959915
+education,2020 Downballot,some-college,proportion,0.27575602758837514
+education,2020 Downballot,some-school,proportion,0.04392721699318151
+education,2020 Downballot,NA,proportion,0.04294472500049125
+education,2020 Presidential,college,proportion,0.2984212909259755
+education,2020 Presidential,highschool,proportion,0.25138389035953057
+education,2020 Presidential,postgrad,proportion,0.13056323924531296
+education,2020 Presidential,some-college,proportion,0.26918030728149406
+education,2020 Presidential,some-school,proportion,0.05045127218768693
+ethnicity,2018,asian,proportion,0.03889580606370186
+ethnicity,2018,black,proportion,0.09984143706967191
+ethnicity,2018,hispanic-or-latino,proportion,0.09492492204876077
+ethnicity,2018,other-mixed,proportion,0.05832774638444593
+ethnicity,2018,white,proportion,0.7080100884334195
+ethnicity,2020 Downballot,asian,proportion,0.034387219744159085
+ethnicity,2020 Downballot,black,proportion,0.18948340571024347
+ethnicity,2020 Downballot,hispanic-or-latino,proportion,0.09070366076516477
+ethnicity,2020 Downballot,native,proportion,1.0807411919592855e-4
+ethnicity,2020 Downballot,other-mixed,proportion,0.045852901298854415
+ethnicity,2020 Downballot,white,proportion,0.6394647383623824
+ethnicity,2020 Presidential,asian,proportion,0.04701426687685276
+ethnicity,2020 Presidential,black,proportion,0.19295149526255084
+ethnicity,2020 Presidential,hispanic-or-latino,proportion,0.10690408441813813
+ethnicity,2020 Presidential,other-mixed,proportion,0.053825486055342396
+ethnicity,2020 Presidential,white,proportion,0.5993046673871159
+gender,2018,female,proportion,0.701891049175792
+gender,2018,male,proportion,0.29266034543306835
+gender,2018,other,proportion,0.0054486053911396316
+gender,2020 Downballot,female,proportion,0.6349354502760802
+gender,2020 Downballot,male,proportion,0.3584327287732605
+gender,2020 Downballot,other,proportion,0.006631820950659252
+gender,2020 Presidential,female,proportion,0.587172699602431
+gender,2020 Presidential,male,proportion,0.4004210331505772
+gender,2020 Presidential,other,proportion,0.012346780616611971
+gender,2020 Presidential,NA,proportion,5.948663037982213e-5
+party,2018,Democrat,proportion,0.33819663931722166
+party,2018,Independent,proportion,0.25024210111845396
+party,2018,Republican,proportion,0.2876799795677298
+party,2018,NA,proportion,0.12388127999659462
+party,2020 Downballot,Democrat,proportion,0.37010473364642077
+party,2020 Downballot,Independent,proportion,0.32910534279145626
+party,2020 Downballot,Republican,proportion,0.300789923562123
+party,2020 Presidential,Democrat,proportion,0.36004943999947125
+party,2020 Presidential,Independent,proportion,0.3545138785613489
+party,2020 Presidential,Republican,proportion,0.2854366814391799
