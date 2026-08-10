@@ -45,6 +45,11 @@ manifest <- read_csv(here::here("original_manifest.csv"), show_col_types = FALSE
 members <- read_csv(here::here("original_members_manifest.csv"),
                     show_col_types = FALSE)
 
+# The errata are defined once, in errata.qmd's spine, and written out by it. The Errata
+# section below reads them here rather than keeping a second copy of the corrections.
+spine <- read_csv(here::here("errata_entries.csv"), show_col_types = FALSE)
+n_errata <- nrow(spine)
+
 show_table <- function(d, caption = NULL, align = NULL) {
   k <- kable(d, caption = caption, align = align, booktabs = TRUE,
              format = if (latex_out) "latex" else "pipe", linesep = "")
@@ -57,6 +62,18 @@ figure <- function(stem) {
 }
 
 pct <- function(x, y) sprintf("%.1f", 100 * x / y)
+
+n_word <- c("One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine", "Ten")
+
+# The span an erratum changes, on each side, pulled out of the [[...]] the spine marks it
+# with. Entry 1 corrects the same value in two passages and both carry the same span, so
+# the first match is the entry's value.
+erratum_was <- function(n) {
+  str_extract(spine$published[spine$entry == n], "(?<=\\[\\[).+?(?=\\]\\])")
+}
+erratum_now <- function(n) {
+  str_extract(spine$corrected[spine$entry == n], "(?<=\\[\\[).+?(?=\\]\\])")
+}
 ```
 
 *Drafted by Claude Opus 5 under the supervision of Alex Coppock.*
@@ -149,7 +166,7 @@ The profile-likelihood step in `4_metaregressions.R` runs 501 optimisations for 
 
 ## Errata
 
-Five sentences in the article state a number that its own tables contradict, and they are corrected in [`hewitt_etal_2024_errata.pdf`](hewitt_etal_2024_errata.pdf). None of them changes a conclusion. In short: the 2018 standard deviation of true effects on vote choice is 1.4 points rather than 1.5; the range of R-squared values for vote choice ends at 0.39 rather than 0.32; Appendix C.1 quotes Table OA2's 2020 downballot mean as 1.53 where the table gives 1.51; Table 1's last 2020 downballot study is 2020-12-25 rather than 2020-12-22; and the single-rater reliability of the pushiness item is 0.22 rather than 0.23.
+`r n_word[n_errata]` sentences in the article state a number that its own tables contradict, and they are corrected in [`hewitt_etal_2024_errata.pdf`](hewitt_etal_2024_errata.pdf). None of them changes a conclusion. In short: the 2018 standard deviation of true effects on vote choice is `r erratum_now(1)` points rather than `r erratum_was(1)`; the range of R-squared values for vote choice ends at `r erratum_now(2)` rather than `r erratum_was(2)`; Appendix C.1 quotes Table OA2's 2020 downballot mean as `r erratum_was(3)` where the table gives `r erratum_now(3)`; Table 1's last 2020 downballot study is `r erratum_now(4)` rather than `r erratum_was(4)`; and the single-rater reliability of the pushiness item is `r erratum_now(5)` rather than `r erratum_was(5)`.
 
 Three further findings are recorded here rather than in the errata, because in each case the article does not say clearly enough what it is counting for a correction to be stated.
 

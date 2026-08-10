@@ -1,0 +1,22 @@
+entry,class,source,form,title,location,published,corrected,note
+1,quantity,pipeline,full,The 2018 standard deviation of true effects on vote choice,"p. 2
+
+@@
+
+p. 10","In addition, we find that common theories [...] our meta-analytic results indicate that the standard deviation of the distribution of true treatment effects were [[1.5]] points, 0.5 points, and 0.3 points, respectively, or roughly about half the size of the average effect.
+
+@@
+
+In 2018, the estimated standard deviation of the true treatment effects ($\hat\tau$) was [[1.5]] points, but in both the downballot and presidential races in 2020, the standard deviations were smaller, at 0.5 and 0.3 percentage points.","our meta-analytic results indicate that the standard deviation of the distribution of true treatment effects were [[1.4]] points, 0.5 points, and 0.3 points, respectively, or roughly about half the size of the average effect.
+
+@@
+
+In 2018, the estimated standard deviation of the true treatment effects ($\hat\tau$) was [[1.4]] points, but in both the downballot and presidential races in 2020, the standard deviations were smaller, at 0.5 and 0.3 percentage points.","The article gives this quantity as 1.5 points in two places. Table 2 gives it as 1.42.
+
+@@
+
+The reanalysis returns 1.42, which is what Table 2 prints and which rounds to 1.4. The two 2020 figures are correct as published."
+2,quantity,pipeline,full,The range of R-squared values for vote choice,p. 11,"When we include all primary hypotheses in one meta-regression, the adjusted $R^2$ values range between 0.12 and 0.34 for favorability and between 0 and [[0.32]] for vote choice.","When we include all primary hypotheses in one meta-regression, the adjusted $R^2$ values range between 0.12 and 0.34 for favorability and between 0 and [[0.39]] for vote choice.","The three vote choice cells of the ""$\hat R^2$ (all vs. control)"" row of Dataverse Appendix Table DA28 are 0.32, 0.39 and <0. The sentence takes the 2018 figure as the upper end of the range where the 2020 downballot figure is larger. The favorability range in the same sentence is correct."
+3,quantity,pipeline,full,The average survey treatment effect quoted in Appendix C.1,"Online Appendix, p. OA20","Compared these values with the average survey treatment effects $\mu$ from Table OA2, we calculate the survey-to-field conversion factor to be approximately 100 (= 0.015 / [[1.53]]) based on the 2020 Downballot dataset.","Compared these values with the average survey treatment effects $\mu$ from Table OA2, we calculate the survey-to-field conversion factor to be approximately 100 (= 0.015 / [[1.51]]) based on the 2020 Downballot dataset.","Table OA2 gives 1.51 for the 2020 downballot mean effect on the dichotomised vote choice scale, which the reanalysis returns exactly. The conversion factor is unchanged at approximately 100."
+4,quantity,pipeline,brief,The last 2020 downballot study in Table 1,,"The ""Last study"" cell of Table 1's 2020 downballot row reads [[2020-12-22]].",[[2020-12-25]].,"The changed artifact is that cell alone; every other cell of Table 1 reproduces. The deposited code reads the last row of the study file rather than the latest date, and the file is not in date order: the study dated 2020-12-22 is the last row, and the study dated 2020-12-25 is the last study."
+5,quantity,pipeline,full,The reliability of the pushiness rating,p. 8,"Research assistants were highly consistent in their ratings of the most explicit features such as the race and gender of the primary messenger (single-rater ICC $>$ 0.8), but less consistent in their ratings of the most subjective characteristics, such as how ""pushy"" the ad was (single-rater ICC = [[0.23]]).","Research assistants were highly consistent in their ratings of the most explicit features such as the race and gender of the primary messenger (single-rater ICC $>$ 0.8), but less consistent in their ratings of the most subjective characteristics, such as how ""pushy"" the ad was (single-rater ICC = [[0.22]]).",A rounding error rather than a different quantity: the deposited single-rater intraclass correlation for the pushiness item is 0.2230. The claim about the messenger items in the same sentence holds.
