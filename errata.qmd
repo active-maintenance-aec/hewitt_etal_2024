@@ -205,7 +205,25 @@ entries <- tribble(
   str_glue(
     "A rounding error rather than a different quantity: the deposited single-rater ",
     "intraclass correlation for the pushiness item is {sprintf('%.4f', icc_pushy)}. The ",
-    "claim about the messenger items in the same sentence holds.")
+    "claim about the messenger items in the same sentence holds."),
+
+  6, "bibliographic", "reference_audit", "brief",
+  "The article's own data citation drops its sixth author",
+  "p. 18",
+  paste(
+    "Hewitt, Luke, David Broockman, Alexander Coppock, Ben M. Tappin, James Slezak, ",
+    "[[Nathaniel Lubin]], et al. 2024. \"Replication Data for: How Experiments Help ",
+    "Campaigns Persuade Voters...\" Harvard Dataverse. Dataset."),
+  paste(
+    "Hewitt, Luke, David Broockman, Alexander Coppock, Ben M. Tappin, James Slezak, ",
+    "Valerie Coffman, et al. 2024. \"Replication Data for: How Experiments Help ",
+    "Campaigns Persuade Voters...\" Harvard Dataverse. Dataset."),
+  paste(
+    "The deposit's own author list is the article's byline: Hewitt, Broockman, Coppock,",
+    "Tappin, Slezak, Coffman, Lubin, Hamidian. The entry drops the sixth author and",
+    "promotes the seventh into her place, so its \"et al.\" stands for two authors where",
+    "it should stand for three. Harvard Dataverse, doi 10.7910/DVN/LBPSSV; the same eight",
+    "names in the same order at Crossref, doi 10.1017/S0003055423001387.")
 ) |>
   mutate(across(c(title, location, published, corrected, note), as.character))
 
@@ -230,7 +248,7 @@ n_word <- c("One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nin
 
 `r n_word[nrow(entries)]` corrections to Hewitt, Broockman, Coppock, Tappin, Slezak, Coffman, Lubin and Hamidian, "How Experiments Help Campaigns Persuade Voters: Evidence from a Large Archive of Campaigns' Own Experiments," *American Political Science Review* (2024), `10.1017/S0003055423001387`.
 
-None of them changes a conclusion of the article. In each case the corrected figure is the one the article's own tables already print, recomputed here from the deposited data at Harvard Dataverse (`10.7910/DVN/LBPSSV`). Corrected values on the percentage point scale are given at one decimal place throughout; the reliability coefficient in entry 5 keeps the article's own two decimals, since one would erase the correction. The changed token is bold on both sides of each entry.
+None of them changes a conclusion of the article. Entries 1 to 5 correct numbers, and in each case the corrected figure is the one the article's own tables already print, recomputed here from the deposited data at Harvard Dataverse (`10.7910/DVN/LBPSSV`). Corrected values on the percentage point scale are given at one decimal place throughout; the reliability coefficient in entry 5 keeps the article's own two decimals, since one would erase the correction. Entry 6 corrects the reference list against the deposit's own recorded authorship. The changed token is bold on both sides of each entry.
 
 ```{r}
 #| label: entry-1
@@ -269,6 +287,12 @@ cat("\n\n## ", e$entry, ". ", e$title,
 #| label: entry-5
 #| results: asis
 emit_full(entries |> filter(entry == 5))
+```
+
+```{r}
+#| label: entry-6
+#| results: asis
+emit_full(entries |> filter(entry == 6))
 ```
 
 ```{r}

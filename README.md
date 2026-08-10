@@ -202,6 +202,12 @@ gives 1.51; Table 1’s last 2020 downballot study is 2020-12-25 rather
 than 2020-12-22; and the single-rater reliability of the pushiness item
 is 0.22 rather than 0.23.
 
+Entry 6 corrects the reference list rather than a number. A sweep of all
+50 printed references against Crossref flagged the article’s own data
+citation, and the flag is real: the entry names James Slezak and then
+Nathaniel Lubin, where the deposit’s author list and the article’s
+byline both put Valerie Coffman sixth and Lubin seventh.
+
 Three further findings are recorded here rather than in the errata,
 because in each case the article does not say clearly enough what it is
 counting for a correction to be stated.

@@ -48,7 +48,6 @@ members <- read_csv(here::here("original_members_manifest.csv"),
 # The errata are defined once, in errata.qmd's spine, and written out by it. The Errata
 # section below reads them here rather than keeping a second copy of the corrections.
 spine <- read_csv(here::here("errata_entries.csv"), show_col_types = FALSE)
-n_errata <- nrow(spine)
 
 show_table <- function(d, caption = NULL, align = NULL) {
   k <- kable(d, caption = caption, align = align, booktabs = TRUE,
@@ -166,7 +165,9 @@ The profile-likelihood step in `4_metaregressions.R` runs 501 optimisations for 
 
 ## Errata
 
-`r n_word[n_errata]` sentences in the article state a number that its own tables contradict, and they are corrected in [`hewitt_etal_2024_errata.pdf`](hewitt_etal_2024_errata.pdf). None of them changes a conclusion. In short: the 2018 standard deviation of true effects on vote choice is `r erratum_now(1)` points rather than `r erratum_was(1)`; the range of R-squared values for vote choice ends at `r erratum_now(2)` rather than `r erratum_was(2)`; Appendix C.1 quotes Table OA2's 2020 downballot mean as `r erratum_was(3)` where the table gives `r erratum_now(3)`; Table 1's last 2020 downballot study is `r erratum_now(4)` rather than `r erratum_was(4)`; and the single-rater reliability of the pushiness item is `r erratum_now(5)` rather than `r erratum_was(5)`.
+`r n_word[sum(spine$class != "bibliographic")]` sentences in the article state a number that its own tables contradict, and they are corrected in [`hewitt_etal_2024_errata.pdf`](hewitt_etal_2024_errata.pdf). None of them changes a conclusion. In short: the 2018 standard deviation of true effects on vote choice is `r erratum_now(1)` points rather than `r erratum_was(1)`; the range of R-squared values for vote choice ends at `r erratum_now(2)` rather than `r erratum_was(2)`; Appendix C.1 quotes Table OA2's 2020 downballot mean as `r erratum_was(3)` where the table gives `r erratum_now(3)`; Table 1's last 2020 downballot study is `r erratum_now(4)` rather than `r erratum_was(4)`; and the single-rater reliability of the pushiness item is `r erratum_now(5)` rather than `r erratum_was(5)`.
+
+Entry `r spine$entry[spine$class == "bibliographic"]` corrects the reference list rather than a number. A sweep of all 50 printed references against Crossref flagged the article's own data citation, and the flag is real: the entry names James Slezak and then Nathaniel Lubin, where the deposit's author list and the article's byline both put Valerie Coffman sixth and Lubin seventh.
 
 Three further findings are recorded here rather than in the errata, because in each case the article does not say clearly enough what it is counting for a correction to be stated.
 
