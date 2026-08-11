@@ -98,8 +98,13 @@ icc_pushy <- quantity("icc_pushy_single_rater")
 # are joined inside the fields with `part_sep` and split back out by that entry's emitter.
 part_sep <- "\n\n@@\n\n"
 
+# `claim_ids` names the ground truth rows the entry corrects, semicolon separated, and it is
+# what makes "has this finding been published?" a query over the corpus rather than a reading
+# of every note. It is empty where the entry has no ground truth row: a reference list is not
+# an extraction claim. Every id listed here is checked against the ground truth by
+# ground_truth/build_ground_truth.R, which refuses to finish on a dangling one.
 entries <- tribble(
-  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note,
+  ~entry, ~class, ~source, ~form, ~title, ~location, ~published, ~corrected, ~note, ~claim_ids,
 
   1, "quantity", "pipeline", "full",
   "The 2018 standard deviation of true effects on vote choice",
@@ -134,6 +139,7 @@ entries <- tribble(
       "The reanalysis returns {sprintf('%.2f', tau_2018)}, which is what Table 2 prints ",
       "and which rounds to {sprintf('%.1f', tau_2018)}. The two 2020 figures are correct ",
       "as published.")),
+  "intro_tau_votechoice_2018;results_tau_votechoice_2018",
 
   2, "quantity", "pipeline", "full",
   "The range of R-squared values for vote choice",
@@ -156,6 +162,7 @@ entries <- tribble(
     "The sentence takes the 2018 figure as the upper end of the range where the 2020 ",
     "downballot figure is larger. The favorability range in the same sentence is ",
     "correct."),
+  "results_r2_votechoice_max",
 
   3, "quantity", "pipeline", "full",
   "The average survey treatment effect quoted in Appendix C.1",
@@ -173,6 +180,7 @@ entries <- tribble(
     "Table OA2 gives {published_cell('table_oa2', '2020 Downballot', 'mu')} for the 2020 ",
     "downballot mean effect on the dichotomised vote choice scale, which the reanalysis ",
     "returns exactly. The conversion factor is unchanged at approximately 100."),
+  "appendix_c1_mu_2020d",
 
   4, "quantity", "pipeline", "brief",
   "The last 2020 downballot study in Table 1",
@@ -187,6 +195,7 @@ entries <- tribble(
     "date, and the file is not in date order: the study dated ",
     "{table_1_value('2020 Downballot', 'last_in_file')} is the last row, and the study ",
     "dated {table_1_value('2020 Downballot', 'last_study')} is the last study."),
+  "table_1_cells",
 
   5, "quantity", "pipeline", "full",
   "The reliability of the pushiness rating",
@@ -206,6 +215,7 @@ entries <- tribble(
     "A rounding error rather than a different quantity: the deposited single-rater ",
     "intraclass correlation for the pushiness item is {sprintf('%.4f', icc_pushy)}. The ",
     "claim about the messenger items in the same sentence holds."),
+  "icc_pushy",
 
   6, "bibliographic", "reference_audit", "brief",
   "The article's own data citation drops its sixth author",
@@ -223,9 +233,10 @@ entries <- tribble(
     "Tappin, Slezak, Coffman, Lubin, Hamidian. The entry drops the sixth author and",
     "promotes the seventh into her place, so its \"et al.\" stands for two authors where",
     "it should stand for three. Harvard Dataverse, doi 10.7910/DVN/LBPSSV; the same eight",
-    "names in the same order at Crossref, doi 10.1017/S0003055423001387.")
+    "names in the same order at Crossref, doi 10.1017/S0003055423001387."),
+  ""
 ) |>
-  mutate(across(c(title, location, published, corrected, note), as.character))
+  mutate(across(c(title, location, published, corrected, note, claim_ids), as.character))
 
 stopifnot(nrow(entries) == max(entries$entry), !anyDuplicated(entries$entry))
 
