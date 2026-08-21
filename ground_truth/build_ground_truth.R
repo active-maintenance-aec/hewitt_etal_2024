@@ -492,7 +492,7 @@ float_summary <-
 
 rows <- list()
 
-claim <- function(claim_id, table_figure, claim, value_rewrite = NA_real_,
+gt_row <- function(claim_id, table_figure, claim, value_rewrite = NA_real_,
                   value_script = NA_real_, holds = NA, defect_locus = NA_character_,
                   note = NA_character_) {
   spec <- published_claims |> filter(.data$claim_id == .env$claim_id)
@@ -625,7 +625,7 @@ pwalk(float_summary, function(float, published_numbers, covered,
   if (adverse_float && nrow(known) == 0) {
     stop("Float ", float, " does not reproduce in full and has no recorded cause.")
   }
-  claim(
+  gt_row(
     claim_id, float,
     str_glue("{float}: cells reproduced of published cells"),
     value_rewrite = reproduced_by_rewrite,
@@ -687,8 +687,10 @@ claims_output <- capture.output(
   source(here::here("maintained", "in_text_claims.R"), local = new.env(), echo = FALSE)
 )
 
+# The filter matches a claim line's whole shape rather than its prefix. in_text_claims.R now
+# closes with excheckr's two CLAIM SUMMARY lines, which a prefix match also takes.
 printed <- claims_output |>
-  str_subset("^CLAIM ") |>
+  str_subset("^CLAIM [^ ]+ = .* \\|\\| ") |>
   str_match("^CLAIM ([^ ]+) = (.*?) \\|\\| (.*)$")
 printed_claims <- tibble(
   claim_id = printed[, 2],
@@ -719,11 +721,21 @@ cross <-
   left_join(published_claims |> select(claim_id, digits, comparison, claim_type),
             by = "claim_id") |>
   mutate(
+    # This has to move whenever the printed form on the other side moves, or the two
+    # instruments disagree about a convention and it reads exactly like a finding.
+    #
+    # Two conventions changed when in_text_claims.R went onto excheckr::claim(). A
+    # descriptive claim prints its truth value as 1 or 0 rather than TRUE or FALSE, which is
+    # what the rest of the corpus prints. And a hedged claim now prints the number it
+    # computes instead of NA, so the "approx" arm that skipped the comparison is gone: the
+    # two instruments must still agree on the value even where neither compares it against
+    # the article's hedge, and that is seven claims this gate had never checked.
     expected = pmap_chr(
-      list(claim_type, holds, value_rewrite, digits, comparison),
-      function(type, holds_value, value, digits, comparison) {
-        if (type == "descriptive") return(as.character(holds_value))
-        if (!is.na(comparison) && comparison == "approx") return(NA_character_)
+      list(claim_type, holds, value_rewrite, digits),
+      function(type, holds_value, value, digits) {
+        if (type == "descriptive" && !is.na(holds_value)) {
+          return(as.character(as.numeric(holds_value)))
+        }
         if (is.na(value) || is.na(digits)) return(NA_character_)
         render_at(value, digits)
       }
