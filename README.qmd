@@ -142,7 +142,7 @@ if (nrow(failures) > 0) {
 
 The deposit's `r nrow(write_calls)` uncommented write calls are listed in `ground_truth/archive_write_calls.csv`, so the question of whether there is anything to diff against is answered before anything is run rather than after. The scan reads one line at a time, and one deposited write spans two, so `missingness_results.RDS` and `attrition_data.RDS` survive the strip that should have removed them. It makes no difference to the result, because the scripts that read them fail earlier on files the strip did remove.
 
-Six deposited scripts fail as shipped. Two of the six are the environment moving underneath code that was correct when it was written.
+Seven deposited scripts fail as shipped. Three of the seven are the environment moving underneath code that was correct when it was written.
 
 | Deposited script | Why it stops |
 |---|---|
@@ -152,8 +152,9 @@ Six deposited scripts fail as shipped. Two of the six are the environment moving
 | `Figure2_distribution.R` | `stat(count)` inside `aes()` is no longer allowed. |
 | `appendix_attrition.R` | ggplot2 4.x rejects the labels object the deposit builds. |
 | `appendix_sd_simulation.R` | `tidy()` on an `lm_robust` fit with `estimatr` not attached. |
+| `appendix_in_cycle_generalization/treatment_corrs.R` | `tidy()` returns a tibble from `estimatr` 2.0, so `out_imm[2, 2]` is a one-cell tibble rather than a number, and `metafor::rma()` refuses it as `yi`. |
 
-The three plotting failures matter less than they look: the objects those scripts read are all deposited, and the rewrite draws the same floats from them. The two analysis failures matter more, because they mean the deposit as it stands cannot rebuild two of the objects it ships.
+Three of the plotting failures matter less than they look: the objects those scripts read are all deposited, and the rewrite draws the same floats from them. The fourth, `treatment_corrs.R`, draws scatterplots the rewrite does not redraw, so under `estimatr` 2.0 nothing here produces them. The two analysis failures matter more, because they mean the deposit as it stands cannot rebuild two of the objects it ships.
 
 Three things about the deposit are worth a reader's attention.
 

@@ -18,7 +18,7 @@ as_shipped,plotting_scripts/appendix_reliability.R,0,clean,NA
 as_shipped,plotting_scripts/appendix_robustness.R,0,clean,NA
 as_shipped,plotting_scripts/appendix_demographics.R,0,clean,NA
 as_shipped,plotting_scripts/appendix_tau_from_experiment_100_times.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,0,clean,NA
+as_shipped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,1,error,"Error in rma(yi = c(out_imm[2, 2], out_ubi[2, 2], out_peo[4, 2]), sei = c(out_imm[2, :"
 as_shipped,plotting_scripts/appendix_features.R,0,clean,NA
 as_shipped,plotting_scripts/appendix_figure_OA14.R,0,clean,NA
 as_shipped,plotting_scripts/appendix_bad_beliefs.R,0,clean,NA
@@ -42,7 +42,7 @@ stripped,plotting_scripts/appendix_reliability.R,0,clean,NA
 stripped,plotting_scripts/appendix_robustness.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
 stripped,plotting_scripts/appendix_demographics.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
 stripped,plotting_scripts/appendix_tau_from_experiment_100_times.R,0,clean,NA
-stripped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,0,clean,NA
+stripped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,1,error,"Error in rma(yi = c(out_imm[2, 2], out_ubi[2, 2], out_peo[4, 2]), sei = c(out_imm[2, :"
 stripped,plotting_scripts/appendix_features.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
 stripped,plotting_scripts/appendix_figure_OA14.R,0,clean,NA
 stripped,plotting_scripts/appendix_bad_beliefs.R,0,clean,NA

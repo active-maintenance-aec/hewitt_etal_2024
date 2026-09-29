@@ -1,49 +1,49 @@
 outcome,dataset,parameter,specification,quantity,value
-votechoice_dichotomized,2018,mu,no_moderators,conf.high,3.4465307494703614
-votechoice_dichotomized,2018,mu,no_moderators,conf.low,1.8296457216144668
-votechoice_dichotomized,2018,mu,no_moderators,estimate,2.6380882355424142
-votechoice_dichotomized,2018,mu,no_moderators,std.error,0.4075363608893699
-votechoice_dichotomized,2018,tau,no_moderators,conf.high,2.3621898373658152
-votechoice_dichotomized,2018,tau,no_moderators,conf.low,1.055661739880546
-votechoice_dichotomized,2018,tau,no_moderators,estimate,1.6687182205844906
-votechoice_dichotomized,2018,tau,no_moderators,p.value,4.2343889381622513e-7
-votechoice_dichotomized,2018,tau,standard,conf.high,2.38673819215358
-votechoice_dichotomized,2018,tau,standard,conf.low,1.0689687938769286
-votechoice_dichotomized,2018,tau,standard,estimate,1.685821865728246
-votechoice_dichotomized,2018,tau,standard,p.value,2.2332795137016354e-7
-votechoice_dichotomized,2018,tau,study_fixed_effects,conf.high,2.1670032292580865
-votechoice_dichotomized,2018,tau,study_fixed_effects,conf.low,0.9014148819338432
-votechoice_dichotomized,2018,tau,study_fixed_effects,estimate,1.5020506329113177
-votechoice_dichotomized,2018,tau,study_fixed_effects,p.value,5.3914982815197816e-5
-votechoice_dichotomized,2020 Downballot,mu,no_moderators,conf.high,2.0335298346077346
-votechoice_dichotomized,2020 Downballot,mu,no_moderators,conf.low,0.9827244480885358
-votechoice_dichotomized,2020 Downballot,mu,no_moderators,estimate,1.5081271413481352
-votechoice_dichotomized,2020 Downballot,mu,no_moderators,std.error,0.2662651967101114
-votechoice_dichotomized,2020 Downballot,tau,no_moderators,conf.high,1.2934732400563145
+votechoice_dichotomized,2018,mu,no_moderators,conf.high,3.446530749526076
+votechoice_dichotomized,2018,mu,no_moderators,conf.low,1.8296457215241455
+votechoice_dichotomized,2018,mu,no_moderators,estimate,2.6380882355251107
+votechoice_dichotomized,2018,mu,no_moderators,std.error,0.40753636092617823
+votechoice_dichotomized,2018,tau,no_moderators,conf.high,2.362189837365804
+votechoice_dichotomized,2018,tau,no_moderators,conf.low,1.0556617398805153
+votechoice_dichotomized,2018,tau,no_moderators,estimate,1.6687182212946214
+votechoice_dichotomized,2018,tau,no_moderators,p.value,4.234388938163206e-7
+votechoice_dichotomized,2018,tau,standard,conf.high,2.3867381921535453
+votechoice_dichotomized,2018,tau,standard,conf.low,1.068968793876888
+votechoice_dichotomized,2018,tau,standard,estimate,1.6858218641611071
+votechoice_dichotomized,2018,tau,standard,p.value,2.2332795137021042e-7
+votechoice_dichotomized,2018,tau,study_fixed_effects,conf.high,2.167003229258083
+votechoice_dichotomized,2018,tau,study_fixed_effects,conf.low,0.9014148819327664
+votechoice_dichotomized,2018,tau,study_fixed_effects,estimate,1.50205063261498
+votechoice_dichotomized,2018,tau,study_fixed_effects,p.value,5.391498281519899e-5
+votechoice_dichotomized,2020 Downballot,mu,no_moderators,conf.high,2.0335298345149475
+votechoice_dichotomized,2020 Downballot,mu,no_moderators,conf.low,0.982724448173142
+votechoice_dichotomized,2020 Downballot,mu,no_moderators,estimate,1.508127141344045
+votechoice_dichotomized,2020 Downballot,mu,no_moderators,std.error,0.26626519666516146
+votechoice_dichotomized,2020 Downballot,tau,no_moderators,conf.high,1.2934732400563165
 votechoice_dichotomized,2020 Downballot,tau,no_moderators,conf.low,0
-votechoice_dichotomized,2020 Downballot,tau,no_moderators,estimate,0.6612495719678897
-votechoice_dichotomized,2020 Downballot,tau,no_moderators,p.value,0.06939369688151678
-votechoice_dichotomized,2020 Downballot,tau,standard,conf.high,1.25755341792788
+votechoice_dichotomized,2020 Downballot,tau,no_moderators,estimate,0.661249569626456
+votechoice_dichotomized,2020 Downballot,tau,no_moderators,p.value,0.06939369688152552
+votechoice_dichotomized,2020 Downballot,tau,standard,conf.high,1.2575534179278502
 votechoice_dichotomized,2020 Downballot,tau,standard,conf.low,0
-votechoice_dichotomized,2020 Downballot,tau,standard,estimate,0.6176195656978709
-votechoice_dichotomized,2020 Downballot,tau,standard,p.value,0.13559541814491488
-votechoice_dichotomized,2020 Downballot,tau,study_fixed_effects,conf.high,1.3288588654492175
+votechoice_dichotomized,2020 Downballot,tau,standard,estimate,0.6176195633910778
+votechoice_dichotomized,2020 Downballot,tau,standard,p.value,0.13559541814492496
+votechoice_dichotomized,2020 Downballot,tau,study_fixed_effects,conf.high,1.3288588654493445
 votechoice_dichotomized,2020 Downballot,tau,study_fixed_effects,conf.low,0
-votechoice_dichotomized,2020 Downballot,tau,study_fixed_effects,estimate,0.6756502783737999
-votechoice_dichotomized,2020 Downballot,tau,study_fixed_effects,p.value,0.07415719310132281
-votechoice_dichotomized,2020 Presidential,mu,no_moderators,conf.high,1.322937584392022
-votechoice_dichotomized,2020 Presidential,mu,no_moderators,conf.low,0.8105202815756105
-votechoice_dichotomized,2020 Presidential,mu,no_moderators,estimate,1.0667289329838163
-votechoice_dichotomized,2020 Presidential,mu,no_moderators,std.error,0.13017743029498843
-votechoice_dichotomized,2020 Presidential,tau,no_moderators,conf.high,0.7651298011909975
-votechoice_dichotomized,2020 Presidential,tau,no_moderators,conf.low,0.0303381551231194
-votechoice_dichotomized,2020 Presidential,tau,no_moderators,estimate,0.5045182489979613
-votechoice_dichotomized,2020 Presidential,tau,no_moderators,p.value,0.00727425971212904
-votechoice_dichotomized,2020 Presidential,tau,standard,conf.high,0.7651298011909975
-votechoice_dichotomized,2020 Presidential,tau,standard,conf.low,0.0303381551231194
-votechoice_dichotomized,2020 Presidential,tau,standard,estimate,0.5045182489979613
-votechoice_dichotomized,2020 Presidential,tau,standard,p.value,0.00727425971212904
-votechoice_dichotomized,2020 Presidential,tau,study_fixed_effects,conf.high,0.7497509049188027
+votechoice_dichotomized,2020 Downballot,tau,study_fixed_effects,estimate,0.6756502794567991
+votechoice_dichotomized,2020 Downballot,tau,study_fixed_effects,p.value,0.07415719310131881
+votechoice_dichotomized,2020 Presidential,mu,no_moderators,conf.high,1.3229375843384197
+votechoice_dichotomized,2020 Presidential,mu,no_moderators,conf.low,0.8105202815946773
+votechoice_dichotomized,2020 Presidential,mu,no_moderators,estimate,1.0667289329665484
+votechoice_dichotomized,2020 Presidential,mu,no_moderators,std.error,0.13017743027652706
+votechoice_dichotomized,2020 Presidential,tau,no_moderators,conf.high,0.7651298011910057
+votechoice_dichotomized,2020 Presidential,tau,no_moderators,conf.low,0.03033815512261489
+votechoice_dichotomized,2020 Presidential,tau,no_moderators,estimate,0.5045182479532334
+votechoice_dichotomized,2020 Presidential,tau,no_moderators,p.value,0.00727425971213369
+votechoice_dichotomized,2020 Presidential,tau,standard,conf.high,0.7651298011910057
+votechoice_dichotomized,2020 Presidential,tau,standard,conf.low,0.03033815512261489
+votechoice_dichotomized,2020 Presidential,tau,standard,estimate,0.5045182479532334
+votechoice_dichotomized,2020 Presidential,tau,standard,p.value,0.00727425971213369
+votechoice_dichotomized,2020 Presidential,tau,study_fixed_effects,conf.high,0.7497509049187445
 votechoice_dichotomized,2020 Presidential,tau,study_fixed_effects,conf.low,0
-votechoice_dichotomized,2020 Presidential,tau,study_fixed_effects,estimate,0.4835984732923853
-votechoice_dichotomized,2020 Presidential,tau,study_fixed_effects,p.value,0.02800256262010623
+votechoice_dichotomized,2020 Presidential,tau,study_fixed_effects,estimate,0.4835984721274368
+votechoice_dichotomized,2020 Presidential,tau,study_fixed_effects,p.value,0.02800256262012238

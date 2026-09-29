@@ -88,8 +88,8 @@ response-level data it would have produced.
 
 | pass       | clean | error |
 |------------|-------|-------|
-| as_shipped | 18    | 6     |
-| stripped   | 7     | 17    |
+| as_shipped | 17    | 7     |
+| stripped   | 6     | 18    |
 
 Deposited scripts by pass and outcome.
 
@@ -100,6 +100,7 @@ Deposited scripts by pass and outcome.
 | as_shipped | analysis_scripts/randomization_checks/2_missingness.R | error | Error in `map()`: |
 | as_shipped | plotting_scripts/Figure2_distribution.R | error | Error in readRDS(“output/processed_data/regression_ates.rds”) %\>% left_join(studies) : |
 | as_shipped | plotting_scripts/appendix_attrition.R | error | Error: <ggplot2::labels> object is invalid: |
+| as_shipped | plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R | error | Error in rma(yi = c(out_imm\[2, 2\], out_ubi\[2, 2\], out_peo\[4, 2\]), sei = c(out_imm\[2, : |
 | as_shipped | plotting_scripts/appendix_sd_simulation.R | error | Error in UseMethod(“tidy”) : |
 | stripped | analysis_scripts/1_clean_source_data.R | error | Error: |
 | stripped | analysis_scripts/2_regressions.R | error | Error in gzfile(file, “rb”) : cannot open the connection |
@@ -116,6 +117,7 @@ Deposited scripts by pass and outcome.
 | stripped | plotting_scripts/appendix_balance.R | error | Error in gzfile(file, “rb”) : cannot open the connection |
 | stripped | plotting_scripts/appendix_robustness.R | error | Error in gzfile(file, “rb”) : cannot open the connection |
 | stripped | plotting_scripts/appendix_demographics.R | error | Error in gzfile(file, “rb”) : cannot open the connection |
+| stripped | plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R | error | Error in rma(yi = c(out_imm\[2, 2\], out_ubi\[2, 2\], out_peo\[4, 2\]), sei = c(out_imm\[2, : |
 | stripped | plotting_scripts/appendix_features.R | error | Error in gzfile(file, “rb”) : cannot open the connection |
 | stripped | plotting_scripts/appendix_sd_simulation.R | error | Error in readRDS(con, refhook = refhook) : cannot open the connection |
 
@@ -135,7 +137,7 @@ than about the code.
 
 **Running the deposit in place overwrites part of it.** Measured by
 modification time on a scratch copy, a full run rewrites 7 deposited
-files and adds 47. Every overwritten file is in
+files and adds 46. Every overwritten file is in
 `output/processed_data/`, which is both where the analysis layer writes
 and part of the deposit. Nothing here is ever run inside `original/` or
 `original_extracted/`.
@@ -149,7 +151,7 @@ the strip that should have removed them. It makes no difference to the
 result, because the scripts that read them fail earlier on files the
 strip did remove.
 
-Six deposited scripts fail as shipped. Two of the six are the
+Seven deposited scripts fail as shipped. Three of the seven are the
 environment moving underneath code that was correct when it was written.
 
 | Deposited script | Why it stops |
@@ -160,12 +162,14 @@ environment moving underneath code that was correct when it was written.
 | `Figure2_distribution.R` | `stat(count)` inside `aes()` is no longer allowed. |
 | `appendix_attrition.R` | ggplot2 4.x rejects the labels object the deposit builds. |
 | `appendix_sd_simulation.R` | `tidy()` on an `lm_robust` fit with `estimatr` not attached. |
+| `appendix_in_cycle_generalization/treatment_corrs.R` | `tidy()` returns a tibble from `estimatr` 2.0, so `out_imm[2, 2]` is a one-cell tibble rather than a number, and `metafor::rma()` refuses it as `yi`. |
 
-The three plotting failures matter less than they look: the objects
+Three of the plotting failures matter less than they look: the objects
 those scripts read are all deposited, and the rewrite draws the same
-floats from them. The two analysis failures matter more, because they
-mean the deposit as it stands cannot rebuild two of the objects it
-ships.
+floats from them. The fourth, `treatment_corrs.R`, draws scatterplots
+the rewrite does not redraw, so under `estimatr` 2.0 nothing here
+produces them. The two analysis failures matter more, because they mean
+the deposit as it stands cannot rebuild two of the objects it ships.
 
 Three things about the deposit are worth a reader’s attention.
 
@@ -454,7 +458,7 @@ deposit’s, run once and shipped with the archive.
 |-----------|---------|
 | R         | 4.6.0   |
 | tidyverse | 2.0.0   |
-| estimatr  | 1.0.6   |
+| estimatr  | 2.0.1   |
 | metafor   | 5.0.1   |
 | ggplot2   | 4.0.3   |
 | broom     | 1.0.13  |

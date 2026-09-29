@@ -1,97 +1,97 @@
 outcome,dataset,parameter,specification,quantity,value
-favorability,2018,mu,no_moderators,conf.high,3.143844044576616
-favorability,2018,mu,no_moderators,conf.low,2.101419297264129
-favorability,2018,mu,no_moderators,estimate,2.6226316709203723
-favorability,2018,mu,no_moderators,std.error,0.26347296512533863
-favorability,2018,tau,no_moderators,conf.high,2.1121834182729633
-favorability,2018,tau,no_moderators,conf.low,1.289410069892441
-favorability,2018,tau,no_moderators,estimate,1.6696718716675727
-favorability,2018,tau,no_moderators,p.value,3.320164033752199e-18
-favorability,2018,tau,standard,conf.high,1.870797564909466
-favorability,2018,tau,standard,conf.low,1.03883919657111
-favorability,2018,tau,standard,estimate,1.4235622487176414
-favorability,2018,tau,standard,p.value,7.952280693500246e-14
-favorability,2018,tau,study_fixed_effects,conf.high,1.4599588130231105
-favorability,2018,tau,study_fixed_effects,conf.low,0.7227488487547243
-favorability,2018,tau,study_fixed_effects,estimate,1.0661397047014525
-favorability,2018,tau,study_fixed_effects,p.value,7.013396607258984e-7
-favorability,2020 Downballot,mu,no_moderators,conf.high,1.774668713239302
-favorability,2020 Downballot,mu,no_moderators,conf.low,1.0652588099832188
-favorability,2020 Downballot,mu,no_moderators,estimate,1.4199637616112604
-favorability,2020 Downballot,mu,no_moderators,std.error,0.1792905705350923
-favorability,2020 Downballot,tau,no_moderators,conf.high,1.201759663306447
-favorability,2020 Downballot,tau,no_moderators,conf.low,0.5049925855385767
-favorability,2020 Downballot,tau,no_moderators,estimate,0.8491011308877497
-favorability,2020 Downballot,tau,no_moderators,p.value,1.941721013095226e-6
-favorability,2020 Downballot,tau,standard,conf.high,1.181239717735646
-favorability,2020 Downballot,tau,standard,conf.low,0.4885922508324387
-favorability,2020 Downballot,tau,standard,estimate,0.8319663473024975
-favorability,2020 Downballot,tau,standard,p.value,6.959007237919041e-6
-favorability,2020 Downballot,tau,study_fixed_effects,conf.high,1.0800135836887228
-favorability,2020 Downballot,tau,study_fixed_effects,conf.low,0.38315800585402887
-favorability,2020 Downballot,tau,study_fixed_effects,estimate,0.7355387306901287
-favorability,2020 Downballot,tau,study_fixed_effects,p.value,0.00138154750190791
-favorability,2020 Presidential,mu,no_moderators,conf.high,1.1233314375136656
-favorability,2020 Presidential,mu,no_moderators,conf.low,0.7892487195293423
-favorability,2020 Presidential,mu,no_moderators,estimate,0.956290078521504
-favorability,2020 Presidential,mu,no_moderators,std.error,0.08461644351089191
-favorability,2020 Presidential,tau,no_moderators,conf.high,0.5823157375445417
-favorability,2020 Presidential,tau,no_moderators,conf.low,0.2936188007173352
-favorability,2020 Presidential,tau,no_moderators,estimate,0.438975212164722
-favorability,2020 Presidential,tau,no_moderators,p.value,1.4467564969532185e-6
-favorability,2020 Presidential,tau,standard,conf.high,0.5823157375445417
-favorability,2020 Presidential,tau,standard,conf.low,0.2936188007173352
-favorability,2020 Presidential,tau,standard,estimate,0.438975212164722
-favorability,2020 Presidential,tau,standard,p.value,1.4467564969532185e-6
-favorability,2020 Presidential,tau,study_fixed_effects,conf.high,0.5620947020742968
-favorability,2020 Presidential,tau,study_fixed_effects,conf.low,0.26456455320212857
-favorability,2020 Presidential,tau,study_fixed_effects,estimate,0.41573347629996626
-favorability,2020 Presidential,tau,study_fixed_effects,p.value,3.090154179263267e-5
-votechoice,2018,mu,no_moderators,conf.high,2.943878760220999
-votechoice,2018,mu,no_moderators,conf.low,1.603564660264725
-votechoice,2018,mu,no_moderators,estimate,2.273721710242862
-votechoice,2018,mu,no_moderators,std.error,0.3378265747622307
-votechoice,2018,tau,no_moderators,conf.high,1.990196819556845
-votechoice,2018,tau,no_moderators,conf.low,0.9031951709170462
-votechoice,2018,tau,no_moderators,estimate,1.416255630793307
-votechoice,2018,tau,no_moderators,p.value,5.536895524904361e-7
-votechoice,2018,tau,standard,conf.high,2.011424400482913
-votechoice,2018,tau,standard,conf.low,0.9151132144012232
-votechoice,2018,tau,standard,estimate,1.431286181635585
-votechoice,2018,tau,standard,p.value,2.957824851564602e-7
-votechoice,2018,tau,study_fixed_effects,conf.high,1.8183452449934017
-votechoice,2018,tau,study_fixed_effects,conf.low,0.7487716736520827
-votechoice,2018,tau,study_fixed_effects,estimate,1.2604269333406677
-votechoice,2018,tau,study_fixed_effects,p.value,7.886736699615629e-5
-votechoice,2020 Downballot,mu,no_moderators,conf.high,1.5131811071098666
-votechoice,2020 Downballot,mu,no_moderators,conf.low,0.8550529387372707
-votechoice,2020 Downballot,mu,no_moderators,estimate,1.184117022923569
-votechoice,2020 Downballot,mu,no_moderators,std.error,0.16676411109070088
-votechoice,2020 Downballot,tau,no_moderators,conf.high,0.8504022409488586
+favorability,2018,mu,no_moderators,conf.high,3.143844044763325
+favorability,2018,mu,no_moderators,conf.low,2.1014192969497687
+favorability,2018,mu,no_moderators,estimate,2.622631670856547
+favorability,2018,mu,no_moderators,std.error,0.26347296525198394
+favorability,2018,tau,no_moderators,conf.high,2.1121834182729473
+favorability,2018,tau,no_moderators,conf.low,1.2894100698924498
+favorability,2018,tau,no_moderators,estimate,1.669671873704016
+favorability,2018,tau,no_moderators,p.value,3.3201640337449748e-18
+favorability,2018,tau,standard,conf.high,1.8707975649094997
+favorability,2018,tau,standard,conf.low,1.0388391965712398
+favorability,2018,tau,standard,estimate,1.423562248282917
+favorability,2018,tau,standard,p.value,7.952280693494662e-14
+favorability,2018,tau,study_fixed_effects,conf.high,1.459958813023127
+favorability,2018,tau,study_fixed_effects,conf.low,0.7227488487542895
+favorability,2018,tau,study_fixed_effects,estimate,1.0661397040756708
+favorability,2018,tau,study_fixed_effects,p.value,7.013396607260107e-7
+favorability,2020 Downballot,mu,no_moderators,conf.high,1.774668713199476
+favorability,2020 Downballot,mu,no_moderators,conf.low,1.065258810002339
+favorability,2020 Downballot,mu,no_moderators,estimate,1.4199637616009075
+favorability,2020 Downballot,mu,no_moderators,std.error,0.17929057052019465
+favorability,2020 Downballot,tau,no_moderators,conf.high,1.2017596633064718
+favorability,2020 Downballot,tau,no_moderators,conf.low,0.5049925855386762
+favorability,2020 Downballot,tau,no_moderators,estimate,0.8491011305505436
+favorability,2020 Downballot,tau,no_moderators,p.value,1.94172101309352e-6
+favorability,2020 Downballot,tau,standard,conf.high,1.181239717735664
+favorability,2020 Downballot,tau,standard,conf.low,0.4885922508325066
+favorability,2020 Downballot,tau,standard,estimate,0.83196634732444
+favorability,2020 Downballot,tau,standard,p.value,6.9590072379132155e-6
+favorability,2020 Downballot,tau,study_fixed_effects,conf.high,1.080013583688747
+favorability,2020 Downballot,tau,study_fixed_effects,conf.low,0.38315800585166554
+favorability,2020 Downballot,tau,study_fixed_effects,estimate,0.7355387303296763
+favorability,2020 Downballot,tau,study_fixed_effects,p.value,0.00138154750190721
+favorability,2020 Presidential,mu,no_moderators,conf.high,1.1233314374403751
+favorability,2020 Presidential,mu,no_moderators,conf.low,0.7892487195785068
+favorability,2020 Presidential,mu,no_moderators,estimate,0.956290078509441
+favorability,2020 Presidential,mu,no_moderators,std.error,0.08461644347987651
+favorability,2020 Presidential,tau,no_moderators,conf.high,0.5823157375438562
+favorability,2020 Presidential,tau,no_moderators,conf.low,0.29361880071694085
+favorability,2020 Presidential,tau,no_moderators,estimate,0.4389752112601896
+favorability,2020 Presidential,tau,no_moderators,p.value,1.4467564969542593e-6
+favorability,2020 Presidential,tau,standard,conf.high,0.5823157375438562
+favorability,2020 Presidential,tau,standard,conf.low,0.29361880071694085
+favorability,2020 Presidential,tau,standard,estimate,0.4389752112601896
+favorability,2020 Presidential,tau,standard,p.value,1.4467564969542593e-6
+favorability,2020 Presidential,tau,study_fixed_effects,conf.high,0.5620947020747737
+favorability,2020 Presidential,tau,study_fixed_effects,conf.low,0.26456455320217237
+favorability,2020 Presidential,tau,study_fixed_effects,estimate,0.41573347658927207
+favorability,2020 Presidential,tau,study_fixed_effects,p.value,3.090154179261944e-5
+votechoice,2018,mu,no_moderators,conf.high,2.9438787601322645
+votechoice,2018,mu,no_moderators,conf.low,1.6035646604143132
+votechoice,2018,mu,no_moderators,estimate,2.2737217102732887
+votechoice,2018,mu,no_moderators,std.error,0.33782657470216143
+votechoice,2018,tau,no_moderators,conf.high,1.9901968195568005
+votechoice,2018,tau,no_moderators,conf.low,0.903195170916982
+votechoice,2018,tau,no_moderators,estimate,1.4162556296611026
+votechoice,2018,tau,no_moderators,p.value,5.536895524908274e-7
+votechoice,2018,tau,standard,conf.high,2.0114244004828983
+votechoice,2018,tau,standard,conf.low,0.9151132144012128
+votechoice,2018,tau,standard,estimate,1.4312861834370587
+votechoice,2018,tau,standard,p.value,2.957824851566818e-7
+votechoice,2018,tau,study_fixed_effects,conf.high,1.8183452449933828
+votechoice,2018,tau,study_fixed_effects,conf.low,0.7487716736586447
+votechoice,2018,tau,study_fixed_effects,estimate,1.2604269352628266
+votechoice,2018,tau,study_fixed_effects,p.value,7.88673669961906e-5
+votechoice,2020 Downballot,mu,no_moderators,conf.high,1.5131811070941583
+votechoice,2020 Downballot,mu,no_moderators,conf.low,0.8550529387580139
+votechoice,2020 Downballot,mu,no_moderators,estimate,1.1841170229260862
+votechoice,2020 Downballot,mu,no_moderators,std.error,0.1667641110814644
+votechoice,2020 Downballot,tau,no_moderators,conf.high,0.8504022409485384
 votechoice,2020 Downballot,tau,no_moderators,conf.low,0
-votechoice,2020 Downballot,tau,no_moderators,estimate,0.4712281664370279
-votechoice,2020 Downballot,tau,no_moderators,p.value,0.05406948742947892
-votechoice,2020 Downballot,tau,standard,conf.high,0.8104112843420896
+votechoice,2020 Downballot,tau,no_moderators,estimate,0.4712281659940731
+votechoice,2020 Downballot,tau,no_moderators,p.value,0.05406948742947231
+votechoice,2020 Downballot,tau,standard,conf.high,0.8104112843413743
 votechoice,2020 Downballot,tau,standard,conf.low,0
-votechoice,2020 Downballot,tau,standard,estimate,0.4220381263997537
-votechoice,2020 Downballot,tau,standard,p.value,0.1278236812399787
-votechoice,2020 Downballot,tau,study_fixed_effects,conf.high,0.7823933634402879
+votechoice,2020 Downballot,tau,standard,estimate,0.42203812596037155
+votechoice,2020 Downballot,tau,standard,p.value,0.12782368123997356
+votechoice,2020 Downballot,tau,study_fixed_effects,conf.high,0.7823933634398356
 votechoice,2020 Downballot,tau,study_fixed_effects,conf.low,0
-votechoice,2020 Downballot,tau,study_fixed_effects,estimate,0.3714591021257032
-votechoice,2020 Downballot,tau,study_fixed_effects,p.value,0.24728136757026808
-votechoice,2020 Presidential,mu,no_moderators,conf.high,1.0028598406623457
-votechoice,2020 Presidential,mu,no_moderators,conf.low,0.6913913415821213
-votechoice,2020 Presidential,mu,no_moderators,estimate,0.8471255911222335
-votechoice,2020 Presidential,mu,no_moderators,std.error,0.07912724376254604
-votechoice,2020 Presidential,tau,no_moderators,conf.high,0.49554342538529583
-votechoice,2020 Presidential,tau,no_moderators,conf.low,0.1379810050140652
-votechoice,2020 Presidential,tau,no_moderators,estimate,0.34298697672770573
-votechoice,2020 Presidential,tau,no_moderators,p.value,0.00106644926907865
-votechoice,2020 Presidential,tau,standard,conf.high,0.49554342538529583
-votechoice,2020 Presidential,tau,standard,conf.low,0.1379810050140652
-votechoice,2020 Presidential,tau,standard,estimate,0.34298697672770573
-votechoice,2020 Presidential,tau,standard,p.value,0.00106644926907865
-votechoice,2020 Presidential,tau,study_fixed_effects,conf.high,0.4815417704561796
-votechoice,2020 Presidential,tau,study_fixed_effects,conf.low,0.10055651991440794
-votechoice,2020 Presidential,tau,study_fixed_effects,estimate,0.3261298543961373
-votechoice,2020 Presidential,tau,study_fixed_effects,p.value,0.01051769311410302
+votechoice,2020 Downballot,tau,study_fixed_effects,estimate,0.3714591015271002
+votechoice,2020 Downballot,tau,study_fixed_effects,p.value,0.24728136757028224
+votechoice,2020 Presidential,mu,no_moderators,conf.high,1.0028598406301747
+votechoice,2020 Presidential,mu,no_moderators,conf.low,0.6913913415934163
+votechoice,2020 Presidential,mu,no_moderators,estimate,0.8471255911117955
+votechoice,2020 Presidential,mu,no_moderators,std.error,0.0791272437515037
+votechoice,2020 Presidential,tau,no_moderators,conf.high,0.4955434253829421
+votechoice,2020 Presidential,tau,no_moderators,conf.low,0.13798100501386476
+votechoice,2020 Presidential,tau,no_moderators,estimate,0.3429869761008556
+votechoice,2020 Presidential,tau,no_moderators,p.value,0.00106644926907885
+votechoice,2020 Presidential,tau,standard,conf.high,0.4955434253829421
+votechoice,2020 Presidential,tau,standard,conf.low,0.13798100501386476
+votechoice,2020 Presidential,tau,standard,estimate,0.3429869761008556
+votechoice,2020 Presidential,tau,standard,p.value,0.00106644926907885
+votechoice,2020 Presidential,tau,study_fixed_effects,conf.high,0.4815417704639428
+votechoice,2020 Presidential,tau,study_fixed_effects,conf.low,0.100556519908661
+votechoice,2020 Presidential,tau,study_fixed_effects,estimate,0.3261298592520465
+votechoice,2020 Presidential,tau,study_fixed_effects,p.value,0.01051769311410789

@@ -1,85 +1,85 @@
 metareg_group,metareg_name,specification,outcome,p_diff
-new,Issue: BLM/Race,standard,favorability,0.7911567907045581
-new,Issue: BLM/Race,standard,votechoice,0.7460619194027284
-new,Issue: BLM/Race,standard,votechoice_dichotomized,0.7347682457342981
-new,Issue: COVID-19,standard,favorability,0.009264070030209522
-new,Issue: COVID-19,standard,votechoice,0.9980910648899757
-new,Issue: COVID-19,standard,votechoice_dichotomized,0.43541496394889434
-new,Issue: Decency,standard,favorability,2.1355433415595146e-5
-new,Issue: Decency,standard,votechoice,0.24049838689858558
-new,Issue: Decency,standard,votechoice_dichotomized,0.6391253955449246
-new,Messenger: Everyday people,standard,favorability,0.732485276048136
-new,Messenger: Everyday people,standard,votechoice,0.5046959671624078
-new,Messenger: Everyday people,standard,votechoice_dichotomized,0.4558903482300548
-new,Messenger: Healthcare worker,standard,favorability,0.12919807346023815
-new,Messenger: Healthcare worker,standard,votechoice,0.44214745562571195
-new,Messenger: Healthcare worker,standard,votechoice_dichotomized,0.8631158180641527
-new,Messenger: Republican,standard,favorability,0.05139599278061576
-new,Messenger: Republican,standard,votechoice,0.030697821344053928
-new,Messenger: Republican,standard,votechoice_dichotomized,0.11601585610900066
-new,Pushiness,standard,favorability,0.07906015567559403
-new,Pushiness,standard,votechoice,0.9019817809443851
-new,Pushiness,standard,votechoice_dichotomized,0.6921472392084062
-omnibus,All primary,standard,favorability,5.71867657896888e-8
-omnibus,All primary,standard,votechoice,0.022900586855045646
-omnibus,All primary,standard,votechoice_dichotomized,0.19182011947970387
-omnibus,All primary and secondary,standard,favorability,3.925092276965014e-6
-omnibus,All primary and secondary,standard,votechoice,0.08085134578243323
-omnibus,All primary and secondary,standard,votechoice_dichotomized,0.39414418724253
-omnibus,"All primary, secondary and new",standard,favorability,0.0018040550951767126
-omnibus,"All primary, secondary and new",standard,votechoice,0.2587345221419148
-omnibus,"All primary, secondary and new",standard,votechoice_dichotomized,0.7795448356489315
-other,Time to election,standard,favorability,2.083174830748734e-4
-other,Time to election,standard,votechoice,0.9137687245574178
-other,Time to election,standard,votechoice_dichotomized,0.9867134563322149
-overall,Overall,no_moderators,favorability,3.922571271598371e-9
-overall,Overall,no_moderators,votechoice,7.66813078303044e-5
-overall,Overall,no_moderators,votechoice_dichotomized,7.082871120570242e-4
-overall,Overall,standard,favorability,1.505170287085458e-6
-overall,Overall,standard,votechoice,5.249254796617446e-6
-overall,Overall,standard,votechoice_dichotomized,2.6227026071020467e-4
-overall,Overall,study_fixed_effects,favorability,0.5796680398600648
-overall,Overall,study_fixed_effects,votechoice,0.2826193937100806
-overall,Overall,study_fixed_effects,votechoice_dichotomized,0.8010053249896603
-primary,Fact type,standard,favorability,0.0074559952071346774
-primary,Fact type,standard,votechoice,0.027853056926921856
-primary,Fact type,standard,votechoice_dichotomized,0.33873096078269627
-primary,New fact (where fact present),standard,favorability,0.014907557586111975
-primary,New fact (where fact present),standard,votechoice,0.3246062167574486
-primary,New fact (where fact present),standard,votechoice_dichotomized,0.2592160167278678
-primary,Persuasive techniques,standard,favorability,0.47730246363503
-primary,Persuasive techniques,standard,votechoice,0.21176539517826895
-primary,Persuasive techniques,standard,votechoice_dichotomized,0.6857147125832819
-primary,Primary focus,standard,favorability,4.792417223128058e-5
-primary,Primary focus,standard,votechoice,0.01504204268059578
-primary,Primary focus,standard,votechoice_dichotomized,0.02052439156552754
-secondary,Cited fact (where fact present),standard,favorability,0.046642009530601186
-secondary,Cited fact (where fact present),standard,votechoice,0.6313342160311874
-secondary,Cited fact (where fact present),standard,votechoice_dichotomized,0.9010835386093796
-secondary,Emotion: anger,standard,favorability,0.056040776338118985
-secondary,Emotion: anger,standard,votechoice,0.017573714261073934
-secondary,Emotion: anger,standard,votechoice_dichotomized,0.04693966736219828
-secondary,Emotion: enthusiasm,standard,favorability,0.14001667864930925
-secondary,Emotion: enthusiasm,standard,votechoice,0.9235654469632434
-secondary,Emotion: enthusiasm,standard,votechoice_dichotomized,0.8657343924131685
-secondary,Explicit vote for,standard,favorability,0.001203245825983203
-secondary,Explicit vote for,standard,votechoice,0.05644166807880895
-secondary,Explicit vote for,standard,votechoice_dichotomized,0.026600639389009622
-secondary,Messenger: female,standard,favorability,0.8761108523606328
-secondary,Messenger: female,standard,votechoice,0.048222897733271874
-secondary,Messenger: female,standard,votechoice_dichotomized,0.1948429070741141
-secondary,Messenger: politician,standard,favorability,0.005467264943619933
-secondary,Messenger: politician,standard,votechoice,0.3618292008773391
-secondary,Messenger: politician,standard,votechoice_dichotomized,0.16266372223782788
-secondary,Primary tone,standard,favorability,0.1358924116840621
-secondary,Primary tone,standard,votechoice,0.03284284292521869
-secondary,Primary tone,standard,votechoice_dichotomized,0.2855321538343559
-secondary,Production value,standard,favorability,0.027363663406627235
-secondary,Production value,standard,votechoice,0.13175341836548524
-secondary,Production value,standard,votechoice_dichotomized,0.7598727584302037
-secondary,Specificity: Candidate attribute,standard,favorability,0.001177389488569703
-secondary,Specificity: Candidate attribute,standard,votechoice,0.10666105079641362
-secondary,Specificity: Candidate attribute,standard,votechoice_dichotomized,0.2690885498629254
-secondary,Specificity: Issue fact,standard,favorability,0.6316106120316067
-secondary,Specificity: Issue fact,standard,votechoice,0.7471689615256123
-secondary,Specificity: Issue fact,standard,votechoice_dichotomized,0.5416750688860512
+new,Issue: BLM/Race,standard,favorability,0.7911567907412489
+new,Issue: BLM/Race,standard,votechoice,0.7460619193469645
+new,Issue: BLM/Race,standard,votechoice_dichotomized,0.7347682453387724
+new,Issue: COVID-19,standard,favorability,0.00926407002873385
+new,Issue: COVID-19,standard,votechoice,0.9980910646927209
+new,Issue: COVID-19,standard,votechoice_dichotomized,0.43541496382638645
+new,Issue: Decency,standard,favorability,2.1355433383470168e-5
+new,Issue: Decency,standard,votechoice,0.2404983868414761
+new,Issue: Decency,standard,votechoice_dichotomized,0.6391253956236068
+new,Messenger: Everyday people,standard,favorability,0.7324852759291327
+new,Messenger: Everyday people,standard,votechoice,0.5046959673993604
+new,Messenger: Everyday people,standard,votechoice_dichotomized,0.45589034821588614
+new,Messenger: Healthcare worker,standard,favorability,0.12919807348667972
+new,Messenger: Healthcare worker,standard,votechoice,0.44214745555743956
+new,Messenger: Healthcare worker,standard,votechoice_dichotomized,0.8631158191502227
+new,Messenger: Republican,standard,favorability,0.0513959927984805
+new,Messenger: Republican,standard,votechoice,0.030697821272370484
+new,Messenger: Republican,standard,votechoice_dichotomized,0.11601585587376646
+new,Pushiness,standard,favorability,0.079060155677928165
+new,Pushiness,standard,votechoice,0.9019817810773242
+new,Pushiness,standard,votechoice_dichotomized,0.6921472392298273
+omnibus,All primary,standard,favorability,5.718676578172482e-8
+omnibus,All primary,standard,votechoice,0.022900586899936765
+omnibus,All primary,standard,votechoice_dichotomized,0.1918201217498994
+omnibus,All primary and secondary,standard,favorability,3.925092304862493e-6
+omnibus,All primary and secondary,standard,votechoice,0.08085134540758367
+omnibus,All primary and secondary,standard,votechoice_dichotomized,0.3941441874240625
+omnibus,"All primary, secondary and new",standard,favorability,0.0018040550886380892
+omnibus,"All primary, secondary and new",standard,votechoice,0.2587345218034053
+omnibus,"All primary, secondary and new",standard,votechoice_dichotomized,0.7795448357042438
+other,Time to election,standard,favorability,2.0831748287030853e-4
+other,Time to election,standard,votechoice,0.9137687245647456
+other,Time to election,standard,votechoice_dichotomized,0.9867134563486778
+overall,Overall,no_moderators,favorability,3.922571324302349e-9
+overall,Overall,no_moderators,votechoice,7.668130755092901e-5
+overall,Overall,no_moderators,votechoice_dichotomized,7.082871124188193e-4
+overall,Overall,standard,favorability,1.5051702828114798e-6
+overall,Overall,standard,votechoice,5.249254814507089e-6
+overall,Overall,standard,votechoice_dichotomized,2.622702598295435e-4
+overall,Overall,study_fixed_effects,favorability,0.579668039865115
+overall,Overall,study_fixed_effects,votechoice,0.28261939377395906
+overall,Overall,study_fixed_effects,votechoice_dichotomized,0.8010053249941249
+primary,Fact type,standard,favorability,0.007455995192223818
+primary,Fact type,standard,votechoice,0.02785305694309167
+primary,Fact type,standard,votechoice_dichotomized,0.33873096075946996
+primary,New fact (where fact present),standard,favorability,0.014907557606409027
+primary,New fact (where fact present),standard,votechoice,0.32460621665849626
+primary,New fact (where fact present),standard,votechoice_dichotomized,0.25921601631011915
+primary,Persuasive techniques,standard,favorability,0.4773024646045794
+primary,Persuasive techniques,standard,votechoice,0.21176539529784164
+primary,Persuasive techniques,standard,votechoice_dichotomized,0.6857147127006363
+primary,Primary focus,standard,favorability,4.7924172232856846e-5
+primary,Primary focus,standard,votechoice,0.015042042650688816
+primary,Primary focus,standard,votechoice_dichotomized,0.020524391577268954
+secondary,Cited fact (where fact present),standard,favorability,0.04664200953582566
+secondary,Cited fact (where fact present),standard,votechoice,0.6313342158216058
+secondary,Cited fact (where fact present),standard,votechoice_dichotomized,0.9010835384638672
+secondary,Emotion: anger,standard,favorability,0.056040776386042344
+secondary,Emotion: anger,standard,votechoice,0.017573714301899242
+secondary,Emotion: anger,standard,votechoice_dichotomized,0.04693966746319785
+secondary,Emotion: enthusiasm,standard,favorability,0.14001667867664225
+secondary,Emotion: enthusiasm,standard,votechoice,0.923565446974738
+secondary,Emotion: enthusiasm,standard,votechoice_dichotomized,0.865734392132726
+secondary,Explicit vote for,standard,favorability,0.0012032458259584049
+secondary,Explicit vote for,standard,votechoice,0.05644166833017048
+secondary,Explicit vote for,standard,votechoice_dichotomized,0.02660063940868702
+secondary,Messenger: female,standard,favorability,0.876110852429459
+secondary,Messenger: female,standard,votechoice,0.04822289777695581
+secondary,Messenger: female,standard,votechoice_dichotomized,0.19484290675858962
+secondary,Messenger: politician,standard,favorability,0.005467264950415192
+secondary,Messenger: politician,standard,votechoice,0.3618292010334531
+secondary,Messenger: politician,standard,votechoice_dichotomized,0.1626637223166496
+secondary,Primary tone,standard,favorability,0.1358924117969891
+secondary,Primary tone,standard,votechoice,0.03284284294497777
+secondary,Primary tone,standard,votechoice_dichotomized,0.2855321534868216
+secondary,Production value,standard,favorability,0.027363663456311343
+secondary,Production value,standard,votechoice,0.1317534183175463
+secondary,Production value,standard,votechoice_dichotomized,0.7598727583430025
+secondary,Specificity: Candidate attribute,standard,favorability,0.0011773894897693072
+secondary,Specificity: Candidate attribute,standard,votechoice,0.10666105077622755
+secondary,Specificity: Candidate attribute,standard,votechoice_dichotomized,0.2690885500206551
+secondary,Specificity: Issue fact,standard,favorability,0.6316106118794622
+secondary,Specificity: Issue fact,standard,votechoice,0.7471689614746626
+secondary,Specificity: Issue fact,standard,votechoice_dichotomized,0.5416750688511377
