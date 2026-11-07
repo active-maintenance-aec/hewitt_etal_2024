@@ -172,11 +172,11 @@ entries <- tribble(
   paste0(
     "Compared these values with the average survey treatment effects $\\mu$ from Table ",
     "OA2, we calculate the survey-to-field conversion factor to be approximately 100 ",
-    "(= 0.015 / [[1.53]]) based on the 2020 Downballot dataset."),
+    "(= [[1.53]] / 0.015) based on the 2020 Downballot dataset."),
   str_glue(
     "Compared these values with the average survey treatment effects $\\mu$ from Table ",
     "OA2, we calculate the survey-to-field conversion factor to be approximately 100 ",
-    "(= 0.015 / [[{sprintf('%.2f', mu_downballot)}]]) based on the 2020 Downballot ",
+    "(= [[{sprintf('%.2f', mu_downballot)}]] / 0.015) based on the 2020 Downballot ",
     "dataset."),
   str_glue(
     "Table OA2 gives {published_cell('table_oa2', '2020 Downballot', 'mu')} for the 2020 ",
