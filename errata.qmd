@@ -108,7 +108,7 @@ entries <- tribble(
 
   1, "quantity", "pipeline", "full",
   "The 2018 standard deviation of true effects on vote choice",
-  paste0("p. 2", part_sep, "p. 10"),
+  paste0("p. 2022", part_sep, "p. 2030"),
   paste0(
     "In addition, we find that common theories [...] our meta-analytic results indicate ",
     "that the standard deviation of the distribution of true treatment effects were ",
@@ -144,7 +144,7 @@ entries <- tribble(
 
   2, "quantity", "pipeline", "full",
   "The range of R-squared values for vote choice",
-  "p. 11",
+  "p. 2031",
   paste0(
     "When we include all primary hypotheses in one meta-regression, the adjusted $R^2$ ",
     "values range between 0.12 and 0.34 for favorability and between 0 and [[0.32]] for ",
@@ -203,7 +203,7 @@ entries <- tribble(
 
   5, "quantity", "pipeline", "full",
   "The reliability of the pushiness rating",
-  "p. 8",
+  "p. 2028",
   paste0(
     "Research assistants were highly consistent in their ratings of the most explicit ",
     "features such as the race and gender of the primary messenger (single-rater ICC ",
@@ -224,7 +224,7 @@ entries <- tribble(
 
   6, "bibliographic", "reference_audit", "brief",
   "The article's own data citation drops its sixth author",
-  "p. 18",
+  "p. 2038",
   paste(
     "Hewitt, Luke, David Broockman, Alexander Coppock, Ben M. Tappin, James Slezak, ",
     "[[Nathaniel Lubin]], et al. 2024. \"Replication Data for: How Experiments Help ",
