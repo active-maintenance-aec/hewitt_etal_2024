@@ -117,7 +117,7 @@ entries <- tribble(
     part_sep,
     "In 2018, the estimated standard deviation of the true treatment effects ",
     "($\\hat\\tau$) was [[1.5]] points, but in both the downballot and presidential races ",
-    "in 2020, the standard deviations were smaller, at 0.5 and 0.3 percentage points."),
+    "in 2020, the standard deviations were smaller, at 0.5 and 0.3 percentage points, respectively."),
   paste0(
     str_glue(
       "our meta-analytic results indicate that the standard deviation of the ",
@@ -129,7 +129,7 @@ entries <- tribble(
       "In 2018, the estimated standard deviation of the true treatment effects ",
       "($\\hat\\tau$) was [[{sprintf('%.1f', tau_2018)}]] points, but in both the ",
       "downballot and presidential races in 2020, the standard deviations were smaller, ",
-      "at 0.5 and 0.3 percentage points.")),
+      "at 0.5 and 0.3 percentage points, respectively.")),
   paste0(
     str_glue(
       "The article gives this quantity as 1.5 points in two places. Table 2 gives it as ",
