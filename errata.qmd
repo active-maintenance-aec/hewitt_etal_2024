@@ -187,7 +187,7 @@ entries <- tribble(
 
   4, "float", "pipeline", "brief",
   "The last 2020 downballot study in Table 1",
-  "",
+  "p. 2027",
   str_glue(
     "The \"Last study\" cell of Table 1's 2020 downballot row reads ",
     "[[{published_cell('table_1', '2020 Downballot', 'last_study')}]]."),
