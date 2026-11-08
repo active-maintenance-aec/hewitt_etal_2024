@@ -25,7 +25,7 @@ published_claims <- read_csv(
 # and not against the sentence the article prints, so a corrected claim that drifted back to
 # the published value stops the run instead of quietly reading as a match.
 #
-# quantity_classes stays at its default. Entry 4 corrects a cell of Table 1 and names
+# quantity_classes stays at its default. Entry 5 corrects a cell of Table 1 and names
 # table_1_cells, which is a float-coverage row: no *_cells row is a block, so this file never
 # prints one, and the entry is classed "float" for that reason.
 errata_entries <- read_csv(here::here("errata_entries.csv"),
