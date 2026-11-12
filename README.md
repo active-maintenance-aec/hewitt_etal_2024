@@ -14,6 +14,8 @@
 - [Rewrite verification](#rewrite-verification)
 - [R environment](#r-environment)
 
+**Archived at Zenodo:** [doi:10.5281/zenodo.24168397](https://doi.org/10.5281/zenodo.24168397). This DOI always resolves to the latest release of the maintained version.
+
 *Drafted by Claude Opus 5 under the supervision of Alex Coppock.*
 
 This repository reproduces the analysis behind Hewitt et al. (2024),
