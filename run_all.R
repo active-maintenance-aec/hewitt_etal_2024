@@ -48,7 +48,7 @@ source(here::here("maintained", "text_descriptive_claims.R"))
 # original_extracted/.
 #
 # The as-shipped pass takes several hours, because two deposited scripts do. Set
-# ARCHIVE_RUN_SKIP_SLOW=1 to skip those two and record them as skipped.
+# ARCHIVE_RUN_SKIP_SLOW=1 to skip those two and record them as not run.
 source(here::here("ground_truth", "run_archive.R"))
 source(here::here("ground_truth", "extract_archive_values.R"))
 

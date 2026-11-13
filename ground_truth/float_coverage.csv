@@ -1,39 +1,85 @@
-float,published_numbers,covered,reproduced_by_rewrite,reproduced_by_archive
-figure_1,12,12,12,12
-figure_2,20,20,18,18
-figure_3,166,166,166,166
-figure_oa10,166,166,166,166
-figure_oa12,184,184,184,NA
-table_1,24,24,23,18
-table_2,90,90,90,90
-table_3,3,3,3,NA
-table_da10,252,252,252,NA
-table_da11,78,78,78,NA
-table_da12,84,84,84,NA
-table_da13,84,84,84,NA
-table_da14,84,84,84,NA
-table_da15,84,84,84,NA
-table_da16,84,84,84,NA
-table_da17,84,84,84,NA
-table_da18,84,84,84,NA
-table_da19,112,112,112,NA
-table_da20,108,108,108,NA
-table_da21,52,52,52,NA
-table_da22,52,52,52,NA
-table_da23,52,52,52,NA
-table_da24,52,52,52,NA
-table_da25,52,52,52,NA
-table_da26,52,52,52,NA
-table_da27,52,52,52,NA
-table_da28,476,476,476,NA
-table_da29,588,588,588,NA
-table_da30,452,452,452,NA
-table_da35,159,159,159,NA
-table_da4,42,42,42,NA
-table_da5,66,66,66,NA
-table_da6,18,18,18,NA
-table_da7,112,112,112,NA
-table_da8,108,108,108,NA
-table_da9,136,136,136,NA
-table_oa1,84,84,84,NA
-table_oa2,45,45,45,45
+float,published_numbers,covered,reproduced_by_rewrite,reproduced_by_archive,plotted,plotted_reproduced,note
+Figure 1,12,12,12,12,NA,NA,Prints its numbers on its face; plotted quantities not counted.
+Figure 2,20,20,18,18,NA,NA,Prints its numbers on its face; plotted quantities not counted.
+Figure 3,166,166,166,166,166,166,Prints the t-statistic on every plotted tile.
+Figure 4,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Table 1,24,24,23,18,NA,NA,NA
+Table 2,90,90,90,90,NA,NA,NA
+Table 3,3,3,3,NA,NA,NA,NA
+Figure OA1,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure OA2,NA,0,0,NA,NA,NA,"Prints a coefficient beside every point; not transcribed. The README records these as the same estimates as the Dataverse appendix metaregression tables, which are covered cell by cell."
+Figure OA3,NA,0,0,NA,NA,NA,"Prints a coefficient beside every point; not transcribed. The README records these as the same estimates as the Dataverse appendix metaregression tables, which are covered cell by cell."
+Figure OA4,NA,0,0,NA,NA,NA,"Prints a coefficient beside every point; not transcribed. The README records these as the same estimates as the Dataverse appendix metaregression tables, which are covered cell by cell."
+Figure OA5,NA,0,0,NA,NA,NA,"Prints a coefficient beside every point; not transcribed. The README records these as the same estimates as the Dataverse appendix metaregression tables, which are covered cell by cell."
+Figure OA6,NA,0,0,NA,NA,NA,"Prints a coefficient beside every point; not transcribed. The README records these as the same estimates as the Dataverse appendix metaregression tables, which are covered cell by cell."
+Figure OA7,NA,0,0,NA,NA,NA,"Prints a coefficient beside every point; not transcribed. The README records these as the same estimates as the Dataverse appendix metaregression tables, which are covered cell by cell."
+Figure OA8,0,0,0,NA,NA,NA,"Prints no numbers, as the README records; nothing to transcribe."
+Figure OA9,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure OA10,166,166,166,166,166,166,Prints the t-statistic on every plotted tile.
+Figure OA11,0,0,0,NA,NA,NA,"Prints no numbers, as the README records; nothing to transcribe."
+Figure OA12,184,184,184,NA,184,184,Prints the t-statistic on every plotted tile.
+Figure OA13,0,0,0,NA,NA,NA,"Prints no numbers, as the README records; nothing to transcribe."
+Figure OA14,0,0,0,NA,NA,NA,"Prints no numbers, as the README records; nothing to transcribe."
+Figure OA15,0,0,0,NA,NA,NA,"Prints no numbers, as the README records; nothing to transcribe."
+Figure OA16,0,0,0,NA,NA,NA,"Prints no numbers, as the README records; nothing to transcribe."
+Table OA1,84,84,84,NA,NA,NA,NA
+Table OA2,45,45,45,45,NA,NA,NA
+Figure DA1,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA2,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA3,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA4,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA5,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA6,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA7,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA8,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA9,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA10,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA11,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA12,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA13,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA14,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA15,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA16,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA17,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA18,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA19,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA20,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA21,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA22,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA23,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Figure DA24,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Table DA1,NA,0,0,NA,NA,NA,Lists the studies individually; not transcribed. The three summary rows of Table 1 that aggregate it are covered.
+Table DA2,NA,0,0,NA,NA,NA,Lists the studies individually; not transcribed. The three summary rows of Table 1 that aggregate it are covered.
+Table DA3,NA,0,0,NA,NA,NA,Lists the studies individually; not transcribed. The three summary rows of Table 1 that aggregate it are covered.
+Table DA4,42,42,42,NA,NA,NA,NA
+Table DA5,66,66,66,NA,NA,NA,NA
+Table DA6,18,18,18,NA,NA,NA,NA
+Table DA7,112,112,112,NA,NA,NA,NA
+Table DA8,108,108,108,NA,NA,NA,NA
+Table DA9,136,136,136,NA,NA,NA,NA
+Table DA10,252,252,252,NA,NA,NA,NA
+Table DA11,78,78,78,NA,NA,NA,NA
+Table DA12,84,84,84,NA,NA,NA,NA
+Table DA13,84,84,84,NA,NA,NA,NA
+Table DA14,84,84,84,NA,NA,NA,NA
+Table DA15,84,84,84,NA,NA,NA,NA
+Table DA16,84,84,84,NA,NA,NA,NA
+Table DA17,84,84,84,NA,NA,NA,NA
+Table DA18,84,84,84,NA,NA,NA,NA
+Table DA19,112,112,112,NA,NA,NA,NA
+Table DA20,108,108,108,NA,NA,NA,NA
+Table DA21,52,52,52,NA,NA,NA,NA
+Table DA22,52,52,52,NA,NA,NA,NA
+Table DA23,52,52,52,NA,NA,NA,NA
+Table DA24,52,52,52,NA,NA,NA,NA
+Table DA25,52,52,52,NA,NA,NA,NA
+Table DA26,52,52,52,NA,NA,NA,NA
+Table DA27,52,52,52,NA,NA,NA,NA
+Table DA28,476,476,476,NA,NA,NA,NA
+Table DA29,588,588,588,NA,NA,NA,NA
+Table DA30,452,452,452,NA,NA,NA,NA
+Table DA31,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Table DA32,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Table DA33,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Table DA34,NA,0,0,NA,NA,NA,Not transcribed; nobody has counted the numbers printed on it.
+Table DA35,159,159,159,NA,NA,NA,NA

@@ -289,6 +289,11 @@ if (!all(value_placed)) {
   stop("An entry's corrected_values are not in the spans of its corrected sentence.")
 }
 
+# The gate's result is written to the spine as values_in_spans, one logical per entry, so a
+# reader can see it without rerunning this file. An entry with no corrected values is NA.
+entries <- entries |>
+  left_join(tibble(entry = quantified$entry, values_in_spans = value_placed), by = "entry")
+
 # An entry that moves a value maintained/in_text_claims.R PRINTS has to say what the value
 # becomes, and every other entry carries NA. Only "quantity" does so here: entry 5 corrects a
 # cell of Table 1, and table_1_cells is a float-coverage row that no block prints, which is

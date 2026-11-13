@@ -31,20 +31,12 @@ published_claims <- read_csv(
 errata_entries <- read_csv(here::here("errata_entries.csv"),
                            col_types = cols(.default = col_character()))
 
-# The extraction already records which claims cannot be compared at the precision the article
-# prints; it just records it in the article's own vocabulary. That column is translated here
-# rather than duplicated, so `comparison` stays the single source both instruments read.
-#
-#   "=="      the article states a value, and it is compared
-#   "approx"  the article hedges ("approximately 4 per cent", "about 10%"), so agreement at
-#             printed precision is the wrong test. The emitter this replaces threw the
-#             computed value away and printed NA, which is the uncountable comparison: the
-#             number now prints beside the hedge, and is asserted against nothing.
-#   ">", "<"  the article states a bound, not a value, so equality against the bound is the
-#             wrong test for the same reason.
-published_claims <- published_claims |>
-  mutate(expect = case_when(is.na(comparison) | comparison == "==" ~ "compare",
-                            comparison %in% c("approx", ">", "<") ~ "range"))
+# The expectation for a claim the article hedges ("approximately 4 per cent", "over 10%") or
+# states as a bound is declared at its call site with expect = "range": agreement at printed
+# precision is the wrong test for such a sentence, so the number prints beside the hedge and
+# is asserted against nothing. The extraction's comparison column says which sentences are
+# hedges or bounds, and its expect column records what each call site below declares.
+# Neither column is passed to claim_start().
 
 # The scoring machinery comes from excheckr, which carries the verdict ladder, the typography
 # parser and the printed form this file used to define for itself, signed zero included.
@@ -52,10 +44,10 @@ published_claims <- published_claims |>
 # ground_truth/build_ground_truth.R parses, and it must stay exactly that.
 #
 # The precision is no longer named twice: claim_digits() reproduces every digit this
-# extraction declares from the typography of value_paper alone, and the only rows it cannot
-# are the eight with no published value, which are descriptive and print a truth value.
-claim_start(published = published_claims, errata = errata_entries, format = "id",
-            expect_column = "expect")
+# extraction declares from the typography of value_paper alone. The eight rows with no
+# published value carry no digits there; they are descriptive, print a truth value, and
+# name digits = 0 at the call site.
+claim_start(published = published_claims, errata = errata_entries, format = "id")
 
 # Pipeline output -----------------------------------------------------------------
 
@@ -129,13 +121,14 @@ claim("intro_largest_in_sd_units", max(c(quantity("tau_votechoice_2018"),
 # "it is common for advertisements to be 50% less or 50% more persuasive than
 #  the average advertisement."
 claim("intro_relative_effectiveness", 100 * quantity("tau_over_mu_deposited"),
-     "A hedged restatement of the tau over mu ratio")
+     "A hedged restatement of the tau over mu ratio", expect = "range")
 
 # "optimal campaign behavior would be to devote a substantial portion (over
 #  10%) of their media budget to ad experimentation"
 claim("intro_budget_share",
      100 * max(spend$fraction_of_budget[spend$tau_over_mu == 0.51]),
-     "Largest optimal experimentation share across budgets at the estimated variability")
+     "Largest optimal experimentation share across budgets at the estimated variability",
+     expect = "range")
 
 # Research design ----
 
@@ -172,7 +165,8 @@ claim("design_treat_changed_2020", quantity("n_studies_treatment_changed_2020"),
 claim("design_attrition_studies", quantity("attrition_studies_2020"),
      "2020 studies with reconstructed survey completion data")
 claim("design_attrition_rate", 100 * quantity("attrition_rate_2020"),
-     "A hedged attrition rate, computed here rather than left to the ground truth")
+     "A hedged attrition rate, computed here rather than left to the ground truth",
+     expect = "range")
 claim("design_attrition_significant", quantity("attrition_significant_studies_2020"),
      "Studies with a significant effect of treatment on completion")
 
@@ -303,20 +297,20 @@ claim("sim_cost_per_vote", quantity("simulation_cost_per_vote"),
 #  experimentation. If ad variability were even larger, they should spend even
 #  more, approximately 13%-17%."
 claim("sim_optimal_min", 100 * min(spend$fraction_of_budget[spend$tau_over_mu == 0.51]),
-     "Smallest optimal experimentation share at the estimated variability")
+     "Smallest optimal experimentation share at the estimated variability", expect = "range")
 claim("sim_optimal_max", 100 * max(spend$fraction_of_budget[spend$tau_over_mu == 0.51]),
-     "Largest optimal experimentation share at the estimated variability")
+     "Largest optimal experimentation share at the estimated variability", expect = "range")
 claim("sim_optimal_large_min",
      100 * min(spend$fraction_of_budget[spend$tau_over_mu == 1.01]),
-     "Smallest optimal experimentation share at high variability")
+     "Smallest optimal experimentation share at high variability", expect = "range")
 claim("sim_optimal_large_max",
      100 * max(spend$fraction_of_budget[spend$tau_over_mu == 1.01]),
-     "Largest optimal experimentation share at high variability")
+     "Largest optimal experimentation share at high variability", expect = "range")
 
 # "when ad variability is 0.51, wealthier campaigns win votes around $50 per
 #  vote less than small campaigns."
 claim("sim_dollars_per_vote_gap", quantity("dollars_per_vote_gap_small_large_at_051"),
-     "A hedged figure, computed here rather than left to the ground truth")
+     "A hedged figure, computed here rather than left to the ground truth", expect = "range")
 
 # Discussion ----
 

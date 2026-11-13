@@ -14,8 +14,15 @@
 #   sims_for_optimal_spend.R are the long ones, at roughly two and three hours
 #   respectively on the machine this was written on, and both parallelise across
 #   twelve workers. Set ARCHIVE_RUN_SKIP_SLOW=1 to skip every script the deposit
-#   documents as taking more than ten minutes; the skipped rows are recorded as
-#   "skipped" rather than silently dropped.
+#   documents as taking more than ten minutes; the skipped rows are recorded with
+#   outcome "not_run" and the reason in stopped_at rather than silently dropped.
+#
+#   Both tables are long: archive_run_status.csv has one row per script per pass,
+#   and archive_overwrites.csv one row per file a pass did something to. Under
+#   the as-shipped pass that is a deposited file written over or a file added;
+#   under the stripped pass it is a withheld derived object, either rebuilt by
+#   the deposit's own code or never rebuilt. matches_deposit compares bytes with
+#   the deposited copy and is NA for a file that has no deposited copy to compare.
 
 library(tidyverse)
 library(here)
@@ -62,6 +69,13 @@ plotting_scripts <- str_c("plotting_scripts/", c(
 
 deposited_scripts <- c(analysis_scripts, plotting_scripts)
 stopifnot(all(deposited_scripts %in% members$member))
+
+# 1_clean_source_data.R builds the analysis data from source files; everything
+# else either estimates or draws a published float.
+script_roles <- tibble(
+  script = deposited_scripts,
+  role = if_else(script == "analysis_scripts/1_clean_source_data.R", "cleaning", "analysis")
+)
 
 # Runtimes the deposit itself documents in README.R. Used only to decide what
 # ARCHIVE_RUN_SKIP_SLOW skips, never reported as a measurement.
@@ -127,7 +141,9 @@ make_copy <- function(dest, strip) {
 run_script <- function(script, pass, timeout = 21600) {
   if (skip_slow && script %in% slow_scripts) {
     return(tibble(pass = pass, script = script, exit_status = NA_integer_,
-                  outcome = "skipped", stopped_at = NA_character_, log = ""))
+                  outcome = "not_run",
+                  stopped_at = "Skipped under ARCHIVE_RUN_SKIP_SLOW=1: the deposit documents it as taking more than ten minutes.",
+                  log = ""))
   }
   started <- Sys.time()
   result <- system2("Rscript", c("--vanilla", shQuote(script)),
@@ -176,18 +192,36 @@ added <- setdiff(
   deposited
 )
 
-overwrites <- bind_rows(
-  tibble(file = overwritten, effect = "overwritten"),
-  tibble(file = added, effect = "added")
-) |>
-  arrange(effect, file, .locale = "en")
+# Byte comparison of a file in a scratch copy with its deposited original.
+matches_original <- function(dir, files) {
+  unname(tools::md5sum(file.path(dir, files)) == tools::md5sum(file.path(archive_root, files)))
+}
 
-write_csv(overwrites, here::here("ground_truth", "archive_overwrites.csv"))
+shipped_overwrites <- bind_rows(
+  tibble(file = overwritten, effect = "overwritten",
+         matches_deposit = matches_original(shipped_dir, overwritten)),
+  tibble(file = added, effect = "added", matches_deposit = NA)
+)
 
 # Stripped to data plus code ----
 stripped_dir <- file.path(archive_run_dir, "stripped")
 make_copy(stripped_dir, strip = TRUE)
 stripped <- run_pass(stripped_dir, deposited_scripts, "stripped")
+
+rebuilt <- derived_members[file.exists(file.path(stripped_dir, derived_members))]
+stripped_overwrites <- bind_rows(
+  tibble(file = rebuilt, effect = "rebuilt",
+         matches_deposit = matches_original(stripped_dir, rebuilt)),
+  tibble(file = setdiff(derived_members, rebuilt), effect = "withheld", matches_deposit = NA)
+)
+
+overwrites <- bind_rows(as_shipped = shipped_overwrites, stripped = stripped_overwrites,
+                        .id = "pass") |>
+  arrange(pass, effect, file, .locale = "en")
+
+stopifnot(all(overwrites$effect %in% c("added", "overwritten", "rebuilt", "withheld", "deleted")))
+
+write_csv(overwrites, here::here("ground_truth", "archive_overwrites.csv"))
 
 status <- bind_rows(shipped, stripped)
 
@@ -198,9 +232,17 @@ walk(which(status$outcome %in% c("error", "timeout")), function(i) {
 
 # The log carries scratch paths and is a property of the run, so it is printed
 # and never committed.
-status |>
-  select(pass, script, exit_status, outcome, stopped_at) |>
-  write_csv(here::here("ground_truth", "archive_run_status.csv"))
+run_status <- status |>
+  left_join(script_roles, by = "script") |>
+  select(pass, script, role, exit_status, outcome, stopped_at)
+
+stopifnot(
+  nrow(run_status) == 2 * length(deposited_scripts),
+  !anyNA(run_status$role),
+  all(run_status$outcome %in% c("clean", "error", "timeout", "not_run"))
+)
+
+write_csv(run_status, here::here("ground_truth", "archive_run_status.csv"))
 
 print(str_glue("Deposited files a deposited script writes over: {length(derived_members)}. ",
                "The stripped pass is the as-shipped pass where that count is zero, ",

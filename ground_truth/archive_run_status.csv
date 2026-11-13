@@ -1,49 +1,49 @@
-pass,script,exit_status,outcome,stopped_at
-as_shipped,analysis_scripts/1_clean_source_data.R,1,error,Error:
-as_shipped,analysis_scripts/2_regressions.R,0,clean,NA
-as_shipped,analysis_scripts/4_metaregressions.R,1,error,Error in `pmap()`:
-as_shipped,analysis_scripts/randomization_checks/2_missingness.R,1,error,Error in `map()`:
-as_shipped,analysis_scripts/randomization_checks/3_balance.R,0,clean,NA
-as_shipped,analysis_scripts/sims_for_optimal_spend.R,0,clean,NA
-as_shipped,plotting_scripts/Table1_studies_summary.R,0,clean,NA
-as_shipped,plotting_scripts/Table2_effects_summary.R,0,clean,NA
-as_shipped,plotting_scripts/Figure1_raw_estimates.R,0,clean,NA
-as_shipped,plotting_scripts/Figure2_distribution.R,1,error,"Error in readRDS(""output/processed_data/regression_ates.rds"") %>% left_join(studies) :"
-as_shipped,plotting_scripts/Figure3_results_matrix.R,0,clean,NA
-as_shipped,plotting_scripts/Figure4_returns_to_exp.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_metaregressions.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_attrition.R,1,error,Error: <ggplot2::labels> object is invalid:
-as_shipped,plotting_scripts/appendix_balance.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_reliability.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_robustness.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_demographics.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_tau_from_experiment_100_times.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,1,error,"Error in rma(yi = c(out_imm[2, 2], out_ubi[2, 2], out_peo[4, 2]), sei = c(out_imm[2, :"
-as_shipped,plotting_scripts/appendix_features.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_figure_OA14.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_bad_beliefs.R,0,clean,NA
-as_shipped,plotting_scripts/appendix_sd_simulation.R,1,error,"Error in UseMethod(""tidy"") :"
-stripped,analysis_scripts/1_clean_source_data.R,1,error,Error:
-stripped,analysis_scripts/2_regressions.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,analysis_scripts/4_metaregressions.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,analysis_scripts/randomization_checks/2_missingness.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,analysis_scripts/randomization_checks/3_balance.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,analysis_scripts/sims_for_optimal_spend.R,0,clean,NA
-stripped,plotting_scripts/Table1_studies_summary.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/Table2_effects_summary.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/Figure1_raw_estimates.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/Figure2_distribution.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/Figure3_results_matrix.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/Figure4_returns_to_exp.R,0,clean,NA
-stripped,plotting_scripts/appendix_metaregressions.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/appendix_attrition.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/appendix_balance.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/appendix_reliability.R,0,clean,NA
-stripped,plotting_scripts/appendix_robustness.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/appendix_demographics.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/appendix_tau_from_experiment_100_times.R,0,clean,NA
-stripped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,1,error,"Error in rma(yi = c(out_imm[2, 2], out_ubi[2, 2], out_peo[4, 2]), sei = c(out_imm[2, :"
-stripped,plotting_scripts/appendix_features.R,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
-stripped,plotting_scripts/appendix_figure_OA14.R,0,clean,NA
-stripped,plotting_scripts/appendix_bad_beliefs.R,0,clean,NA
-stripped,plotting_scripts/appendix_sd_simulation.R,1,error,"Error in readRDS(con, refhook = refhook) : cannot open the connection"
+pass,script,role,exit_status,outcome,stopped_at
+as_shipped,analysis_scripts/1_clean_source_data.R,cleaning,1,error,Error:
+as_shipped,analysis_scripts/2_regressions.R,analysis,0,clean,NA
+as_shipped,analysis_scripts/4_metaregressions.R,analysis,1,error,Error in `pmap()`:
+as_shipped,analysis_scripts/randomization_checks/2_missingness.R,analysis,1,error,Error in `map()`:
+as_shipped,analysis_scripts/randomization_checks/3_balance.R,analysis,0,clean,NA
+as_shipped,analysis_scripts/sims_for_optimal_spend.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/Table1_studies_summary.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/Table2_effects_summary.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/Figure1_raw_estimates.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/Figure2_distribution.R,analysis,1,error,"Error in readRDS(""output/processed_data/regression_ates.rds"") %>% left_join(studies) :"
+as_shipped,plotting_scripts/Figure3_results_matrix.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/Figure4_returns_to_exp.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_metaregressions.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_attrition.R,analysis,1,error,Error: <ggplot2::labels> object is invalid:
+as_shipped,plotting_scripts/appendix_balance.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_reliability.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_robustness.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_demographics.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_tau_from_experiment_100_times.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,analysis,1,error,"Error in rma(yi = c(out_imm[2, 2], out_ubi[2, 2], out_peo[4, 2]), sei = c(out_imm[2, :"
+as_shipped,plotting_scripts/appendix_features.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_figure_OA14.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_bad_beliefs.R,analysis,0,clean,NA
+as_shipped,plotting_scripts/appendix_sd_simulation.R,analysis,1,error,"Error in UseMethod(""tidy"") :"
+stripped,analysis_scripts/1_clean_source_data.R,cleaning,1,error,Error:
+stripped,analysis_scripts/2_regressions.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,analysis_scripts/4_metaregressions.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,analysis_scripts/randomization_checks/2_missingness.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,analysis_scripts/randomization_checks/3_balance.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,analysis_scripts/sims_for_optimal_spend.R,analysis,0,clean,NA
+stripped,plotting_scripts/Table1_studies_summary.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/Table2_effects_summary.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/Figure1_raw_estimates.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/Figure2_distribution.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/Figure3_results_matrix.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/Figure4_returns_to_exp.R,analysis,0,clean,NA
+stripped,plotting_scripts/appendix_metaregressions.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/appendix_attrition.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/appendix_balance.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/appendix_reliability.R,analysis,0,clean,NA
+stripped,plotting_scripts/appendix_robustness.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/appendix_demographics.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/appendix_tau_from_experiment_100_times.R,analysis,0,clean,NA
+stripped,plotting_scripts/appendix_in_cycle_generalization/treatment_corrs.R,analysis,1,error,"Error in rma(yi = c(out_imm[2, 2], out_ubi[2, 2], out_peo[4, 2]), sei = c(out_imm[2, :"
+stripped,plotting_scripts/appendix_features.R,analysis,1,error,"Error in gzfile(file, ""rb"") : cannot open the connection"
+stripped,plotting_scripts/appendix_figure_OA14.R,analysis,0,clean,NA
+stripped,plotting_scripts/appendix_bad_beliefs.R,analysis,0,clean,NA
+stripped,plotting_scripts/appendix_sd_simulation.R,analysis,1,error,"Error in readRDS(con, refhook = refhook) : cannot open the connection"

@@ -14,7 +14,10 @@
 - [Rewrite verification](#rewrite-verification)
 - [R environment](#r-environment)
 
-**Archived at Zenodo:** [doi:10.5281/zenodo.24168397](https://doi.org/10.5281/zenodo.24168397). This DOI always resolves to the latest release of the maintained version.
+**Archived at Zenodo:**
+[doi:10.5281/zenodo.24168397](https://doi.org/10.5281/zenodo.24168397).
+This DOI always resolves to the latest release of the maintained
+version.
 
 *Drafted by Claude Opus 5 under the supervision of Alex Coppock.*
 
@@ -326,44 +329,44 @@ fraction covered is stated rather than assumed.
 
 | Float | Published numbers | Covered | Reproduced by the rewrite | Reproduced by the archive |
 |----|----|----|----|----|
-| figure_1 | 12 | 12 | 12 | 12 |
-| figure_2 | 20 | 20 | 18 | 18 |
-| figure_3 | 166 | 166 | 166 | 166 |
-| figure_oa10 | 166 | 166 | 166 | 166 |
-| figure_oa12 | 184 | 184 | 184 | NA |
-| table_1 | 24 | 24 | 23 | 18 |
-| table_2 | 90 | 90 | 90 | 90 |
-| table_3 | 3 | 3 | 3 | NA |
-| table_da10 | 252 | 252 | 252 | NA |
-| table_da11 | 78 | 78 | 78 | NA |
-| table_da12 | 84 | 84 | 84 | NA |
-| table_da13 | 84 | 84 | 84 | NA |
-| table_da14 | 84 | 84 | 84 | NA |
-| table_da15 | 84 | 84 | 84 | NA |
-| table_da16 | 84 | 84 | 84 | NA |
-| table_da17 | 84 | 84 | 84 | NA |
-| table_da18 | 84 | 84 | 84 | NA |
-| table_da19 | 112 | 112 | 112 | NA |
-| table_da20 | 108 | 108 | 108 | NA |
-| table_da21 | 52 | 52 | 52 | NA |
-| table_da22 | 52 | 52 | 52 | NA |
-| table_da23 | 52 | 52 | 52 | NA |
-| table_da24 | 52 | 52 | 52 | NA |
-| table_da25 | 52 | 52 | 52 | NA |
-| table_da26 | 52 | 52 | 52 | NA |
-| table_da27 | 52 | 52 | 52 | NA |
-| table_da28 | 476 | 476 | 476 | NA |
-| table_da29 | 588 | 588 | 588 | NA |
-| table_da30 | 452 | 452 | 452 | NA |
-| table_da35 | 159 | 159 | 159 | NA |
-| table_da4 | 42 | 42 | 42 | NA |
-| table_da5 | 66 | 66 | 66 | NA |
-| table_da6 | 18 | 18 | 18 | NA |
-| table_da7 | 112 | 112 | 112 | NA |
-| table_da8 | 108 | 108 | 108 | NA |
-| table_da9 | 136 | 136 | 136 | NA |
-| table_oa1 | 84 | 84 | 84 | NA |
-| table_oa2 | 45 | 45 | 45 | 45 |
+| Figure 1 | 12 | 12 | 12 | 12 |
+| Figure 2 | 20 | 20 | 18 | 18 |
+| Figure 3 | 166 | 166 | 166 | 166 |
+| Table 1 | 24 | 24 | 23 | 18 |
+| Table 2 | 90 | 90 | 90 | 90 |
+| Table 3 | 3 | 3 | 3 | NA |
+| Figure OA10 | 166 | 166 | 166 | 166 |
+| Figure OA12 | 184 | 184 | 184 | NA |
+| Table OA1 | 84 | 84 | 84 | NA |
+| Table OA2 | 45 | 45 | 45 | 45 |
+| Table DA4 | 42 | 42 | 42 | NA |
+| Table DA5 | 66 | 66 | 66 | NA |
+| Table DA6 | 18 | 18 | 18 | NA |
+| Table DA7 | 112 | 112 | 112 | NA |
+| Table DA8 | 108 | 108 | 108 | NA |
+| Table DA9 | 136 | 136 | 136 | NA |
+| Table DA10 | 252 | 252 | 252 | NA |
+| Table DA11 | 78 | 78 | 78 | NA |
+| Table DA12 | 84 | 84 | 84 | NA |
+| Table DA13 | 84 | 84 | 84 | NA |
+| Table DA14 | 84 | 84 | 84 | NA |
+| Table DA15 | 84 | 84 | 84 | NA |
+| Table DA16 | 84 | 84 | 84 | NA |
+| Table DA17 | 84 | 84 | 84 | NA |
+| Table DA18 | 84 | 84 | 84 | NA |
+| Table DA19 | 112 | 112 | 112 | NA |
+| Table DA20 | 108 | 108 | 108 | NA |
+| Table DA21 | 52 | 52 | 52 | NA |
+| Table DA22 | 52 | 52 | 52 | NA |
+| Table DA23 | 52 | 52 | 52 | NA |
+| Table DA24 | 52 | 52 | 52 | NA |
+| Table DA25 | 52 | 52 | 52 | NA |
+| Table DA26 | 52 | 52 | 52 | NA |
+| Table DA27 | 52 | 52 | 52 | NA |
+| Table DA28 | 476 | 476 | 476 | NA |
+| Table DA29 | 588 | 588 | 588 | NA |
+| Table DA30 | 452 | 452 | 452 | NA |
+| Table DA35 | 159 | 159 | 159 | NA |
 
 Cells reproduced of cells published, per float.
 
@@ -372,11 +375,14 @@ three that do not are the Table 1 date cell corrected in the errata and
 the two labels of Figure 2’s inset, both of whose values are reproduced
 and only their vertical order is not.
 
-The floats with no row are those that print no numbers: Appendix Figures
-OA8, OA11, OA13, OA14, OA15 and OA16, and the Dataverse Appendix’s
-feature histograms, correlation matrices and time trends. Figures OA2
-through OA7 print a coefficient beside every point; their 392 values are
-written to
+`ground_truth/float_coverage.csv` carries a row for each of the 84
+published floats, and the table above shows the 38 that are transcribed.
+Of the rest, Appendix Figures OA8, OA11, OA13, OA14, OA15 and OA16 and
+the Dataverse Appendix’s feature histograms, correlation matrices and
+time trends print no numbers, and the six appendix figures among them
+carry a count of zero. A float whose printed numbers nobody has counted
+carries no count, and its note says so. Figures OA2 through OA7 print a
+coefficient beside every point; their 392 values are written to
 `maintained/output/figure_oa2_metaregression_coefficients.csv` by the
 script that draws them, and they are the same estimates as the Dataverse
 Appendix’s metaregression tables, which are covered cell by cell.
@@ -458,10 +464,10 @@ deposit’s, run once and shipped with the archive.
 
 | Component | Version |
 |-----------|---------|
-| R         | 4.6.0   |
+| R         | 4.6.2   |
 | tidyverse | 2.0.0   |
 | estimatr  | 2.0.1   |
-| metafor   | 5.0.1   |
+| metafor   | 5.2.1   |
 | ggplot2   | 4.0.3   |
 | broom     | 1.0.13  |
 
